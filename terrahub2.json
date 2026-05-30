@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "github": {
+    "owner": "fromeroc9",
+    "repository": "test-management",
+    "projectId": 1
+  },
+  "scope": {
+    "testcase": {
+      "fields": []
+    },
+    "testrun": {
+      "fields": []
+    },
+    "testplan": {
+      "fields": []
+    }
+  }
+}
