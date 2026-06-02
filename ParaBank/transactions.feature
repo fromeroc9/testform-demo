@@ -19,7 +19,7 @@ Feature: Transferencias y Pagos (ParaBank)
     Then el sistema muestra el mensaje "Transfer Complete!"
     And el monto "100.00" es reflejado en los detalles de la transacción
 
-  @tc-02 @apply
+  @tc-02 
   Scenario: Realizar un pago de servicios (Bill Pay)
     When el usuario hace clic en el enlace "Bill Pay"
     And completa los datos del beneficiario "Payee Information" (Nombre, Dirección, Número de Cuenta)

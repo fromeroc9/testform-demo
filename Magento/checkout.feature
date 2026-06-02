@@ -18,7 +18,7 @@ Feature: Flujo de Pago y Orden (Checkout Magento / Luma)
     And hace clic en el botón "Next"
     Then el sistema avanza al segundo paso "Review & Payments"
 
-  @tc-02 @apply
+  @tc-02 
   Scenario: Validar el resumen y realizar el pago (Payment Step)
     Given el usuario se encuentra en el paso de "Review & Payments"
     When revisa que la sección "Ship To:" contenga la dirección correcta

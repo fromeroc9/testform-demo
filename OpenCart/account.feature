@@ -8,14 +8,14 @@ Feature: Cuenta de Usuario (OpenCart)
     * field type_of_test = funcional
     Given el usuario navega a "https://demo.opencart.com/index.php?route=account/login"
 
-  @tc-01 @apply
+  @tc-01 
   Scenario: Iniciar sesión exitosamente
     When el usuario ingresa su correo en el campo "E-Mail Address"
     And ingresa su contraseña en el campo "Password"
     And hace clic en el botón "Login"
     Then el sistema redirige a la página "My Account"
 
-  @tc-02 @apply
+  @tc-02 
   Scenario: Error de inicio de sesión por credenciales incorrectas
     When el usuario ingresa credenciales inválidas
     And hace clic en "Login"
