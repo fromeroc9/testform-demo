@@ -1,12 +1,15 @@
+@testcase
 Feature: Transferencias y Pagos (ParaBank)
   Como cliente del banco
   Quiero transferir fondos y pagar servicios
   Para manejar mis finanzas personales
 
   Background:
+    * field type_of_test = funcional
     Given el usuario ha iniciado sesión en ParaBank
     And posee al menos dos cuentas con fondos disponibles
 
+  @tc-01
   Scenario: Transferir fondos entre cuentas
     When el usuario hace clic en el enlace "Transfer Funds"
     And ingresa el monto a transferir "100.00"
@@ -16,6 +19,7 @@ Feature: Transferencias y Pagos (ParaBank)
     Then el sistema muestra el mensaje "Transfer Complete!"
     And el monto "100.00" es reflejado en los detalles de la transacción
 
+  @tc-02 @apply
   Scenario: Realizar un pago de servicios (Bill Pay)
     When el usuario hace clic en el enlace "Bill Pay"
     And completa los datos del beneficiario "Payee Information" (Nombre, Dirección, Número de Cuenta)

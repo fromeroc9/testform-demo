@@ -1,12 +1,16 @@
+@testcase @high
 Feature: Módulo Time (Control de Tiempo)
   Como empleado
   Quiero registrar mis horas de trabajo
   Para generar mis hojas de tiempo (Timesheets)
 
   Background:
+    * field type_of_test = funcional
+    * field project = OrangeHRM
     Given el usuario ha iniciado sesión
     And navega a la sección "Time"
 
+  @tc-01
   Scenario: Realizar "Punch In" (Registro de entrada)
     When el usuario navega a "Attendance" y selecciona "Punch In/Out"
     And ingresa una nota opcional
@@ -14,6 +18,7 @@ Feature: Módulo Time (Control de Tiempo)
     Then el sistema registra la hora actual de entrada
     And el estado cambia a "Punched In"
 
+  @tc-02
   Scenario: Crear y enviar una hoja de tiempo (Timesheet)
     When el usuario navega a "Timesheets" -> "My Timesheets"
     And selecciona una semana

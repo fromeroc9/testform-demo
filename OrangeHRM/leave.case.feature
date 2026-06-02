@@ -1,12 +1,16 @@
+@testcase @high
 Feature: Módulo Leave (Gestión de Ausencias/Vacaciones)
   Como empleado y como administrador
   Quiero solicitar y gestionar permisos
   Para llevar un control adecuado de mis ausencias y las de mi equipo
 
   Background:
+    * field type_of_test = funcional
+    * field project = OrangeHRM
     Given el usuario ha iniciado sesión
     And navega a la sección "Leave"
 
+  @tc-01
   Scenario: Solicitar un permiso con días disponibles
     When el usuario navega a la pestaña "Apply"
     And selecciona un "Leave Type" válido
@@ -15,6 +19,7 @@ Feature: Módulo Leave (Gestión de Ausencias/Vacaciones)
     Then el sistema muestra un mensaje de "Successfully Applied"
     And la solicitud aparece en "My Leave" con estado pendiente
 
+  @tc-02
   Scenario: Asignar permisos desde el rol de administrador
     Given el usuario tiene permisos de administrador o HR
     When navega a la pestaña "Assign Leave"
@@ -23,6 +28,7 @@ Feature: Módulo Leave (Gestión de Ausencias/Vacaciones)
     Then el sistema descuenta los días del balance del empleado
     And el permiso se registra exitosamente
 
+  @tc-03
   Scenario: Aprobar una solicitud de permiso pendiente
     Given el usuario es supervisor o administrador
     When navega a la pestaña "Leave List"

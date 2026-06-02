@@ -1,18 +1,22 @@
-@testcase
+@testcase @high
 Feature: Inicio de sesión en OrangeHRM
   Como usuario del sistema OrangeHRM
   Quiero poder iniciar sesión con mis credenciales
   Para acceder al panel principal y gestionar mis tareas
 
   Background:
+    * field type_of_test = funcional
+    * field project = OrangeHRM
     Given el usuario se encuentra en la página de login de OrangeHRM
 
+  @tc-01
   Scenario: Inicio de sesión exitoso con credenciales válidas
     When el usuario ingresa el nombre de usuario "Admin"
     And el usuario ingresa la contraseña "admin123"
     And hace clic en el botón de "Login"
     Then el sistema redirige al usuario al panel principal (Dashboard)
 
+  @tc-02
   Scenario Outline: Inicio de sesión fallido por credenciales incorrectas
     When el usuario ingresa el nombre de usuario "<usuario>"
     And el usuario ingresa la contraseña "<contrasena>"
@@ -26,6 +30,7 @@ Feature: Inicio de sesión en OrangeHRM
       | no_existe | admin123   |
       | no_existe | claveFalsa |
 
+  @tc-03
   Scenario Outline: Intento de inicio de sesión con campos requeridos vacíos
     When el usuario ingresa el nombre de usuario "<usuario>"
     And el usuario ingresa la contraseña "<contrasena>"
@@ -39,10 +44,12 @@ Feature: Inicio de sesión en OrangeHRM
       | Admin   |            |
       |         | admin123   |
 
+  @tc-04
   Scenario: Redirección para recuperar contraseña
     When el usuario hace clic en el enlace "Forgot your password?"
     Then el sistema redirige al usuario a la vista de recuperación de contraseña
 
+  @tc-05
   Scenario: Redirección al sitio oficial de OrangeHRM
     When el usuario hace clic en el enlace "OrangeHRM, Inc" del pie de página
     Then se abre una nueva pestaña redirigiendo al sitio oficial de OrangeHRM

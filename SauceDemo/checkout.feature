@@ -1,13 +1,16 @@
+@testcase
 Feature: Módulo de Checkout (Pago y Envío)
   Como cliente con productos en el carrito
   Quiero completar mi compra
   Para finalizar mi orden y recibir los productos
 
   Background:
+    * field type_of_test = funcional
     Given el usuario ha iniciado sesión
     And está en la vista del carrito con productos agregados
     And hace clic en el botón inferior derecho "Checkout"
 
+  @tc-01
   Scenario: Llenar información de envío exitosamente
     When el usuario ingresa su nombre "Juan" en "First Name"
     And ingresa su apellido "Pérez" en "Last Name"
@@ -15,11 +18,13 @@ Feature: Módulo de Checkout (Pago y Envío)
     And hace clic en el botón "Continue"
     Then el sistema lo redirige a la pantalla "Checkout: Overview"
 
+  @tc-02
   Scenario: Validar error por falta de información de envío
     When el usuario deja todos los campos vacíos
     And hace clic en "Continue"
     Then el sistema muestra el mensaje de error "Error: First Name is required"
 
+  @tc-03
   Scenario: Finalizar compra exitosamente
     Given el usuario ha completado el formulario de envío y está en "Checkout: Overview"
     When verifica que el precio "Item total" y los impuestos "Tax" sean correctos
