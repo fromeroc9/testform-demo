@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "serial": 69,
+  "serial": 87,
   "lineage": "c59595d4-b3b4-4c73-a297-745055b46ef8",
-  "lastSync": "2026-06-02T05:38:12.904Z",
+  "lastSync": "2026-06-03T15:53:06.756Z",
   "resources": [
     {
       "type": "github_testcase",
@@ -34,14 +34,13 @@
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/checkout.feature::@tc-02",
       "attributes": {
-        "localHash": "e5d8f21db2038cde93231a0352eeddfa14b5b4c9d1097f4ea8bb9376a367f1f3",
+        "localHash": "a6613d5e74fe9fa39e5e0576d45a816cda4904b55e4ea89cdd60c21452b63f11",
         "remoteId": "terratest-demo:166",
         "issueNumber": 166,
         "title": "Validar el resumen y realizar el pago (Payment Step)",
         "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nGiven el usuario se encuentra en el paso de \"Review & Payments\"\nWhen revisa que la sección \"Ship To:\" contenga la dirección correcta\nAnd verifica el total final en la sección \"Order Summary\"\nAnd hace clic en el botón inferior \"Place Order\"\nThen la página finaliza el proceso mostrando el título \"Thank you for your purchase!\"\nAnd el sistema genera y muestra el número de orden (Ej. Order # 000001234)\n```",
         "labels": [
-          "testcase",
-          "apply"
+          "testcase"
         ],
         "assignees": [
           "fromeroc9"
@@ -55,7 +54,7 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:38:12.816Z"
+      "lastApplied": "2026-06-03T04:38:01.441Z"
     },
     {
       "type": "github_testcase",
@@ -113,14 +112,13 @@
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/catalog.feature::@tc-01",
       "attributes": {
-        "localHash": "009413afcc567586e65f23ef9670659024e03a78b8a2fc42b81a1cdaa7b83003",
+        "localHash": "bd23eb9a80b281e883078375982ba922b6a3cc5d5cf21dcc4a3bbfb94e8e9d0d",
         "remoteId": "terratest-demo:171",
         "issueNumber": 171,
         "title": "Filtrar productos por atributos (Tamaño y Color)",
         "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario navega por el menú superior a \"Men\" > \"Tops\" > \"Jackets\"\nAnd despliega el filtro \"Size\" en la barra lateral y escoge la talla \"L\"\nAnd despliega el filtro \"Color\" en la barra lateral y escoge \"Black\"\nThen la lista de productos se actualiza automáticamente\nAnd solo se muestran chaquetas que estén disponibles en color negro y talla L\n```",
         "labels": [
-          "testcase",
-          "apply"
+          "testcase"
         ],
         "assignees": [
           "fromeroc9"
@@ -134,7 +132,7 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:38:12.845Z"
+      "lastApplied": "2026-06-03T04:38:01.671Z"
     },
     {
       "type": "github_testcase",

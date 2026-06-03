@@ -1,14 +1,14 @@
 {
   "version": "1.0",
-  "serial": 68,
+  "serial": 87,
   "lineage": "c59595d4-b3b4-4c73-a297-745055b46ef8",
-  "lastSync": "2026-06-02T05:38:09.880Z",
+  "lastSync": "2026-06-03T15:53:06.756Z",
   "resources": [
     {
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/catalog.feature::@tc-02",
       "attributes": {
-        "localHash": "9d8b99fb01239f0fdd37da0bc54f2870e24670ff8610e395e364ecaff10ce8bb",
+        "localHash": "2452878cc6cbf5d9998ae84d847c67f776c832308e1fdcdc8ef20affe1463449",
         "remoteId": "terratest-demo:164",
         "issueNumber": 164,
         "title": "Búsqueda de productos desde la barra de búsqueda general",
@@ -16,7 +16,9 @@
         "labels": [
           "testcase"
         ],
-        "assignees": [],
+        "assignees": [
+          "fromeroc9"
+        ],
         "milestone": "",
         "custom_fields": {
           "type_of_test": "funcional",
@@ -26,22 +28,23 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:35:12.642Z"
+      "lastApplied": "2026-06-02T05:38:12.707Z"
     },
     {
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/checkout.feature::@tc-02",
       "attributes": {
-        "localHash": "932f7f1bd548fc51c0644319bb79c8e1c966082cd792bc6586303096f45db12f",
+        "localHash": "a6613d5e74fe9fa39e5e0576d45a816cda4904b55e4ea89cdd60c21452b63f11",
         "remoteId": "terratest-demo:166",
         "issueNumber": 166,
         "title": "Validar el resumen y realizar el pago (Payment Step)",
         "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nGiven el usuario se encuentra en el paso de \"Review & Payments\"\nWhen revisa que la sección \"Ship To:\" contenga la dirección correcta\nAnd verifica el total final en la sección \"Order Summary\"\nAnd hace clic en el botón inferior \"Place Order\"\nThen la página finaliza el proceso mostrando el título \"Thank you for your purchase!\"\nAnd el sistema genera y muestra el número de orden (Ej. Order # 000001234)\n```",
         "labels": [
-          "testcase",
-          "apply"
+          "testcase"
         ],
-        "assignees": [],
+        "assignees": [
+          "fromeroc9"
+        ],
         "milestone": "",
         "custom_fields": {
           "type_of_test": "funcional",
@@ -51,13 +54,13 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:35:12.235Z"
+      "lastApplied": "2026-06-03T04:38:01.441Z"
     },
     {
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/checkout.feature::@tc-01",
       "attributes": {
-        "localHash": "f3494363c51207aeeb707aec70ed8e4c504ac9c7dbe42f8b811e20fa79701995",
+        "localHash": "a852257acd0fa85c67cced9edb24947ed8e4b6eed6144d97a5ec40d39d85f16b",
         "remoteId": "terratest-demo:168",
         "issueNumber": 168,
         "title": "Completar el paso de Envío (Shipping Step)",
@@ -65,7 +68,9 @@
         "labels": [
           "testcase"
         ],
-        "assignees": [],
+        "assignees": [
+          "fromeroc9"
+        ],
         "milestone": "",
         "custom_fields": {
           "type_of_test": "funcional",
@@ -75,13 +80,13 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:35:12.185Z"
+      "lastApplied": "2026-06-02T05:38:12.655Z"
     },
     {
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/cart.feature::@tc-01",
       "attributes": {
-        "localHash": "fb486b54824fc5f9a6482432338d1a1b8b7210b6c67977c30f365e3b3359e41f",
+        "localHash": "68d6be212590352d3fe191f8c592210657f54cc4a291b803f6ffdb5f6291c1a6",
         "remoteId": "terratest-demo:169",
         "issueNumber": 169,
         "title": "Validar error al agregar al carrito sin seleccionar atributos",
@@ -89,7 +94,9 @@
         "labels": [
           "testcase"
         ],
-        "assignees": [],
+        "assignees": [
+          "fromeroc9"
+        ],
         "milestone": "",
         "custom_fields": {
           "type_of_test": "funcional",
@@ -99,22 +106,23 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:35:12.247Z"
+      "lastApplied": "2026-06-02T05:38:12.904Z"
     },
     {
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/catalog.feature::@tc-01",
       "attributes": {
-        "localHash": "24b6c43aeb4612e363d0a0bec703e9a82d4e9268bd019f2c2b70cd762795c6b6",
+        "localHash": "bd23eb9a80b281e883078375982ba922b6a3cc5d5cf21dcc4a3bbfb94e8e9d0d",
         "remoteId": "terratest-demo:171",
         "issueNumber": 171,
         "title": "Filtrar productos por atributos (Tamaño y Color)",
         "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario navega por el menú superior a \"Men\" > \"Tops\" > \"Jackets\"\nAnd despliega el filtro \"Size\" en la barra lateral y escoge la talla \"L\"\nAnd despliega el filtro \"Color\" en la barra lateral y escoge \"Black\"\nThen la lista de productos se actualiza automáticamente\nAnd solo se muestran chaquetas que estén disponibles en color negro y talla L\n```",
         "labels": [
-          "testcase",
-          "apply"
+          "testcase"
         ],
-        "assignees": [],
+        "assignees": [
+          "fromeroc9"
+        ],
         "milestone": "",
         "custom_fields": {
           "type_of_test": "funcional",
@@ -124,13 +132,13 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:35:12.383Z"
+      "lastApplied": "2026-06-03T04:38:01.671Z"
     },
     {
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/customer.feature::@tc-01",
       "attributes": {
-        "localHash": "cd1e84e41c5798f4f203defe4fe301207ec063923eba09794e778bbab4b52e47",
+        "localHash": "cf8db2cf598f97a133fb1d2b75529a8a9b975bb1c830ef117c357e145723a750",
         "remoteId": "terratest-demo:167",
         "issueNumber": 167,
         "title": "Crear una nueva cuenta de cliente exitosamente",
@@ -138,7 +146,9 @@
         "labels": [
           "testcase"
         ],
-        "assignees": [],
+        "assignees": [
+          "fromeroc9"
+        ],
         "milestone": "",
         "custom_fields": {
           "type_of_test": "funcional",
@@ -148,13 +158,13 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:35:12.611Z"
+      "lastApplied": "2026-06-02T05:38:12.708Z"
     },
     {
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/customer.feature::@tc-02",
       "attributes": {
-        "localHash": "47d748ad7af92065a7084a7f560626cd51aa1a3b063ace718c302f1ef31ca3dc",
+        "localHash": "7f3ba4080a8f0955da62ae73910b610de877a87e2d0ae172b382205a485de5af",
         "remoteId": "terratest-demo:170",
         "issueNumber": 170,
         "title": "Iniciar sesión con una cuenta existente",
@@ -162,7 +172,9 @@
         "labels": [
           "testcase"
         ],
-        "assignees": [],
+        "assignees": [
+          "fromeroc9"
+        ],
         "milestone": "",
         "custom_fields": {
           "type_of_test": "funcional",
@@ -172,13 +184,13 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:35:12.348Z"
+      "lastApplied": "2026-06-02T05:38:12.593Z"
     },
     {
       "type": "github_testcase",
       "identity": "/Users/fromero/Desktop/terrahub-demo/Magento/cart.feature::@tc-02",
       "attributes": {
-        "localHash": "b72905c05cec3bb3842463bb4d8465caba905ee8ae5d394ccb115cfa0d2ebde8",
+        "localHash": "ded9272df2a1203b8cf0e65811403f10a3ffce69f54b1b49e122c553edcfdbb5",
         "remoteId": "terratest-demo:165",
         "issueNumber": 165,
         "title": "Agregar un producto configurable exitosamente al carrito",
@@ -186,7 +198,9 @@
         "labels": [
           "testcase"
         ],
-        "assignees": [],
+        "assignees": [
+          "fromeroc9"
+        ],
         "milestone": "",
         "custom_fields": {
           "type_of_test": "funcional",
@@ -196,7 +210,7 @@
           "automate": "not apply"
         }
       },
-      "lastApplied": "2026-06-02T05:35:12.358Z"
+      "lastApplied": "2026-06-02T05:38:12.637Z"
     }
   ]
 }

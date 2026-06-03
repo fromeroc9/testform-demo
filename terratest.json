@@ -48,7 +48,8 @@
         {
           "name": "project",
           "type": "keywords",
-          "required": true
+          "required": true,
+          "default": ""
         },
         {
           "name": "milestone",
