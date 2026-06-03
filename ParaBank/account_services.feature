@@ -8,7 +8,7 @@ Feature: Servicios de Cuentas (ParaBank)
     * field type_of_test = funcional
     Given el usuario ha iniciado sesión en ParaBank
 
-  @tc-01 
+  @tc-01
   Scenario: Abrir una nueva cuenta bancaria
     When el usuario hace clic en el enlace "Open New Account"
     And selecciona el tipo de cuenta "SAVINGS"

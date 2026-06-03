@@ -9,7 +9,7 @@ Feature: Catálogo y Búsqueda (Magento / Luma)
     * field project = Magento
     Given el usuario está en la página principal de la tienda
 
-  @tc-01 
+  @tc-01
   Scenario: Filtrar productos por atributos (Tamaño y Color)
     When el usuario navega por el menú superior a "Men" > "Tops" > "Jackets"
     And despliega el filtro "Size" en la barra lateral y escoge la talla "L"

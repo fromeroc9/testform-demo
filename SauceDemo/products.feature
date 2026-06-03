@@ -15,7 +15,7 @@ Feature: Módulo de Productos (Inventario)
     Then el botón del producto cambia a color rojo con el texto "Remove"
     And el ícono del carrito en la esquina superior derecha muestra un "1"
 
-  @tc-02 
+  @tc-02
   Scenario: Remover un producto desde la página de inventario
     Given el usuario tiene el producto "Sauce Labs Backpack" en el carrito
     When el usuario hace clic en el botón "Remove" de dicho producto

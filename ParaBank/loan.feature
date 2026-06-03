@@ -19,7 +19,7 @@ Feature: Solicitud de Préstamos (ParaBank)
     And muestra el estado de la solicitud como "Approved"
     And genera y muestra un nuevo número de cuenta para el préstamo
 
-  @tc-02 
+  @tc-02
   Scenario: Rechazo de préstamo por monto excesivo
     When el usuario hace clic en el enlace "Request Loan"
     And ingresa un monto de préstamo "9999999.00" con un pago inicial mínimo
