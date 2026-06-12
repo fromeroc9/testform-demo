@@ -9,7 +9,7 @@
     "type": "local"
   },
   "scope": {
-    "testcase": {
+    "global": {
       "fields": [
         {
           "name": "priority",
@@ -23,10 +23,10 @@
           "default": "@medium"
         },
         {
-          "name": "status",
+          "name": "Status",
           "type": "keywords",
           "required": false,
-          "default": "Todo"
+          "default": "Done"
         },
         {
           "name": "assignees",
@@ -34,6 +34,15 @@
           "required": false,
           "default": "fromeroc9"
         },
+        {
+          "name": "project",
+          "type": "keywords",
+          "required": true
+        }
+      ]
+    },
+    "testcase": {
+      "fields": [
         {
           "name": "type_of_test",
           "type": "keywords",
@@ -46,98 +55,21 @@
           "default": "not apply"
         },
         {
-          "name": "project",
+          "name": "module",
           "type": "keywords",
-          "required": true,
-          "default": ""
-        },
-        {
-          "name": "milestone",
-          "type": "keywords",
-          "required": false,
-          "default": ""
-        },
-        {
-          "name": "labels",
-          "type": "keywords",
-          "required": false,
-          "default": "testcase"
-        },
-        {
-          "name": "assignees",
-          "type": "keywords",
-          "required": false,
-          "default": "fromeroc9"
+          "required": true
         }
       ]
     },
     "testrun": {
       "fields": [
         {
-          "name": "priority",
-          "type": "tags",
-          "required": true,
-          "values": [
-            "@low",
-            "@medium",
-            "@high"
-          ]
-        },
-        {
-          "name": "status",
-          "type": "keywords",
-          "required": false
-        },
-        {
-          "name": "assignees",
-          "type": "keywords",
-          "required": false
-        },
-        {
           "name": "component",
-          "type": "keywords",
-          "required": false
-        },
-        {
-          "name": "squad",
           "type": "keywords",
           "required": false
         },
         {
           "name": "sprint",
-          "type": "keywords",
-          "required": false
-        },
-        {
-          "name": "automate",
-          "type": "tags"
-        }
-      ]
-    },
-    "testplan": {
-      "fields": [
-        {
-          "name": "priority",
-          "type": "tags",
-          "required": true,
-          "values": [
-            "@low",
-            "@medium",
-            "@high"
-          ]
-        },
-        {
-          "name": "status",
-          "type": "keywords",
-          "required": false
-        },
-        {
-          "name": "assignees",
-          "type": "keywords",
-          "required": false
-        },
-        {
-          "name": "component",
           "type": "keywords",
           "required": false
         },
@@ -154,10 +86,21 @@
         {
           "name": "quarter",
           "type": "keywords",
-          "required": false
+          "required": false,
+          "default": "Q2"
         },
         {
           "name": "sprint",
+          "type": "keywords",
+          "required": false,
+          "default": "Sprint 3"
+        }
+      ]
+    },
+    "testplan": {
+      "fields": [
+        {
+          "name": "component",
           "type": "keywords",
           "required": false
         },
