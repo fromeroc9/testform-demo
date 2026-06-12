@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "serial": 78,
+  "serial": 83,
   "lineage": "9dd0cdb7-56aa-418f-85eb-9baec1767f12",
-  "lastSync": "2026-06-12T16:58:08.051Z",
+  "lastSync": "2026-06-12T17:24:01.372Z",
   "resources": [
     {
       "type": "github_testcase",
@@ -3030,146 +3030,6 @@
         }
       },
       "lastApplied": "2026-06-12T16:55:06.222Z"
-    },
-    {
-      "type": "github_testplan",
-      "identity": "testplans/Magento-tp1.plan.feature::@tp-1",
-      "attributes": {
-        "localHash": "drift_detected",
-        "remoteId": "terratest-demo:301",
-        "issueNumber": 301,
-        "title": "Plan de Pruebas Magento - Run 6",
-        "body": "### Test Runs\n- [ ] (not found in state) - testruns/Magento-20260612_120000_6be4l9.run.feature",
-        "labels": [
-          "testplan"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "Magento",
-          "component": "microservicio-1",
-          "squad": "",
-          "priority": "@medium",
-          "Status": "Done"
-        },
-        "createdAt": "2026-06-12T16:55:19Z",
-        "updatedAt": "2026-06-12T16:55:19Z"
-      },
-      "lastApplied": "2026-06-12T16:55:23.865Z"
-    },
-    {
-      "type": "github_testplan",
-      "identity": "testplans/OpenCart-tp2.plan.feature::@tp-2",
-      "attributes": {
-        "localHash": "drift_detected",
-        "remoteId": "terratest-demo:302",
-        "issueNumber": 302,
-        "title": "Plan de Pruebas OpenCart - Run 9",
-        "body": "### Test Runs\n- [ ] (not found in state) - testruns/OpenCart-20260612_120000_zkzodt.run.feature",
-        "labels": [
-          "testplan"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OpenCart",
-          "component": "microservicio-3",
-          "squad": "",
-          "priority": "@medium",
-          "Status": "Done"
-        },
-        "createdAt": "2026-06-12T16:55:25Z",
-        "updatedAt": "2026-06-12T16:55:25Z"
-      },
-      "lastApplied": "2026-06-12T16:55:29.322Z"
-    },
-    {
-      "type": "github_testplan",
-      "identity": "testplans/OrangeHRM-tp3.plan.feature::@tp-3",
-      "attributes": {
-        "localHash": "drift_detected",
-        "remoteId": "terratest-demo:303",
-        "issueNumber": 303,
-        "title": "Plan de Pruebas OrangeHRM - Run 12",
-        "body": "### Test Runs\n- [ ] (not found in state) - testruns/OrangeHRM-20260612_120000_5wtb8a.run.feature",
-        "labels": [
-          "testplan"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OrangeHRM",
-          "component": "microservicio-9",
-          "squad": "",
-          "priority": "@medium",
-          "Status": "Done"
-        },
-        "createdAt": "2026-06-12T16:55:31Z",
-        "updatedAt": "2026-06-12T16:55:31Z"
-      },
-      "lastApplied": "2026-06-12T16:55:34.650Z"
-    },
-    {
-      "type": "github_testplan",
-      "identity": "testplans/ParaBank-tp4.plan.feature::@tp-4",
-      "attributes": {
-        "localHash": "drift_detected",
-        "remoteId": "terratest-demo:304",
-        "issueNumber": 304,
-        "title": "Plan de Pruebas ParaBank - Run 15",
-        "body": "### Test Runs\n- [ ] (not found in state) - testruns/ParaBank-20260612_120000_7l14q3.run.feature",
-        "labels": [
-          "testplan"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "ParaBank",
-          "component": "microservicio-4",
-          "squad": "",
-          "priority": "@medium",
-          "Status": "Done"
-        },
-        "createdAt": "2026-06-12T16:55:36Z",
-        "updatedAt": "2026-06-12T16:55:36Z"
-      },
-      "lastApplied": "2026-06-12T16:55:39.630Z"
-    },
-    {
-      "type": "github_testplan",
-      "identity": "testplans/SauceDemo-tp5.plan.feature::@tp-5",
-      "attributes": {
-        "localHash": "drift_detected",
-        "remoteId": "terratest-demo:305",
-        "issueNumber": 305,
-        "title": "Plan de Pruebas SauceDemo - Run 18",
-        "body": "### Test Runs\n- [ ] (not found in state) - testruns/SauceDemo-20260612_120000_qz3vjx.run.feature",
-        "labels": [
-          "testplan"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "SauceDemo",
-          "component": "microservicio-7",
-          "squad": "",
-          "priority": "@medium",
-          "Status": "Done"
-        },
-        "createdAt": "2026-06-12T16:55:41Z",
-        "updatedAt": "2026-06-12T16:55:41Z"
-      },
-      "lastApplied": "2026-06-12T16:55:45.060Z"
     }
   ]
 }
