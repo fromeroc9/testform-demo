@@ -1,9 +1,12 @@
 {
   "version": "1.0",
-  "github": {
-    "owner": "fromeroc9",
-    "repository": "terratest-demo",
-    "projectId": 1
+  "provider": {
+    "type": "github",
+    "config": {
+      "owner": "fromeroc9",
+      "repository": "terratest-demo",
+      "projectId": 1
+    }
   },
   "backend": {
     "type": "local"

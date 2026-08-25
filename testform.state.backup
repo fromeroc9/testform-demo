@@ -1,8 +1,8 @@
 {
   "version": "1.0",
-  "serial": 83,
+  "serial": 87,
   "lineage": "9dd0cdb7-56aa-418f-85eb-9baec1767f12",
-  "lastSync": "2026-06-12T17:24:01.372Z",
+  "lastSync": "2026-06-12T21:21:45.270Z",
   "resources": [
     {
       "type": "github_testcase",
@@ -3030,6 +3030,146 @@
         }
       },
       "lastApplied": "2026-06-12T16:55:06.222Z"
+    },
+    {
+      "type": "github_testplan",
+      "identity": "testplans/Magento.plan.feature::@tp-1",
+      "attributes": {
+        "localHash": "fddf80bd605df2d18a924e302dc172caa98573d77904a3920ebcc6c4fb10d99e",
+        "remoteId": "terratest-demo:306",
+        "issueNumber": 306,
+        "title": "Plan de Pruebas Magento",
+        "body": "### Test Runs\n- [ ] #265 - Magento-20260611_155546_5f736a\n- [ ] #280 - Magento-20260612_120000_6be4l9\n- [ ] #282 - Magento-20260612_120001_hq71js\n- [ ] #284 - Magento-20260612_120002_9ca62m",
+        "labels": [
+          "testplan"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "milestone": "",
+        "custom_fields": {
+          "project": "Magento",
+          "component": "microservicio-1",
+          "squad": "Nirvana",
+          "priority": "@medium",
+          "Status": "Done"
+        },
+        "createdAt": "2026-06-12T17:24:05Z",
+        "updatedAt": "2026-06-12T17:24:05Z"
+      },
+      "lastApplied": "2026-06-12T17:24:19.871Z"
+    },
+    {
+      "type": "github_testplan",
+      "identity": "testplans/OpenCart.plan.feature::@tp-2",
+      "attributes": {
+        "localHash": "1740bc1f96753eea112efb6b07461f84ac2ced48aba9a490a9daebab98858fdb",
+        "remoteId": "terratest-demo:307",
+        "issueNumber": 307,
+        "title": "Plan de Pruebas OpenCart",
+        "body": "### Test Runs\n- [ ] #266 - OpenCart-20260611_155551_34d41d\n- [ ] #285 - OpenCart-20260612_120000_zkzodt\n- [ ] #287 - OpenCart-20260612_120001_lcte3d\n- [ ] #289 - OpenCart-20260612_120002_88b60u",
+        "labels": [
+          "testplan"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "milestone": "",
+        "custom_fields": {
+          "project": "OpenCart",
+          "component": "microservicio-3",
+          "squad": "Moderatto",
+          "priority": "@medium",
+          "Status": "Done"
+        },
+        "createdAt": "2026-06-12T17:24:32Z",
+        "updatedAt": "2026-06-12T17:24:32Z"
+      },
+      "lastApplied": "2026-06-12T17:24:45.588Z"
+    },
+    {
+      "type": "github_testplan",
+      "identity": "testplans/OrangeHRM.plan.feature::@tp-3",
+      "attributes": {
+        "localHash": "030f6ba2c498c4e1a7e79e350bb72a892f724fd8acbcc6bd5951af22c3a37486",
+        "remoteId": "terratest-demo:308",
+        "issueNumber": 308,
+        "title": "Plan de Pruebas OrangeHRM",
+        "body": "### Test Runs\n- [ ] #267 - OrangeHRM-20260611_155558_06a56c\n- [ ] #300 - OrangeHRM-20260612_120000_5wtb8a\n- [ ] #292 - OrangeHRM-20260612_120001_85ddc4\n- [ ] #293 - OrangeHRM-20260612_120002_4dusjo",
+        "labels": [
+          "testplan"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "milestone": "",
+        "custom_fields": {
+          "project": "OrangeHRM",
+          "component": "microservicio-9",
+          "squad": "Green Day",
+          "priority": "@medium",
+          "Status": "Done"
+        },
+        "createdAt": "2026-06-12T17:24:54Z",
+        "updatedAt": "2026-06-12T17:24:54Z"
+      },
+      "lastApplied": "2026-06-12T17:25:04.376Z"
+    },
+    {
+      "type": "github_testplan",
+      "identity": "testplans/ParaBank.plan.feature::@tp-4",
+      "attributes": {
+        "localHash": "2090bb0adbf5a144f910bb042ce6a7a3555148a262ec052a9de6c2b875e207b7",
+        "remoteId": "terratest-demo:309",
+        "issueNumber": 309,
+        "title": "Plan de Pruebas ParaBank",
+        "body": "### Test Runs\n- [ ] #268 - ParaBank-20260611_155609_da5690\n- [ ] #294 - ParaBank-20260612_120000_7l14q3\n- [ ] #295 - ParaBank-20260612_120001_vjb5b7\n- [ ] #296 - ParaBank-20260612_120002_jziiea",
+        "labels": [
+          "testplan"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "milestone": "",
+        "custom_fields": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "squad": "Father of Peace",
+          "priority": "@medium",
+          "Status": "Done"
+        },
+        "createdAt": "2026-06-12T17:25:11Z",
+        "updatedAt": "2026-06-12T17:25:11Z"
+      },
+      "lastApplied": "2026-06-12T17:25:22.665Z"
+    },
+    {
+      "type": "github_testplan",
+      "identity": "testplans/SauceDemo.plan.feature::@tp-5",
+      "attributes": {
+        "localHash": "2ef1c3704b0e5ba2b0d04af47566234efa8ca1dfe8f90d0f6db5011dc40a9d86",
+        "remoteId": "terratest-demo:310",
+        "issueNumber": 310,
+        "title": "Plan de Pruebas SauceDemo",
+        "body": "### Test Runs\n- [ ] #269 - SauceDemo-20260611_155620_2598ef\n- [ ] #297 - SauceDemo-20260612_120000_qz3vjx\n- [ ] #298 - SauceDemo-20260612_120001_ah4sw0\n- [ ] #299 - SauceDemo-20260612_120002_gp1yim",
+        "labels": [
+          "testplan"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "milestone": "",
+        "custom_fields": {
+          "project": "SauceDemo",
+          "component": "microservicio-7",
+          "squad": "Nirvana",
+          "priority": "@medium",
+          "Status": "Done"
+        },
+        "createdAt": "2026-06-12T17:25:34Z",
+        "updatedAt": "2026-06-12T17:25:34Z"
+      },
+      "lastApplied": "2026-06-12T17:25:47.489Z"
     }
   ]
 }
