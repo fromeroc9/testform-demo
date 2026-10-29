@@ -1,5 +1,5 @@
-@testrun @tr-7
-Feature: Magento-20260612_120001_hq71js
+@testrun @tr-6
+Feature: Magento-20260612_120000_6be4l9
 
   Background:
     * field project = Magento
@@ -9,7 +9,10 @@ Feature: Magento-20260612_120001_hq71js
 
   Rule: Magento/catalog.case.feature
 
-    Scenario: @tc-01
+    Scenario: 
+      * mark status = pending
+
+    Scenario: @tc-02
       * mark status = pending
 
   Rule: Magento/checkout.case.feature
@@ -17,9 +20,15 @@ Feature: Magento-20260612_120001_hq71js
     Scenario: @tc-01
       * mark status = pending
 
+    Scenario: @tc-02
+      * mark status = pending
+
   Rule: Magento/cart.case.feature
 
     Scenario: @tc-01
+      * mark status = pending
+
+    Scenario: @tc-02
       * mark status = pending
 
   Rule: Magento/customer.case.feature
@@ -27,3 +36,5 @@ Feature: Magento-20260612_120001_hq71js
     Scenario: @tc-01
       * mark status = pending
 
+    Scenario: @tc-02
+      * mark status = pending

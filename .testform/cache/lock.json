@@ -1,6 +1,6 @@
 {
   "provider": {
-    "registry.testform.io/fromeroc9/github": {
+    "registry.testform.io/fromeroc9/local": {
       "version": "1.0.0",
       "constraints": ">= 1.0.0",
       "hashes": [

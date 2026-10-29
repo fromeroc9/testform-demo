@@ -1,7 +1,7 @@
 @testplan @tp-2
 Feature: Plan de Pruebas OpenCart
 
-  Background:
+  Background: 
     * field project = OpenCart
     * field component = microservicio-3
     * field squad = Moderatto

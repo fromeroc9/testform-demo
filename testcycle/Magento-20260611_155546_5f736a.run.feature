@@ -13,29 +13,28 @@ Feature: Magento-20260611_155546_5f736a
       * mark status = passed
 
     Scenario: @tc-02
-      * mark status = failed
-        * mark status = blocked
+      * mark status = passed
 
   Rule: Magento/catalog.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * mark status = passed
 
     Scenario: @tc-02
-      * mark status = pending
+      * mark status = passed
 
   Rule: Magento/checkout.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * mark status = passed
 
     Scenario: @tc-02
-      * mark status = pending
+      * mark status = passed
 
   Rule: Magento/customer.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * mark status = passed
 
     Scenario: @tc-02
-      * mark status = pending
+      * mark status = passed

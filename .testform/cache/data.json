@@ -13,13 +13,14 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:16:42.713Z",
-      "updated_at": "2026-10-29T15:28:07.479Z",
+      "created_at": "2026-10-29T19:45:40.608Z",
+      "updated_at": "2026-10-29T19:45:40.608Z",
       "comments": [],
       "custom_fields": {
+        "team": "Dev",
         "project": "Magento",
         "module": "cart",
-        "priority": "@high",
+        "priority": "@medium",
         "Status": "Done",
         "type_of_test": "funcional",
         "automate": "not apply"
@@ -38,13 +39,14 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:16:42.718Z",
-      "updated_at": "2026-10-29T15:30:28.311Z",
+      "created_at": "2026-10-29T19:45:40.616Z",
+      "updated_at": "2026-10-29T19:45:40.616Z",
       "comments": [],
       "custom_fields": {
+        "team": "Dev",
         "project": "Magento",
         "module": "cart",
-        "priority": "@high",
+        "priority": "@medium",
         "Status": "Done",
         "type_of_test": "funcional",
         "automate": "not apply"
@@ -53,33 +55,36 @@
     {
       "id": 3,
       "number": 3,
-      "title": "Filtrar productos por atributos (Tamaño y Color)",
-      "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario navega por el menú superior a \"Men\" > \"Tops\" > \"Jackets\"\nAnd despliega el filtro \"Size\" en la barra lateral y escoge la talla \"L\"\nAnd despliega el filtro \"Color\" en la barra lateral y escoge \"Black\"\nThen la lista de productos se actualiza automáticamente\nAnd solo se muestran chaquetas que estén disponibles en color negro y talla L\n```",
+      "title": "Magento-20260611_155546_5f736a",
+      "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** cart.case.feature\n- [x] tc-01: #1\n- [x] tc-02: #2\n\n\n**Origin:** catalog.case.feature\n- [x] tc-01: #4\n- [x] tc-02: #5\n\n\n**Origin:** checkout.case.feature\n- [x] tc-01: #6\n- [x] tc-02: #7\n\n\n**Origin:** customer.case.feature\n- [x] tc-01: #8\n- [x] tc-02: #9",
       "state": "open",
       "node_id": "local_node_3",
       "labels": [
-        "testcase"
+        "testrun"
       ],
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:16:42.721Z",
-      "updated_at": "2026-10-29T15:16:42.721Z",
+      "created_at": "2026-10-29T19:58:02.891Z",
+      "updated_at": "2026-10-29T20:50:55.997Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
-        "module": "catalog",
-        "priority": "@low",
+        "component": "microservicio-1",
+        "startDate": "2026-06-11",
+        "endDate": "2026-06-11",
+        "team": "NO APLICA",
+        "priority": "@medium",
         "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
+        "sprint": "Sprint 3",
+        "quarter": "Q2"
       }
     },
     {
       "id": 4,
       "number": 4,
-      "title": "Búsqueda de productos desde la barra de búsqueda general",
-      "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario escribe la palabra clave \"Yoga\" en la barra de búsqueda superior\nAnd presiona la tecla Enter o hace clic en el ícono de la lupa\nThen el sistema lo redirige a la página \"Search results for: 'Yoga'\"\nAnd se muestran productos relacionados como leggings de yoga, mats o tops\n```",
+      "title": "Filtrar productos por atributos (Tamaño y Color)",
+      "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario navega por el menú superior a \"Men\" > \"Tops\" > \"Jackets\"\nAnd despliega el filtro \"Size\" en la barra lateral y escoge la talla \"L\"\nAnd despliega el filtro \"Color\" en la barra lateral y escoge \"Black\"\nThen la lista de productos se actualiza automáticamente\nAnd solo se muestran chaquetas que estén disponibles en color negro y talla L\n```",
       "state": "open",
       "node_id": "local_node_4",
       "labels": [
@@ -88,13 +93,14 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:16:42.723Z",
-      "updated_at": "2026-10-29T15:16:42.723Z",
+      "created_at": "2026-10-29T19:58:25.249Z",
+      "updated_at": "2026-10-29T19:58:25.249Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
         "module": "catalog",
         "priority": "@low",
+        "team": "NO APLICA",
         "Status": "Done",
         "type_of_test": "funcional",
         "automate": "not apply"
@@ -103,8 +109,8 @@
     {
       "id": 5,
       "number": 5,
-      "title": "Completar el paso de Envío (Shipping Step)",
-      "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nWhen el usuario ingresa su correo electrónico (si actúa como invitado)\nAnd ingresa su dirección de envío, ciudad, código postal y teléfono\nAnd selecciona un método de envío disponible (ej. \"Flat Rate - Fixed\")\nAnd hace clic en el botón \"Next\"\nThen el sistema avanza al segundo paso \"Review & Payments\"\n```",
+      "title": "Búsqueda de productos desde la barra de búsqueda general",
+      "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario escribe la palabra clave \"Yoga\" en la barra de búsqueda superior\nAnd presiona la tecla Enter o hace clic en el ícono de la lupa\nThen el sistema lo redirige a la página \"Search results for: 'Yoga'\"\nAnd se muestran productos relacionados como leggings de yoga, mats o tops\n```",
       "state": "open",
       "node_id": "local_node_5",
       "labels": [
@@ -113,13 +119,14 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:16:42.725Z",
-      "updated_at": "2026-10-29T15:16:42.725Z",
+      "created_at": "2026-10-29T19:58:25.254Z",
+      "updated_at": "2026-10-29T19:58:25.254Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
-        "module": "checkout",
+        "module": "catalog",
         "priority": "@low",
+        "team": "NO APLICA",
         "Status": "Done",
         "type_of_test": "funcional",
         "automate": "not apply"
@@ -128,8 +135,8 @@
     {
       "id": 6,
       "number": 6,
-      "title": "Validar el resumen y realizar el pago (Payment Step)",
-      "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nGiven el usuario se encuentra en el paso de \"Review & Payments\"\nWhen revisa que la sección \"Ship To:\" contenga la dirección correcta\nAnd verifica el total final en la sección \"Order Summary\"\nAnd hace clic en el botón inferior \"Place Order\"\nThen la página finaliza el proceso mostrando el título \"Thank you for your purchase!\"\nAnd el sistema genera y muestra el número de orden (Ej. Order # 000001234)\n```",
+      "title": "Completar el paso de Envío (Shipping Step)",
+      "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nWhen el usuario ingresa su correo electrónico (si actúa como invitado)\nAnd ingresa su dirección de envío, ciudad, código postal y teléfono\nAnd selecciona un método de envío disponible (ej. \"Flat Rate - Fixed\")\nAnd hace clic en el botón \"Next\"\nThen el sistema avanza al segundo paso \"Review & Payments\"\n```",
       "state": "open",
       "node_id": "local_node_6",
       "labels": [
@@ -138,13 +145,14 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:16:42.727Z",
-      "updated_at": "2026-10-29T15:16:42.727Z",
+      "created_at": "2026-10-29T19:58:27.534Z",
+      "updated_at": "2026-10-29T19:58:27.534Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
         "module": "checkout",
-        "priority": "@medium",
+        "priority": "@low",
+        "team": "NO APLICA",
         "Status": "Done",
         "type_of_test": "funcional",
         "automate": "not apply"
@@ -153,8 +161,8 @@
     {
       "id": 7,
       "number": 7,
-      "title": "Crear una nueva cuenta de cliente exitosamente",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de la tienda Magento Luma\nWhen el usuario hace clic en el enlace superior \"Create an Account\"\nAnd completa los campos de \"Personal Information\" (First Name, Last Name)\nAnd completa los campos de \"Sign-in Information\" (Email, Password, Confirm Password)\nAnd hace clic en el botón \"Create an Account\"\nThen el sistema lo redirige al panel \"My Account\"\nAnd muestra el mensaje de éxito \"Thank you for registering with Main Website Store.\"\n```",
+      "title": "Validar el resumen y realizar el pago (Payment Step)",
+      "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nGiven el usuario se encuentra en el paso de \"Review & Payments\"\nWhen revisa que la sección \"Ship To:\" contenga la dirección correcta\nAnd verifica el total final en la sección \"Order Summary\"\nAnd hace clic en el botón inferior \"Place Order\"\nThen la página finaliza el proceso mostrando el título \"Thank you for your purchase!\"\nAnd el sistema genera y muestra el número de orden (Ej. Order # 000001234)\n```",
       "state": "open",
       "node_id": "local_node_7",
       "labels": [
@@ -163,13 +171,14 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:16:42.729Z",
-      "updated_at": "2026-10-29T15:16:42.729Z",
+      "created_at": "2026-10-29T19:58:27.538Z",
+      "updated_at": "2026-10-29T19:58:27.538Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
-        "module": "Customer",
-        "priority": "@high",
+        "module": "checkout",
+        "team": "NO APLICA",
+        "priority": "@medium",
         "Status": "Done",
         "type_of_test": "funcional",
         "automate": "not apply"
@@ -178,8 +187,8 @@
     {
       "id": 8,
       "number": 8,
-      "title": "Iniciar sesión con una cuenta existente",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de la tienda Magento Luma\nWhen el usuario hace clic en el enlace superior \"Sign In\"\nAnd ingresa su email registrado y contraseña en la página de Login\nAnd hace clic en el botón \"Sign In\"\nThen el sistema lo autentica correctamente\nAnd muestra el mensaje \"Welcome, [Nombre del Usuario]!\" en el encabezado de la página\n```",
+      "title": "Crear una nueva cuenta de cliente exitosamente",
+      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de la tienda Magento Luma\nWhen el usuario hace clic en el enlace superior \"Create an Account\"\nAnd completa los campos de \"Personal Information\" (First Name, Last Name)\nAnd completa los campos de \"Sign-in Information\" (Email, Password, Confirm Password)\nAnd hace clic en el botón \"Create an Account\"\nThen el sistema lo redirige al panel \"My Account\"\nAnd muestra el mensaje de éxito \"Thank you for registering with Main Website Store.\"\n```",
       "state": "open",
       "node_id": "local_node_8",
       "labels": [
@@ -188,13 +197,14 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:16:42.731Z",
-      "updated_at": "2026-10-29T15:16:42.731Z",
+      "created_at": "2026-10-29T19:58:30.208Z",
+      "updated_at": "2026-10-29T20:34:15.635Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
         "module": "Customer",
         "priority": "@high",
+        "team": "NO APLICA",
         "Status": "Done",
         "type_of_test": "funcional",
         "automate": "not apply"
@@ -203,8 +213,8 @@
     {
       "id": 9,
       "number": 9,
-      "title": "Iniciar sesión exitosamente",
-      "body": "```gherkin\nGiven el usuario navega a \"https://demo.opencart.com/index.php?route=account/login\"\nWhen el usuario ingresa su correo en el campo \"E-Mail Address\"\nAnd ingresa su contraseña en el campo \"Password\"\nAnd hace clic en el botón \"Login\"\nThen el sistema redirige a la página \"My Account\"\n```",
+      "title": "Iniciar sesión con una cuenta existente",
+      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de la tienda Magento Luma\nWhen el usuario hace clic en el enlace superior \"Sign In\"\nAnd ingresa su email registrado y contraseña en la página de Login\nAnd hace clic en el botón \"Sign In\"\nThen el sistema lo autentica correctamente\nAnd muestra el mensaje \"Welcome, [Nombre del Usuario]!\" en el encabezado de la página\n```",
       "state": "open",
       "node_id": "local_node_9",
       "labels": [
@@ -213,13 +223,14 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:16:42.734Z",
-      "updated_at": "2026-10-29T15:16:42.734Z",
+      "created_at": "2026-10-29T19:58:30.212Z",
+      "updated_at": "2026-10-29T20:34:15.640Z",
       "comments": [],
       "custom_fields": {
-        "project": "OpenCart",
-        "module": "Account",
-        "priority": "@medium",
+        "project": "Magento",
+        "module": "Customer",
+        "priority": "@high",
+        "team": "NO APLICA",
         "Status": "Done",
         "type_of_test": "funcional",
         "automate": "not apply"
@@ -228,1424 +239,25 @@
     {
       "id": 10,
       "number": 10,
-      "title": "Error de inicio de sesión por credenciales incorrectas",
-      "body": "```gherkin\nGiven el usuario navega a \"https://demo.opencart.com/index.php?route=account/login\"\nWhen el usuario ingresa credenciales inválidas\nAnd hace clic en \"Login\"\nThen el sistema muestra el mensaje de alerta \"Warning: No match for E-Mail Address and/or Password.\"\n```",
+      "title": "Magento-20260612_120000_6be4l9",
+      "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** catalog.case.feature\n- [ ] tc-01: #4\n- [ ] tc-02: #5\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #6\n- [ ] tc-02: #7\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1\n- [ ] tc-02: #2\n\n\n**Origin:** customer.case.feature\n- [ ] tc-01: #8\n- [ ] tc-02: #9",
       "state": "open",
       "node_id": "local_node_10",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.737Z",
-      "updated_at": "2026-10-29T15:16:42.737Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OpenCart",
-        "module": "Account",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 11,
-      "number": 11,
-      "title": "Registrar una nueva cuenta",
-      "body": "```gherkin\nGiven el usuario navega a \"https://demo.opencart.com/index.php?route=account/login\"\nWhen el usuario hace clic en el botón \"Continue\" bajo la sección \"New Customer\"\nAnd completa el formulario \"Register Account\" con datos personales y contraseña\nAnd acepta la Política de Privacidad (Privacy Policy)\nAnd hace clic en el botón \"Continue\"\nThen el sistema muestra la pantalla \"Your Account Has Been Created!\"\n```",
-      "state": "open",
-      "node_id": "local_node_11",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.739Z",
-      "updated_at": "2026-10-29T15:16:42.739Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OpenCart",
-        "module": "Account",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 12,
-      "number": 12,
-      "title": "Agregar producto al carrito desde la vista de resultados",
-      "body": "```gherkin\nGiven el usuario ha buscado y encontrado el producto \"iPhone\" en la tienda\nWhen el usuario hace clic en el botón \"Add to Cart\" del producto \"iPhone\"\nThen el sistema muestra una alerta de éxito indicando \"Success: You have added iPhone to your shopping cart!\"\nAnd el botón negro superior del carrito (Mini Cart) actualiza el total de ítems y el monto (ej. \"1 item(s)\")\n```",
-      "state": "open",
-      "node_id": "local_node_12",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.742Z",
-      "updated_at": "2026-10-29T15:28:07.483Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OpenCart",
-        "module": "Cart",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 13,
-      "number": 13,
-      "title": "Visualizar y actualizar contenido del carrito de compras",
-      "body": "```gherkin\nGiven el usuario ha buscado y encontrado el producto \"iPhone\" en la tienda\nGiven el usuario tiene al menos un producto en el carrito\nWhen hace clic en el enlace \"Shopping Cart\" ubicado en la barra superior\nThen se muestra la tabla con el nombre del producto, modelo, cantidad y precio unitario/total\nWhen el usuario cambia la cantidad a \"2\" y presiona el botón \"Update\"\nThen el sistema muestra un mensaje indicando \"Success: You have modified your shopping cart!\"\nAnd el precio total se recalcula correctamente\n```",
-      "state": "open",
-      "node_id": "local_node_13",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.745Z",
-      "updated_at": "2026-10-29T15:30:28.316Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OpenCart",
-        "module": "Cart",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 14,
-      "number": 14,
-      "title": "Completar la compra como invitado (Guest Checkout)",
-      "body": "```gherkin\nGiven el usuario tiene productos en su carrito\nAnd navega a la página de \"Checkout\" haciendo clic en el enlace superior\nWhen el usuario selecciona la opción \"Guest Checkout\" en la sección \"Checkout Options\"\nAnd hace clic en \"Continue\"\nAnd llena los datos personales requeridos en \"Billing Details\"\nAnd selecciona un método de envío (Flat Shipping Rate)\nAnd selecciona el método de pago (Cash On Delivery)\nAnd marca la casilla para aceptar los Términos y Condiciones\nAnd hace clic en \"Confirm Order\"\nThen el sistema muestra la pantalla final \"Your order has been placed!\"\n```",
-      "state": "open",
-      "node_id": "local_node_14",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.748Z",
-      "updated_at": "2026-10-29T15:16:42.748Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OpenCart",
-        "module": "Checkout",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 15,
-      "number": 15,
-      "title": "Error al procesar el pago por no aceptar los términos",
-      "body": "```gherkin\nGiven el usuario tiene productos en su carrito\nAnd navega a la página de \"Checkout\" haciendo clic en el enlace superior\nWhen el usuario llega al paso de \"Payment Method\"\nAnd desmarca o no acepta la casilla de los Términos y Condiciones\nAnd hace clic en \"Continue\"\nThen el sistema muestra una advertencia indicando \"Warning: You must agree to the Terms & Conditions!\"\n```",
-      "state": "open",
-      "node_id": "local_node_15",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.751Z",
-      "updated_at": "2026-10-29T15:16:42.751Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OpenCart",
-        "module": "Checkout",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 16,
-      "number": 16,
-      "title": "Buscar un producto específico",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de OpenCart\nWhen el usuario ingresa \"MacBook\" en la barra de búsqueda superior\nAnd hace clic en el ícono de la lupa (Buscar)\nThen la página de resultados muestra al menos un producto relacionado con \"MacBook\"\n```",
-      "state": "open",
-      "node_id": "local_node_16",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.753Z",
-      "updated_at": "2026-10-29T15:16:42.753Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OpenCart",
-        "module": "Shopping",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 17,
-      "number": 17,
-      "title": "Navegar por categorías del menú",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de OpenCart\nWhen el usuario pasa el cursor sobre la categoría \"Desktops\" en el menú principal\nAnd selecciona la subcategoría \"Mac (1)\"\nThen el sistema muestra los productos correspondientes a la categoría \"Mac\"\nAnd se visualiza el producto \"iMac\" en la cuadrícula de productos\n```",
-      "state": "open",
-      "node_id": "local_node_17",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.756Z",
-      "updated_at": "2026-10-29T15:16:42.756Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OpenCart",
-        "module": "Shopping",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 18,
-      "number": 18,
-      "title": "Buscar un usuario existente por nombre de usuario",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario ingresa un nombre de usuario válido en el campo \"Username\"\nAnd hace clic en el botón \"Search\"\nThen el sistema muestra los detalles del usuario en la tabla \"System Users\"\n```",
-      "state": "open",
-      "node_id": "local_node_18",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.758Z",
-      "updated_at": "2026-10-29T15:16:42.758Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Admin",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 19,
-      "number": 19,
-      "title": "Buscar y filtrar usuarios por Rol y Estado",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario selecciona el rol \"<rol>\" en el menú \"User Role\"\nAnd selecciona el estado \"<estado>\" en el menú \"Status\"\nAnd hace clic en el botón \"Search\"\nThen la tabla muestra únicamente los usuarios que coinciden con los filtros\n```",
-      "state": "open",
-      "node_id": "local_node_19",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.760Z",
-      "updated_at": "2026-10-29T15:16:42.760Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Admin",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 20,
-      "number": 20,
-      "title": "Limpiar filtros de búsqueda",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario ingresa \"Admin\" en el campo \"Username\"\nAnd hace clic en el botón \"Reset\"\nThen los campos de búsqueda se vacían a sus valores por defecto\n```",
-      "state": "open",
-      "node_id": "local_node_20",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.763Z",
-      "updated_at": "2026-10-29T15:16:42.763Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Admin",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 21,
-      "number": 21,
-      "title": "Agregar un nuevo usuario del sistema",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario hace clic en el botón verde \"+ Add\"\nAnd completa los datos requeridos (User Role, Employee Name, Status, Username, Password)\nAnd hace clic en \"Save\"\nThen el sistema guarda al usuario y aparece en la tabla de System Users\n```",
-      "state": "open",
-      "node_id": "local_node_21",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.765Z",
-      "updated_at": "2026-10-29T15:16:42.765Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Admin",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 22,
-      "number": 22,
-      "title": "Publicar un estado en el muro",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Buzz\"\nWhen el usuario escribe \"Hola a todos, esta es una prueba\" en el cuadro de texto \"Update Status\"\nAnd hace clic en \"Post\"\nThen la publicación debe aparecer en el flujo de noticias recientes\n```",
-      "state": "open",
-      "node_id": "local_node_22",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.767Z",
-      "updated_at": "2026-10-29T15:16:42.767Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Buzz",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 23,
-      "number": 23,
-      "title": "Dar 'Me gusta' a una publicación",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Buzz\"\nGiven existe al menos una publicación en el muro\nWhen el usuario hace clic en el ícono del corazón (Like) de una publicación\nThen el contador de \"Likes\" de la publicación debe incrementarse en uno\n```",
-      "state": "open",
-      "node_id": "local_node_23",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.770Z",
-      "updated_at": "2026-10-29T15:16:42.770Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Buzz",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 24,
-      "number": 24,
-      "title": "Verificar la visibilidad de todos los widgets principales",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión exitosamente\nAnd es redirigido a la pantalla principal \"Dashboard\"\nWhen Se visualiza el Dashboard\nThen el usuario debe ver los siguientes widgets en el panel:\n```",
-      "state": "open",
-      "node_id": "local_node_24",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.772Z",
-      "updated_at": "2026-10-29T15:16:42.772Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Dashboard",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 25,
-      "number": 25,
-      "title": "Acceso rápido mediante los iconos de Quick Launch",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión exitosamente\nAnd es redirigido a la pantalla principal \"Dashboard\"\nWhen el usuario hace clic en el ícono \"<icono>\" dentro del widget \"Quick Launch\"\nThen el sistema redirige a la pantalla correspondiente\n```",
-      "state": "open",
-      "node_id": "local_node_25",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.775Z",
-      "updated_at": "2026-10-29T15:16:42.775Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Dashboard",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 26,
-      "number": 26,
-      "title": "Búsqueda exitosa de un empleado",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Directory\"\nWhen el usuario ingresa un nombre en \"Employee Name\"\nAnd hace clic en \"Search\"\nThen se muestran las tarjetas o resultados del empleado correspondiente con su Job Title y Location\n```",
-      "state": "open",
-      "node_id": "local_node_26",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.777Z",
-      "updated_at": "2026-10-29T15:16:42.777Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Directory",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 27,
-      "number": 27,
-      "title": "Filtrar por puesto de trabajo (Job Title)",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Directory\"\nWhen el usuario selecciona un puesto específico en el menú desplegable \"Job Title\"\nAnd hace clic en \"Search\"\nThen se muestran todos los empleados que tienen asignado ese puesto\n```",
-      "state": "open",
-      "node_id": "local_node_27",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.779Z",
-      "updated_at": "2026-10-29T15:16:42.779Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Directory",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 28,
-      "number": 28,
-      "title": "Solicitar un permiso con días disponibles",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Leave\"\nWhen el usuario navega a la pestaña \"Apply\"\nAnd selecciona un \"Leave Type\" válido\nAnd selecciona fechas de inicio y fin válidas\nAnd hace clic en \"Apply\"\nThen el sistema muestra un mensaje de \"Successfully Applied\"\nAnd la solicitud aparece en \"My Leave\" con estado pendiente\n```",
-      "state": "open",
-      "node_id": "local_node_28",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.781Z",
-      "updated_at": "2026-10-29T15:16:42.781Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Leave",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 29,
-      "number": 29,
-      "title": "Asignar permisos desde el rol de administrador",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Leave\"\nGiven el usuario tiene permisos de administrador o HR\nWhen navega a la pestaña \"Assign Leave\"\nAnd selecciona un empleado, tipo de permiso y fechas\nAnd hace clic en \"Assign\"\nThen el sistema descuenta los días del balance del empleado\nAnd el permiso se registra exitosamente\n```",
-      "state": "open",
-      "node_id": "local_node_29",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.783Z",
-      "updated_at": "2026-10-29T15:16:42.783Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Leave",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 30,
-      "number": 30,
-      "title": "Aprobar una solicitud de permiso pendiente",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Leave\"\nGiven el usuario es supervisor o administrador\nWhen navega a la pestaña \"Leave List\"\nAnd busca las solicitudes con estado \"Pending Approval\"\nAnd selecciona la acción \"Approve\" para una solicitud\nAnd hace clic en \"Save\"\nThen el estado de la solicitud cambia a \"Scheduled\" o \"Taken\"\n```",
-      "state": "open",
-      "node_id": "local_node_30",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.786Z",
-      "updated_at": "2026-10-29T15:16:42.786Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Leave",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 31,
-      "number": 31,
-      "title": "Inicio de sesión exitoso con credenciales válidas",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario ingresa el nombre de usuario \"Admin\"\nAnd el usuario ingresa la contraseña \"admin123\"\nAnd hace clic en el botón de \"Login\"\nThen el sistema redirige al usuario al panel principal (Dashboard)\n```",
-      "state": "open",
-      "node_id": "local_node_31",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.788Z",
-      "updated_at": "2026-10-29T15:16:42.788Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Login",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 32,
-      "number": 32,
-      "title": "Inicio de sesión fallido por credenciales incorrectas",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario ingresa el nombre de usuario \"<usuario>\"\nAnd el usuario ingresa la contraseña \"<contrasena>\"\nAnd hace clic en el botón de \"Login\"\nThen el sistema deniega el acceso\nAnd muestra el mensaje de error \"Invalid credentials\"\n```",
-      "state": "open",
-      "node_id": "local_node_32",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.791Z",
-      "updated_at": "2026-10-29T15:16:42.791Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Login",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 33,
-      "number": 33,
-      "title": "Intento de inicio de sesión con campos requeridos vacíos",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario ingresa el nombre de usuario \"<usuario>\"\nAnd el usuario ingresa la contraseña \"<contrasena>\"\nAnd hace clic en el botón de \"Login\"\nThen el sistema no realiza la petición de inicio de sesión\nAnd muestra el mensaje de validación \"Required\" debajo del campo omitido\n```",
-      "state": "open",
-      "node_id": "local_node_33",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.793Z",
-      "updated_at": "2026-10-29T15:16:42.793Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Login",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 34,
-      "number": 34,
-      "title": "Redirección para recuperar contraseña",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario hace clic en el enlace \"Forgot your password?\"\nThen el sistema redirige al usuario a la vista de recuperación de contraseña\n```",
-      "state": "open",
-      "node_id": "local_node_34",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.795Z",
-      "updated_at": "2026-10-29T15:16:42.795Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Login",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 35,
-      "number": 35,
-      "title": "Redirección al sitio oficial de OrangeHRM",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario hace clic en el enlace \"OrangeHRM, Inc\" del pie de página\nThen se abre una nueva pestaña redirigiendo al sitio oficial de OrangeHRM\n```",
-      "state": "open",
-      "node_id": "local_node_35",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.799Z",
-      "updated_at": "2026-10-29T15:16:42.799Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Login",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 36,
-      "number": 36,
-      "title": "Actualizar información de contacto",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"My Info\"\nWhen el usuario selecciona la sección \"Contact Details\"\nAnd actualiza el campo de \"Street 1\" y \"Mobile\"\nAnd hace clic en \"Save\"\nThen el sistema guarda los cambios y muestra un mensaje de éxito\n```",
-      "state": "open",
-      "node_id": "local_node_36",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.801Z",
-      "updated_at": "2026-10-29T15:16:42.801Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "My Info",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 37,
-      "number": 37,
-      "title": "Agregar contacto de emergencia",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"My Info\"\nWhen el usuario selecciona la sección \"Emergency Contacts\"\nAnd hace clic en \"Add\"\nAnd ingresa el nombre y teléfono del contacto\nAnd hace clic en \"Save\"\nThen el contacto de emergencia aparece listado correctamente\n```",
-      "state": "open",
-      "node_id": "local_node_37",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.805Z",
-      "updated_at": "2026-10-29T15:16:42.805Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "My Info",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 38,
-      "number": 38,
-      "title": "Agregar un nuevo empleado",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"PIM\"\nWhen el usuario hace clic en el botón \"Add\"\nAnd completa los campos \"First Name\", \"Last Name\" y \"Employee Id\"\nAnd hace clic en \"Save\"\nThen el sistema crea el registro del empleado\nAnd redirige a la vista de detalles personales del empleado\n```",
-      "state": "open",
-      "node_id": "local_node_38",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.807Z",
-      "updated_at": "2026-10-29T15:16:42.807Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "PIM",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 39,
-      "number": 39,
-      "title": "Buscar un empleado por nombre",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"PIM\"\nWhen el usuario ingresa un nombre válido en el campo \"Employee Name\"\nAnd hace clic en el botón \"Search\"\nThen la tabla de resultados muestra al empleado correspondiente\n```",
-      "state": "open",
-      "node_id": "local_node_39",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.809Z",
-      "updated_at": "2026-10-29T15:16:42.809Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "PIM",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 40,
-      "number": 40,
-      "title": "Eliminar un registro de empleado",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"PIM\"\nGiven existe al menos un empleado en la lista\nWhen el usuario selecciona a un empleado haciendo clic en la casilla de verificación\nAnd hace clic en el botón de eliminar (icono de basurero)\nAnd confirma la eliminación en el diálogo modal\nThen el sistema muestra el mensaje \"Successfully Deleted\"\nAnd el empleado ya no aparece en la lista\n```",
-      "state": "open",
-      "node_id": "local_node_40",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.812Z",
-      "updated_at": "2026-10-29T15:16:42.812Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "PIM",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 41,
-      "number": 41,
-      "title": "Crear una nueva vacante",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Recruitment\"\nWhen el usuario navega a \"Vacancies\" y hace clic en \"Add\"\nAnd completa los datos de \"Job Title\", \"Vacancy Name\" y \"Hiring Manager\"\nAnd hace clic en \"Save\"\nThen la vacante se guarda y aparece en la lista de vacantes activas\n```",
-      "state": "open",
-      "node_id": "local_node_41",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.815Z",
-      "updated_at": "2026-10-29T15:16:42.815Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Recruitment",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 42,
-      "number": 42,
-      "title": "Agregar un candidato nuevo",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Recruitment\"\nWhen el usuario navega a \"Candidates\" y hace clic en \"Add\"\nAnd completa los campos de nombre, apellido y correo\nAnd adjunta un currículum en formato PDF\nAnd hace clic en \"Save\"\nThen el candidato es registrado exitosamente en el sistema con el estado \"Application Initiated\"\n```",
-      "state": "open",
-      "node_id": "local_node_42",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.818Z",
-      "updated_at": "2026-10-29T15:16:42.818Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Recruitment",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 43,
-      "number": 43,
-      "title": "Realizar \"Punch In\" (Registro de entrada)",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Time\"\nWhen el usuario navega a \"Attendance\" y selecciona \"Punch In/Out\"\nAnd ingresa una nota opcional\nAnd hace clic en \"In\"\nThen el sistema registra la hora actual de entrada\nAnd el estado cambia a \"Punched In\"\n```",
-      "state": "open",
-      "node_id": "local_node_43",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.820Z",
-      "updated_at": "2026-10-29T15:16:42.820Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Time",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 44,
-      "number": 44,
-      "title": "Crear y enviar una hoja de tiempo (Timesheet)",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Time\"\nWhen el usuario navega a \"Timesheets\" -> \"My Timesheets\"\nAnd selecciona una semana\nAnd agrega las horas trabajadas por proyecto y actividad\nAnd hace clic en \"Submit\"\nThen el estado de la hoja de tiempo cambia a \"Submitted\"\n```",
-      "state": "open",
-      "node_id": "local_node_44",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.823Z",
-      "updated_at": "2026-10-29T15:16:42.823Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "OrangeHRM",
-        "module": "Time",
-        "priority": "@high",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 45,
-      "number": 45,
-      "title": "Abrir una nueva cuenta bancaria",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Open New Account\"\nAnd selecciona el tipo de cuenta \"SAVINGS\"\nAnd selecciona una cuenta existente para transferir los fondos iniciales\nAnd hace clic en el botón \"Open New Account\"\nThen el sistema muestra el mensaje \"Account Opened!\"\nAnd genera un nuevo número de cuenta válido\n```",
-      "state": "open",
-      "node_id": "local_node_45",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.826Z",
-      "updated_at": "2026-10-29T15:16:42.826Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "ParaBank",
-        "module": "Account Services",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 46,
-      "number": 46,
-      "title": "Visualizar el resumen de las cuentas (Accounts Overview)",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Accounts Overview\"\nThen el sistema muestra una tabla con todas las cuentas del cliente\nAnd se visualiza el saldo (\"Balance\") y los fondos disponibles (\"Available Amount\") para cada cuenta\nAnd el total global de los saldos se muestra en la fila inferior \"Total\"\n```",
-      "state": "open",
-      "node_id": "local_node_46",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.828Z",
-      "updated_at": "2026-10-29T15:16:42.828Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "ParaBank",
-        "module": "Account Services",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 47,
-      "number": 47,
-      "title": "Solicitar un préstamo exitosamente",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Request Loan\"\nAnd ingresa un monto de préstamo \"1000.00\" (Loan Amount)\nAnd ingresa un pago inicial \"100.00\" (Down Payment)\nAnd selecciona una cuenta desde donde se pagará (From account id)\nAnd hace clic en el botón \"Apply Now\"\nThen el sistema procesa la solicitud\nAnd muestra el estado de la solicitud como \"Approved\"\nAnd genera y muestra un nuevo número de cuenta para el préstamo\n```",
-      "state": "open",
-      "node_id": "local_node_47",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.830Z",
-      "updated_at": "2026-10-29T15:16:42.830Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "ParaBank",
-        "module": "Loan",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 48,
-      "number": 48,
-      "title": "Rechazo de préstamo por monto excesivo",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Request Loan\"\nAnd ingresa un monto de préstamo \"9999999.00\" con un pago inicial mínimo\nAnd hace clic en el botón \"Apply Now\"\nThen el sistema procesa la solicitud\nAnd muestra el estado de la solicitud como \"Denied\"\nAnd el sistema informa de insuficiencia de fondos\n```",
-      "state": "open",
-      "node_id": "local_node_48",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.833Z",
-      "updated_at": "2026-10-29T15:16:42.833Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "ParaBank",
-        "module": "Loan",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 49,
-      "number": 49,
-      "title": "Registrar un nuevo usuario exitosamente",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nWhen el usuario hace clic en el enlace \"Register\"\nAnd completa el formulario de registro con datos válidos (nombre, dirección, SSN, usuario y contraseña)\nAnd hace clic en el botón \"Register\"\nThen el sistema muestra el mensaje \"Your account was created successfully. You are now logged in.\"\n```",
-      "state": "open",
-      "node_id": "local_node_49",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.835Z",
-      "updated_at": "2026-10-29T15:16:42.835Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "ParaBank",
-        "module": "Registration",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 50,
-      "number": 50,
-      "title": "Iniciar sesión con credenciales válidas",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nGiven el usuario ya tiene una cuenta registrada\nWhen ingresa su nombre de usuario y contraseña en el panel \"Customer Login\"\nAnd hace clic en el botón \"Log In\"\nThen el sistema lo redirige a la página \"Accounts Overview\"\nAnd muestra el mensaje de bienvenida con su nombre\n```",
-      "state": "open",
-      "node_id": "local_node_50",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.838Z",
-      "updated_at": "2026-10-29T15:16:42.838Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "ParaBank",
-        "module": "Registration",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 51,
-      "number": 51,
-      "title": "Error al iniciar sesión con credenciales inválidas",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nWhen ingresa un usuario inválido y una contraseña incorrecta en el panel \"Customer Login\"\nAnd hace clic en el botón \"Log In\"\nThen el sistema muestra un mensaje de error \"The username and password could not be verified.\"\n```",
-      "state": "open",
-      "node_id": "local_node_51",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.841Z",
-      "updated_at": "2026-10-29T15:16:42.841Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "ParaBank",
-        "module": "Registration",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 52,
-      "number": 52,
-      "title": "Transferir fondos entre cuentas",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nAnd posee al menos dos cuentas con fondos disponibles\nWhen el usuario hace clic en el enlace \"Transfer Funds\"\nAnd ingresa el monto a transferir \"100.00\"\nAnd selecciona la cuenta de origen \"From account\"\nAnd selecciona la cuenta de destino \"To account\"\nAnd hace clic en el botón \"Transfer\"\nThen el sistema muestra el mensaje \"Transfer Complete!\"\nAnd el monto \"100.00\" es reflejado en los detalles de la transacción\n```",
-      "state": "open",
-      "node_id": "local_node_52",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.843Z",
-      "updated_at": "2026-10-29T15:16:42.843Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "ParaBank",
-        "module": "ProduTransactions",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 53,
-      "number": 53,
-      "title": "Realizar un pago de servicios (Bill Pay)",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nAnd posee al menos dos cuentas con fondos disponibles\nWhen el usuario hace clic en el enlace \"Bill Pay\"\nAnd completa los datos del beneficiario \"Payee Information\" (Nombre, Dirección, Número de Cuenta)\nAnd ingresa el monto \"50.00\"\nAnd selecciona la cuenta desde la cual se pagará\nAnd hace clic en el botón \"Send Payment\"\nThen el sistema muestra el mensaje \"Bill Payment Complete\"\nAnd confirma que el pago de \"50.00\" fue enviado correctamente al beneficiario\n```",
-      "state": "open",
-      "node_id": "local_node_53",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.847Z",
-      "updated_at": "2026-10-29T15:16:42.847Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "ParaBank",
-        "module": "ProduTransactions",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 54,
-      "number": 54,
-      "title": "Visualizar los productos agregados",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd ha agregado el producto \"Sauce Labs Bike Light\" al carrito\nWhen hace clic en el ícono superior derecho del carrito\nThen el usuario debe ver la vista \"Your Cart\"\nAnd el producto \"Sauce Labs Bike Light\" debe estar en la lista con QTY \"1\"\n```",
-      "state": "open",
-      "node_id": "local_node_54",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.849Z",
-      "updated_at": "2026-10-29T15:28:07.486Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Cart",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 55,
-      "number": 55,
-      "title": "Remover un producto desde el carrito",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd ha agregado el producto \"Sauce Labs Bike Light\" al carrito\nWhen hace clic en el ícono superior derecho del carrito\nWhen el usuario hace clic en el botón \"Remove\" del producto\nThen el producto desaparece inmediatamente de la lista\nAnd el carrito se muestra vacío\n```",
-      "state": "open",
-      "node_id": "local_node_55",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.852Z",
-      "updated_at": "2026-10-29T15:30:28.320Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Cart",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 56,
-      "number": 56,
-      "title": "Continuar comprando desde el carrito",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd ha agregado el producto \"Sauce Labs Bike Light\" al carrito\nWhen hace clic en el ícono superior derecho del carrito\nWhen el usuario hace clic en el botón inferior izquierdo \"Continue Shopping\"\nThen el sistema lo redirige de vuelta a la página de \"Products\"\n```",
-      "state": "open",
-      "node_id": "local_node_56",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.854Z",
-      "updated_at": "2026-10-29T15:16:42.854Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Cart",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 57,
-      "number": 57,
-      "title": "Llenar información de envío exitosamente",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd está en la vista del carrito con productos agregados\nAnd hace clic en el botón inferior derecho \"Checkout\"\nWhen el usuario ingresa su nombre \"Juan\" en \"First Name\"\nAnd ingresa su apellido \"Pérez\" en \"Last Name\"\nAnd ingresa el código postal \"12345\" en \"Zip/Postal Code\"\nAnd hace clic en el botón \"Continue\"\nThen el sistema lo redirige a la pantalla \"Checkout: Overview\"\n```",
-      "state": "open",
-      "node_id": "local_node_57",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.856Z",
-      "updated_at": "2026-10-29T15:16:42.856Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Checkout",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 58,
-      "number": 58,
-      "title": "Validar error por falta de información de envío",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd está en la vista del carrito con productos agregados\nAnd hace clic en el botón inferior derecho \"Checkout\"\nWhen el usuario deja todos los campos vacíos\nAnd hace clic en \"Continue\"\nThen el sistema muestra el mensaje de error \"Error: First Name is required\"\n```",
-      "state": "open",
-      "node_id": "local_node_58",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.859Z",
-      "updated_at": "2026-10-29T15:16:42.859Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Checkout",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 59,
-      "number": 59,
-      "title": "Finalizar compra exitosamente",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd está en la vista del carrito con productos agregados\nAnd hace clic en el botón inferior derecho \"Checkout\"\nGiven el usuario ha completado el formulario de envío y está en \"Checkout: Overview\"\nWhen verifica que el precio \"Item total\" y los impuestos \"Tax\" sean correctos\nAnd hace clic en el botón verde \"Finish\"\nThen el sistema muestra la pantalla \"Checkout: Complete!\"\nAnd el usuario visualiza el mensaje \"Thank you for your order!\"\n```",
-      "state": "open",
-      "node_id": "local_node_59",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.861Z",
-      "updated_at": "2026-10-29T15:16:42.861Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Checkout",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 60,
-      "number": 60,
-      "title": "Iniciar sesión exitosamente con usuario estándar",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de login \"https://www.saucedemo.com\"\nWhen el usuario ingresa el nombre de usuario \"standard_user\"\nAnd ingresa la contraseña \"secret_sauce\"\nAnd hace clic en el botón \"Login\"\nThen el sistema lo redirige a la página de inventario \"Products\"\n```",
-      "state": "open",
-      "node_id": "local_node_60",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.864Z",
-      "updated_at": "2026-10-29T15:16:42.864Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Login",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 61,
-      "number": 61,
-      "title": "Iniciar sesión con un usuario bloqueado",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de login \"https://www.saucedemo.com\"\nWhen el usuario ingresa el nombre de usuario \"locked_out_user\"\nAnd ingresa la contraseña \"secret_sauce\"\nAnd hace clic en el botón \"Login\"\nThen el sistema muestra el mensaje de error \"Epic sadface: Sorry, this user has been locked out.\"\n```",
-      "state": "open",
-      "node_id": "local_node_61",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.867Z",
-      "updated_at": "2026-10-29T15:16:42.867Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Login",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 62,
-      "number": 62,
-      "title": "Error al iniciar sesión sin credenciales",
-      "body": "```gherkin\nGiven el usuario se encuentra en la página de login \"https://www.saucedemo.com\"\nWhen el usuario hace clic en el botón \"Login\" sin ingresar datos\nThen el sistema muestra el mensaje de error \"Epic sadface: Username is required\"\n```",
-      "state": "open",
-      "node_id": "local_node_62",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.869Z",
-      "updated_at": "2026-10-29T15:16:42.869Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Login",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 63,
-      "number": 63,
-      "title": "Agregar un producto al carrito",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd se encuentra en la página principal de \"Products\"\nWhen el usuario hace clic en el botón \"Add to cart\" del producto \"Sauce Labs Backpack\"\nThen el botón del producto cambia a color rojo con el texto \"Remove\"\nAnd el ícono del carrito en la esquina superior derecha muestra un \"1\"\n```",
-      "state": "open",
-      "node_id": "local_node_63",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.872Z",
-      "updated_at": "2026-10-29T15:16:42.872Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Products",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 64,
-      "number": 64,
-      "title": "Remover un producto desde la página de inventario",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd se encuentra en la página principal de \"Products\"\nGiven el usuario tiene el producto \"Sauce Labs Backpack\" en el carrito\nWhen el usuario hace clic en el botón \"Remove\" de dicho producto\nThen el botón cambia nuevamente a \"Add to cart\" verde\nAnd el contador numérico del carrito se oculta\n```",
-      "state": "open",
-      "node_id": "local_node_64",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.874Z",
-      "updated_at": "2026-10-29T15:16:42.874Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Products",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 65,
-      "number": 65,
-      "title": "Ordenar productos usando el filtro",
-      "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd se encuentra en la página principal de \"Products\"\nWhen el usuario selecciona la opción \"<opcion_filtro>\" en el menú desplegable superior derecho\nThen los productos se reordenan según el criterio \"<criterio>\"\n```",
-      "state": "open",
-      "node_id": "local_node_65",
-      "labels": [
-        "testcase"
-      ],
-      "assignees": [
-        "fromeroc9"
-      ],
-      "created_at": "2026-10-29T15:16:42.877Z",
-      "updated_at": "2026-10-29T15:16:42.877Z",
-      "comments": [],
-      "custom_fields": {
-        "project": "SauceDemo",
-        "module": "Products",
-        "priority": "@medium",
-        "Status": "Done",
-        "type_of_test": "funcional",
-        "automate": "not apply"
-      }
-    },
-    {
-      "id": 66,
-      "number": 66,
-      "title": "Magento-20260611_155546_5f736a",
-      "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - Magento/cart.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - Magento/cart.case.feature.@tc-02",
-      "state": "open",
-      "node_id": "local_node_66",
       "labels": [
         "testrun"
       ],
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:20:20.115Z",
-      "updated_at": "2026-10-29T15:28:31.410Z",
+      "created_at": "2026-10-29T19:58:37.376Z",
+      "updated_at": "2026-10-29T19:58:37.376Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
         "component": "microservicio-1",
-        "startDate": "2026-06-11",
-        "endDate": "2026-06-11",
+        "startDate": "2026-06-12",
+        "endDate": "2026-06-19",
+        "team": "NO APLICA",
         "priority": "@medium",
         "Status": "Done",
         "sprint": "Sprint 3",
@@ -1653,30 +265,118 @@
       }
     },
     {
-      "id": 67,
-      "number": 67,
-      "title": "Plan de Pruebas Magento",
-      "body": "### Test Runs\n- [ ] (not found in state) - testruns/Magento-20260611_155546_5f736a.run.feature\n- [ ] (not found in state) - testruns/Magento-20260612_120000_6be4l9.run.feature\n- [ ] (not found in state) - testruns/Magento-20260612_120001_hq71js.run.feature\n- [ ] (not found in state) - testruns/Magento-20260612_120002_9ca62m.run.feature",
+      "id": 11,
+      "number": 11,
+      "title": "OpenCart-20260611_155551_34d41d",
+      "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1\n- [ ] tc-02: #2\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #6\n- [ ] tc-02: #7\n\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - OpenCart/account.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/shopping.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - OpenCart/account.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/shopping.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - OpenCart/account.case.feature.@tc-03",
       "state": "open",
-      "node_id": "local_node_67",
+      "node_id": "local_node_11",
       "labels": [
-        "testplan"
+        "testrun"
       ],
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-10-29T15:24:49.180Z",
-      "updated_at": "2026-10-29T15:24:49.180Z",
+      "created_at": "2026-10-29T19:58:44.147Z",
+      "updated_at": "2026-10-29T19:58:44.147Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "OpenCart",
+        "component": "microservicio-3",
+        "startDate": "2026-06-10",
+        "endDate": "2026-06-18",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "sprint": "Sprint 3",
+        "quarter": "Q2"
+      }
+    },
+    {
+      "id": 12,
+      "number": 12,
+      "title": "Magento-20260612_120001_hq71js",
+      "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** catalog.case.feature\n- [x] tc-01: #4\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #6\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1\n\n\n**Origin:** customer.case.feature\n- [ ] tc-01: #8",
+      "state": "open",
+      "node_id": "local_node_12",
+      "labels": [
+        "testrun"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-10-29T20:49:16.156Z",
+      "updated_at": "2026-10-29T20:49:16.156Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
         "component": "microservicio-1",
-        "squad": "Nirvana",
+        "startDate": "2026-06-12",
+        "endDate": "2026-06-19",
+        "team": "NO APLICA",
         "priority": "@medium",
-        "Status": "Done"
+        "Status": "Done",
+        "sprint": "Sprint 3",
+        "quarter": "Q2"
+      }
+    },
+    {
+      "id": 13,
+      "number": 13,
+      "title": "SauceDemo-20260611_155620_2598ef",
+      "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1\n- [ ] tc-02: #2\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #6\n- [ ] tc-02: #7\n\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - SauceDemo/login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/products.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - SauceDemo/login.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/products.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - SauceDemo/cart.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/checkout.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/login.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/products.case.feature.@tc-03",
+      "state": "open",
+      "node_id": "local_node_13",
+      "labels": [
+        "testrun"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-10-29T20:51:36.598Z",
+      "updated_at": "2026-10-29T20:51:36.598Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "SauceDemo",
+        "component": "microservicio-7",
+        "startDate": "2026-06-15",
+        "endDate": "2026-06-18",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "sprint": "Sprint 3",
+        "quarter": "Q2"
+      }
+    },
+    {
+      "id": 14,
+      "number": 14,
+      "title": "ParaBank-20260612_120002_jziiea",
+      "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - ParaBank/register_login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/transactions.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/account_services.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/loan.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - ParaBank/register_login.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/transactions.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/account_services.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/loan.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - ParaBank/register_login.case.feature.@tc-03",
+      "state": "open",
+      "node_id": "local_node_14",
+      "labels": [
+        "testrun"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-10-29T20:51:55.660Z",
+      "updated_at": "2026-10-29T20:51:55.660Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "component": "microservicio-4",
+        "startDate": "2026-06-12",
+        "endDate": "2026-06-19",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "sprint": "Sprint 3",
+        "quarter": "Q2"
       }
     }
   ],
-  "next_issue_number": 68,
+  "next_issue_number": 15,
   "next_comment_id": 1
 }
