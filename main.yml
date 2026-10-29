@@ -1,0 +1,82 @@
+testform:
+  required_version: ">= 1.0.0"
+  backend: local
+
+provider: local
+
+resource:
+  global:
+    fields:
+      - name: priority
+        source: "tag"
+        required: false
+        enum:
+          - "@low"
+          - "@medium"
+          - "@high"
+        default: "@medium"
+      - name: Status
+        source: "step"
+        required: false
+        default: "Done"
+      - name: assignees
+        source: "step"
+        required: false
+        default: "fromeroc9"
+      - name: project
+        source: "step"
+        required: true
+
+  testcase:
+    match: "*.case.feature"
+    scaffold:
+      directory: "testcase"
+      filename: "{slug}_{YYYYMMDD}.case.feature"
+    fields:
+      - name: type_of_test
+        source: "step"
+        required: false
+        default: "funcional"
+      - name: automate
+        source: "tag"
+        default: "not apply"
+      - name: module
+        source: "step"
+        required: true
+
+  testrun:
+    match: "*.run.feature"
+    scaffold:
+      directory: "testruns"
+      filename: "{slug}_{YYYYMMDD}.run.feature"
+    fields:
+      - name: component
+        source: "step"
+        required: false
+      - name: sprint
+        source: "step"
+        required: false
+        default: "Sprint 3"
+      - name: startDate
+        source: "step"
+        required: false
+      - name: endDate
+        source: "step"
+        required: false
+      - name: quarter
+        source: "step"
+        required: false
+        default: "Q2"
+
+  testplan:
+    match: "*.plan.feature"
+    scaffold:
+      directory: "testplans"
+      filename: "{slug}_{YYYYMMDD}.plan.feature"
+    fields:
+      - name: component
+        source: "step"
+        required: false
+      - name: squad
+        source: "step"
+        required: false

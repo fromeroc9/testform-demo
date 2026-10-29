@@ -10,34 +10,34 @@ Feature: OpenCart-20260612_120002_88b60u
   Rule: OpenCart/account.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-03
-      * link status = pending
+      * mark status = pending
 
   Rule: OpenCart/checkout.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
 
   Rule: OpenCart/shopping.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
 
   Rule: OpenCart/cart.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending

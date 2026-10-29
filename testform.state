@@ -1,16 +1,17 @@
 {
   "version": "1.0",
-  "serial": 88,
-  "lineage": "9dd0cdb7-56aa-418f-85eb-9baec1767f12",
-  "lastSync": "2026-06-12T21:22:28.125Z",
+  "serial": 26,
+  "lineage": "81810498-0b40-4705-a0c5-61e0dfdef0b5",
+  "lastSync": "2026-10-29T16:28:37.110Z",
+  "provider": "local",
   "resources": [
     {
       "type": "github_testcase",
-      "identity": "testcase/Magento/cart.case.feature::@tc-01",
+      "identity": "testcase\\Magento\\cart.case.feature.@tc-01",
       "attributes": {
-        "localHash": "7595be6dd69d49e5919a25dd1dcebc2352ca58b9519be8c6fdde3435c09c420e",
-        "remoteId": "terratest-demo:200",
-        "issueNumber": 200,
+        "localHash": "drift_detected",
+        "remoteId": "local:1",
+        "issueNumber": 1,
         "title": "Validar error al agregar al carrito sin seleccionar atributos",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de detalles de una chaqueta (ej. \"Proteus Fitness Jackshirt\")\nWhen el usuario hace clic en el botón \"Add to Cart\" sin seleccionar ninguna talla ni color\nThen el sistema resalta los bloques de atributos\nAnd muestra el mensaje de validación \"This is a required field.\" debajo de Talla (Size) y Color\n```",
         "labels": [
@@ -19,7 +20,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "module": "cart",
@@ -28,18 +28,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:19Z",
-        "updatedAt": "2026-06-11T20:38:19Z"
+        "createdAt": "2026-10-29T15:16:42.713Z",
+        "updatedAt": "2026-10-29T15:28:07.479Z"
       },
-      "lastApplied": "2026-06-11T20:38:21.610Z"
+      "lastApplied": "2026-10-29T15:28:07.483Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/Magento/cart.case.feature::@tc-02",
+      "identity": "testcase\\Magento\\cart.case.feature.@tc-02",
       "attributes": {
-        "localHash": "9346e3c46d7d9164e0d266bcb5676d8dc5a9f82e00254e464bdf96c08a35ea0c",
-        "remoteId": "terratest-demo:201",
-        "issueNumber": 201,
+        "localHash": "drift_detected",
+        "remoteId": "local:2",
+        "issueNumber": 2,
         "title": "Agregar un producto configurable exitosamente al carrito",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de detalles de una chaqueta (ej. \"Proteus Fitness Jackshirt\")\nWhen el usuario hace clic para seleccionar la talla \"M\"\nAnd hace clic para seleccionar el color \"Blue\"\nAnd hace clic en el botón \"Add to Cart\"\nThen el sistema muestra un mensaje de éxito verde indicando \"You added Proteus Fitness Jackshirt to your shopping cart.\"\nAnd el contador numérico del ícono del carrito en la esquina superior derecha incrementa\n```",
         "labels": [
@@ -48,7 +48,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "module": "cart",
@@ -57,18 +56,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:22Z",
-        "updatedAt": "2026-06-11T20:38:22Z"
+        "createdAt": "2026-10-29T15:16:42.718Z",
+        "updatedAt": "2026-10-29T15:30:28.311Z"
       },
-      "lastApplied": "2026-06-11T20:38:23.749Z"
+      "lastApplied": "2026-10-29T15:30:28.316Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/Magento/catalog.case.feature::@tc-01",
+      "identity": "testcase\\Magento\\catalog.case.feature.@tc-01",
       "attributes": {
-        "localHash": "fb1e2047455c6608b9e8c6f165be2e5519fe215dd00107d0555a2208bfa2fd9d",
-        "remoteId": "terratest-demo:202",
-        "issueNumber": 202,
+        "localHash": "12b5c97dabf4ac57b6138ce4408da8bb88d367fbb21b239e3f83566a03fa5cc8",
+        "remoteId": "local:3",
+        "issueNumber": 3,
         "title": "Filtrar productos por atributos (Tamaño y Color)",
         "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario navega por el menú superior a \"Men\" > \"Tops\" > \"Jackets\"\nAnd despliega el filtro \"Size\" en la barra lateral y escoge la talla \"L\"\nAnd despliega el filtro \"Color\" en la barra lateral y escoge \"Black\"\nThen la lista de productos se actualiza automáticamente\nAnd solo se muestran chaquetas que estén disponibles en color negro y talla L\n```",
         "labels": [
@@ -77,7 +76,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "module": "catalog",
@@ -86,18 +84,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:24Z",
-        "updatedAt": "2026-06-11T20:38:24Z"
+        "createdAt": "2026-10-29T15:16:42.721Z",
+        "updatedAt": "2026-10-29T15:16:42.721Z"
       },
-      "lastApplied": "2026-06-11T20:38:26.408Z"
+      "lastApplied": "2026-10-29T15:16:42.722Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/Magento/catalog.case.feature::@tc-02",
+      "identity": "testcase\\Magento\\catalog.case.feature.@tc-02",
       "attributes": {
-        "localHash": "4848ea745d92cb607a6269b092b7eb432e53bf0576c838ce99f34e4caec6a60a",
-        "remoteId": "terratest-demo:203",
-        "issueNumber": 203,
+        "localHash": "379da17de8982841ba8b09ee5317846fa3b12bb663cc22ce0d44126ebcc29dc0",
+        "remoteId": "local:4",
+        "issueNumber": 4,
         "title": "Búsqueda de productos desde la barra de búsqueda general",
         "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario escribe la palabra clave \"Yoga\" en la barra de búsqueda superior\nAnd presiona la tecla Enter o hace clic en el ícono de la lupa\nThen el sistema lo redirige a la página \"Search results for: 'Yoga'\"\nAnd se muestran productos relacionados como leggings de yoga, mats o tops\n```",
         "labels": [
@@ -106,7 +104,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "module": "catalog",
@@ -115,18 +112,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:27Z",
-        "updatedAt": "2026-06-11T20:38:27Z"
+        "createdAt": "2026-10-29T15:16:42.723Z",
+        "updatedAt": "2026-10-29T15:16:42.723Z"
       },
-      "lastApplied": "2026-06-11T20:38:28.565Z"
+      "lastApplied": "2026-10-29T15:16:42.725Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/Magento/checkout.case.feature::@tc-01",
+      "identity": "testcase\\Magento\\checkout.case.feature.@tc-01",
       "attributes": {
-        "localHash": "20893b9a518e2b2437dae1cddcc9a2a39330c94faeff9cd95d5eb5c7005d1fd6",
-        "remoteId": "terratest-demo:204",
-        "issueNumber": 204,
+        "localHash": "1c987858faf6206bdcfb8e830707dfa2cfb13592515f21d9bdb790d74d708bdf",
+        "remoteId": "local:5",
+        "issueNumber": 5,
         "title": "Completar el paso de Envío (Shipping Step)",
         "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nWhen el usuario ingresa su correo electrónico (si actúa como invitado)\nAnd ingresa su dirección de envío, ciudad, código postal y teléfono\nAnd selecciona un método de envío disponible (ej. \"Flat Rate - Fixed\")\nAnd hace clic en el botón \"Next\"\nThen el sistema avanza al segundo paso \"Review & Payments\"\n```",
         "labels": [
@@ -135,7 +132,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "module": "checkout",
@@ -144,18 +140,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:29Z",
-        "updatedAt": "2026-06-11T20:38:29Z"
+        "createdAt": "2026-10-29T15:16:42.725Z",
+        "updatedAt": "2026-10-29T15:16:42.725Z"
       },
-      "lastApplied": "2026-06-11T20:38:30.725Z"
+      "lastApplied": "2026-10-29T15:16:42.727Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/Magento/checkout.case.feature::@tc-02",
+      "identity": "testcase\\Magento\\checkout.case.feature.@tc-02",
       "attributes": {
-        "localHash": "07d9ab55a9a42abc89cb331811852b11b14d9d930fa797f163f5aa3c26d96392",
-        "remoteId": "terratest-demo:205",
-        "issueNumber": 205,
+        "localHash": "87b4917230987bc5c36e2e4397366b61e8db65cbc3c439474191af0f71a0da92",
+        "remoteId": "local:6",
+        "issueNumber": 6,
         "title": "Validar el resumen y realizar el pago (Payment Step)",
         "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nGiven el usuario se encuentra en el paso de \"Review & Payments\"\nWhen revisa que la sección \"Ship To:\" contenga la dirección correcta\nAnd verifica el total final en la sección \"Order Summary\"\nAnd hace clic en el botón inferior \"Place Order\"\nThen la página finaliza el proceso mostrando el título \"Thank you for your purchase!\"\nAnd el sistema genera y muestra el número de orden (Ej. Order # 000001234)\n```",
         "labels": [
@@ -164,7 +160,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "module": "checkout",
@@ -173,18 +168,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:31Z",
-        "updatedAt": "2026-06-11T20:38:31Z"
+        "createdAt": "2026-10-29T15:16:42.727Z",
+        "updatedAt": "2026-10-29T15:16:42.727Z"
       },
-      "lastApplied": "2026-06-11T20:38:32.835Z"
+      "lastApplied": "2026-10-29T15:16:42.729Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/Magento/customer.case.feature::@tc-01",
+      "identity": "testcase\\Magento\\customer.case.feature.@tc-01",
       "attributes": {
-        "localHash": "a3cc13faa12ff2b7af258fb868c035369d996d92673f36dc6023734562ff33e4",
-        "remoteId": "terratest-demo:206",
-        "issueNumber": 206,
+        "localHash": "07f2f5a47e025b924b024113e3f9616fdd7622e01fbf441bc76a9cf82f1797d9",
+        "remoteId": "local:7",
+        "issueNumber": 7,
         "title": "Crear una nueva cuenta de cliente exitosamente",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de la tienda Magento Luma\nWhen el usuario hace clic en el enlace superior \"Create an Account\"\nAnd completa los campos de \"Personal Information\" (First Name, Last Name)\nAnd completa los campos de \"Sign-in Information\" (Email, Password, Confirm Password)\nAnd hace clic en el botón \"Create an Account\"\nThen el sistema lo redirige al panel \"My Account\"\nAnd muestra el mensaje de éxito \"Thank you for registering with Main Website Store.\"\n```",
         "labels": [
@@ -193,7 +188,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "module": "Customer",
@@ -202,18 +196,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:33Z",
-        "updatedAt": "2026-06-11T20:38:33Z"
+        "createdAt": "2026-10-29T15:16:42.729Z",
+        "updatedAt": "2026-10-29T15:16:42.729Z"
       },
-      "lastApplied": "2026-06-11T20:38:35.267Z"
+      "lastApplied": "2026-10-29T15:16:42.731Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/Magento/customer.case.feature::@tc-02",
+      "identity": "testcase\\Magento\\customer.case.feature.@tc-02",
       "attributes": {
-        "localHash": "0cca6a9ff5b394113ad2d9acc217a830f810517d9013f72c183eef14fd092d7e",
-        "remoteId": "terratest-demo:207",
-        "issueNumber": 207,
+        "localHash": "215d71c0e5100f599fb1c04636cdfd735b7425e9e99f1d788f151db56f46489c",
+        "remoteId": "local:8",
+        "issueNumber": 8,
         "title": "Iniciar sesión con una cuenta existente",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de la tienda Magento Luma\nWhen el usuario hace clic en el enlace superior \"Sign In\"\nAnd ingresa su email registrado y contraseña en la página de Login\nAnd hace clic en el botón \"Sign In\"\nThen el sistema lo autentica correctamente\nAnd muestra el mensaje \"Welcome, [Nombre del Usuario]!\" en el encabezado de la página\n```",
         "labels": [
@@ -222,7 +216,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "module": "Customer",
@@ -231,18 +224,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:36Z",
-        "updatedAt": "2026-06-11T20:38:36Z"
+        "createdAt": "2026-10-29T15:16:42.731Z",
+        "updatedAt": "2026-10-29T15:16:42.731Z"
       },
-      "lastApplied": "2026-06-11T20:38:37.686Z"
+      "lastApplied": "2026-10-29T15:16:42.734Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OpenCart/account.case.feature::@tc-01",
+      "identity": "testcase\\OpenCart\\account.case.feature.@tc-01",
       "attributes": {
-        "localHash": "a010295d88232850c3d8e141628bd04837345a327238074c537e575a700b0668",
-        "remoteId": "terratest-demo:208",
-        "issueNumber": 208,
+        "localHash": "8f0284588620209b2eec96509098de458374ba383fe88e9cb615eca515a8b7e9",
+        "remoteId": "local:9",
+        "issueNumber": 9,
         "title": "Iniciar sesión exitosamente",
         "body": "```gherkin\nGiven el usuario navega a \"https://demo.opencart.com/index.php?route=account/login\"\nWhen el usuario ingresa su correo en el campo \"E-Mail Address\"\nAnd ingresa su contraseña en el campo \"Password\"\nAnd hace clic en el botón \"Login\"\nThen el sistema redirige a la página \"My Account\"\n```",
         "labels": [
@@ -251,7 +244,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OpenCart",
           "module": "Account",
@@ -260,18 +252,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:38Z",
-        "updatedAt": "2026-06-11T20:38:38Z"
+        "createdAt": "2026-10-29T15:16:42.734Z",
+        "updatedAt": "2026-10-29T15:16:42.734Z"
       },
-      "lastApplied": "2026-06-11T20:38:40.111Z"
+      "lastApplied": "2026-10-29T15:16:42.736Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OpenCart/account.case.feature::@tc-02",
+      "identity": "testcase\\OpenCart\\account.case.feature.@tc-02",
       "attributes": {
-        "localHash": "87facb936afbade3a10bf23aff7a2c9910300025a904697ff6ed00d86196dbb8",
-        "remoteId": "terratest-demo:209",
-        "issueNumber": 209,
+        "localHash": "5997e456cc901816a6ee171705db66fe6727492cdfc722d420c396d76a452ab9",
+        "remoteId": "local:10",
+        "issueNumber": 10,
         "title": "Error de inicio de sesión por credenciales incorrectas",
         "body": "```gherkin\nGiven el usuario navega a \"https://demo.opencart.com/index.php?route=account/login\"\nWhen el usuario ingresa credenciales inválidas\nAnd hace clic en \"Login\"\nThen el sistema muestra el mensaje de alerta \"Warning: No match for E-Mail Address and/or Password.\"\n```",
         "labels": [
@@ -280,7 +272,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OpenCart",
           "module": "Account",
@@ -289,18 +280,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:40Z",
-        "updatedAt": "2026-06-11T20:38:40Z"
+        "createdAt": "2026-10-29T15:16:42.737Z",
+        "updatedAt": "2026-10-29T15:16:42.737Z"
       },
-      "lastApplied": "2026-06-11T20:38:42.467Z"
+      "lastApplied": "2026-10-29T15:16:42.739Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OpenCart/account.case.feature::@tc-03",
+      "identity": "testcase\\OpenCart\\account.case.feature.@tc-03",
       "attributes": {
-        "localHash": "f0dbbaa5b458a0444f93d48a3f221c34ef396dcca9654adac910ddc5bf1674a6",
-        "remoteId": "terratest-demo:210",
-        "issueNumber": 210,
+        "localHash": "783d7c88451be671b657d8511e00239d29b2e6c9c1cf55bc5b9794fd8b5ce279",
+        "remoteId": "local:11",
+        "issueNumber": 11,
         "title": "Registrar una nueva cuenta",
         "body": "```gherkin\nGiven el usuario navega a \"https://demo.opencart.com/index.php?route=account/login\"\nWhen el usuario hace clic en el botón \"Continue\" bajo la sección \"New Customer\"\nAnd completa el formulario \"Register Account\" con datos personales y contraseña\nAnd acepta la Política de Privacidad (Privacy Policy)\nAnd hace clic en el botón \"Continue\"\nThen el sistema muestra la pantalla \"Your Account Has Been Created!\"\n```",
         "labels": [
@@ -309,7 +300,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OpenCart",
           "module": "Account",
@@ -318,18 +308,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:43Z",
-        "updatedAt": "2026-06-11T20:38:43Z"
+        "createdAt": "2026-10-29T15:16:42.739Z",
+        "updatedAt": "2026-10-29T15:16:42.739Z"
       },
-      "lastApplied": "2026-06-11T20:38:44.502Z"
+      "lastApplied": "2026-10-29T15:16:42.742Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OpenCart/cart.case.feature::@tc-01",
+      "identity": "testcase\\OpenCart\\cart.case.feature.@tc-01",
       "attributes": {
-        "localHash": "535c7aab4e6cbb28b8db01faf27f3b25ef3629874ec344e415e5f4b2763ae1a8",
-        "remoteId": "terratest-demo:211",
-        "issueNumber": 211,
+        "localHash": "2748cf66dbf8a1b3c918c2f6c689c7bf1768cbe712c58d7bb0718f8a7f7bf5df",
+        "remoteId": "local:12",
+        "issueNumber": 12,
         "title": "Agregar producto al carrito desde la vista de resultados",
         "body": "```gherkin\nGiven el usuario ha buscado y encontrado el producto \"iPhone\" en la tienda\nWhen el usuario hace clic en el botón \"Add to Cart\" del producto \"iPhone\"\nThen el sistema muestra una alerta de éxito indicando \"Success: You have added iPhone to your shopping cart!\"\nAnd el botón negro superior del carrito (Mini Cart) actualiza el total de ítems y el monto (ej. \"1 item(s)\")\n```",
         "labels": [
@@ -338,7 +328,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OpenCart",
           "module": "Cart",
@@ -347,18 +336,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:45Z",
-        "updatedAt": "2026-06-11T20:38:45Z"
+        "createdAt": "2026-10-29T15:16:42.742Z",
+        "updatedAt": "2026-10-29T15:28:07.483Z"
       },
-      "lastApplied": "2026-06-11T20:38:46.774Z"
+      "lastApplied": "2026-10-29T15:28:07.486Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OpenCart/cart.case.feature::@tc-02",
+      "identity": "testcase\\OpenCart\\cart.case.feature.@tc-02",
       "attributes": {
-        "localHash": "c31d857eaf47bad310dbc65fe326936f52621ba2e77634f62e6f8845feeb93c4",
-        "remoteId": "terratest-demo:212",
-        "issueNumber": 212,
+        "localHash": "9f66aa0e996c9f629effdd52e4995f79515dbba6066e12cca30b58a318779003",
+        "remoteId": "local:13",
+        "issueNumber": 13,
         "title": "Visualizar y actualizar contenido del carrito de compras",
         "body": "```gherkin\nGiven el usuario ha buscado y encontrado el producto \"iPhone\" en la tienda\nGiven el usuario tiene al menos un producto en el carrito\nWhen hace clic en el enlace \"Shopping Cart\" ubicado en la barra superior\nThen se muestra la tabla con el nombre del producto, modelo, cantidad y precio unitario/total\nWhen el usuario cambia la cantidad a \"2\" y presiona el botón \"Update\"\nThen el sistema muestra un mensaje indicando \"Success: You have modified your shopping cart!\"\nAnd el precio total se recalcula correctamente\n```",
         "labels": [
@@ -367,7 +356,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OpenCart",
           "module": "Cart",
@@ -376,18 +364,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:47Z",
-        "updatedAt": "2026-06-11T20:38:47Z"
+        "createdAt": "2026-10-29T15:16:42.745Z",
+        "updatedAt": "2026-10-29T15:30:28.316Z"
       },
-      "lastApplied": "2026-06-11T20:38:49.165Z"
+      "lastApplied": "2026-10-29T15:30:28.319Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OpenCart/checkout.case.feature::@tc-01",
+      "identity": "testcase\\OpenCart\\checkout.case.feature.@tc-01",
       "attributes": {
-        "localHash": "46c8248052f04ab64834cd94c743b17359be2b4d50e4fb1aae6ee6c36f3b1808",
-        "remoteId": "terratest-demo:213",
-        "issueNumber": 213,
+        "localHash": "a5fa949c95f779fee29692bb325a773c93971dece18a3152ed6fc1c4bee1f225",
+        "remoteId": "local:14",
+        "issueNumber": 14,
         "title": "Completar la compra como invitado (Guest Checkout)",
         "body": "```gherkin\nGiven el usuario tiene productos en su carrito\nAnd navega a la página de \"Checkout\" haciendo clic en el enlace superior\nWhen el usuario selecciona la opción \"Guest Checkout\" en la sección \"Checkout Options\"\nAnd hace clic en \"Continue\"\nAnd llena los datos personales requeridos en \"Billing Details\"\nAnd selecciona un método de envío (Flat Shipping Rate)\nAnd selecciona el método de pago (Cash On Delivery)\nAnd marca la casilla para aceptar los Términos y Condiciones\nAnd hace clic en \"Confirm Order\"\nThen el sistema muestra la pantalla final \"Your order has been placed!\"\n```",
         "labels": [
@@ -396,7 +384,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OpenCart",
           "module": "Checkout",
@@ -405,18 +392,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:50Z",
-        "updatedAt": "2026-06-11T20:38:50Z"
+        "createdAt": "2026-10-29T15:16:42.748Z",
+        "updatedAt": "2026-10-29T15:16:42.748Z"
       },
-      "lastApplied": "2026-06-11T20:38:51.733Z"
+      "lastApplied": "2026-10-29T15:16:42.751Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OpenCart/checkout.case.feature::@tc-02",
+      "identity": "testcase\\OpenCart\\checkout.case.feature.@tc-02",
       "attributes": {
-        "localHash": "e79edb5f9b928f70b011ff0f0432972baafb9a9139de0c698e2b31558c49807f",
-        "remoteId": "terratest-demo:214",
-        "issueNumber": 214,
+        "localHash": "54f2f330a5982cbf0574044895a06627d55f58507da7aacbf31c997882477637",
+        "remoteId": "local:15",
+        "issueNumber": 15,
         "title": "Error al procesar el pago por no aceptar los términos",
         "body": "```gherkin\nGiven el usuario tiene productos en su carrito\nAnd navega a la página de \"Checkout\" haciendo clic en el enlace superior\nWhen el usuario llega al paso de \"Payment Method\"\nAnd desmarca o no acepta la casilla de los Términos y Condiciones\nAnd hace clic en \"Continue\"\nThen el sistema muestra una advertencia indicando \"Warning: You must agree to the Terms & Conditions!\"\n```",
         "labels": [
@@ -425,7 +412,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OpenCart",
           "module": "Checkout",
@@ -434,18 +420,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:52Z",
-        "updatedAt": "2026-06-11T20:38:52Z"
+        "createdAt": "2026-10-29T15:16:42.751Z",
+        "updatedAt": "2026-10-29T15:16:42.751Z"
       },
-      "lastApplied": "2026-06-11T20:38:54.103Z"
+      "lastApplied": "2026-10-29T15:16:42.753Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OpenCart/shopping.case.feature::@tc-01",
+      "identity": "testcase\\OpenCart\\shopping.case.feature.@tc-01",
       "attributes": {
-        "localHash": "40f7cd0615319cc207dda652353ef86afef3c64d4ad0d54ce5ca2f8425e0368a",
-        "remoteId": "terratest-demo:215",
-        "issueNumber": 215,
+        "localHash": "e80a0a8d0b87bb5276037c2cf3c1874333bdd94e4b30c80b94b01bd5f1e2168b",
+        "remoteId": "local:16",
+        "issueNumber": 16,
         "title": "Buscar un producto específico",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de OpenCart\nWhen el usuario ingresa \"MacBook\" en la barra de búsqueda superior\nAnd hace clic en el ícono de la lupa (Buscar)\nThen la página de resultados muestra al menos un producto relacionado con \"MacBook\"\n```",
         "labels": [
@@ -454,7 +440,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OpenCart",
           "module": "Shopping",
@@ -463,18 +448,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:55Z",
-        "updatedAt": "2026-06-11T20:38:55Z"
+        "createdAt": "2026-10-29T15:16:42.753Z",
+        "updatedAt": "2026-10-29T15:16:42.753Z"
       },
-      "lastApplied": "2026-06-11T20:38:57.338Z"
+      "lastApplied": "2026-10-29T15:16:42.756Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OpenCart/shopping.case.feature::@tc-02",
+      "identity": "testcase\\OpenCart\\shopping.case.feature.@tc-02",
       "attributes": {
-        "localHash": "c830ad117152cc9eac9fc2ac8ab6bd855ffcec61dafecf5e1e911c504d1c504b",
-        "remoteId": "terratest-demo:216",
-        "issueNumber": 216,
+        "localHash": "c0a409976608268b6401c4c6553e20807e241bfcc36c2c7721383ca6d72276a2",
+        "remoteId": "local:17",
+        "issueNumber": 17,
         "title": "Navegar por categorías del menú",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de OpenCart\nWhen el usuario pasa el cursor sobre la categoría \"Desktops\" en el menú principal\nAnd selecciona la subcategoría \"Mac (1)\"\nThen el sistema muestra los productos correspondientes a la categoría \"Mac\"\nAnd se visualiza el producto \"iMac\" en la cuadrícula de productos\n```",
         "labels": [
@@ -483,7 +468,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OpenCart",
           "module": "Shopping",
@@ -492,18 +476,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:38:58Z",
-        "updatedAt": "2026-06-11T20:38:58Z"
+        "createdAt": "2026-10-29T15:16:42.756Z",
+        "updatedAt": "2026-10-29T15:16:42.756Z"
       },
-      "lastApplied": "2026-06-11T20:38:59.554Z"
+      "lastApplied": "2026-10-29T15:16:42.758Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/admin.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\admin.case.feature.@tc-01",
       "attributes": {
-        "localHash": "f30090eaf014bcdcb7e663142b6569be30a70f0eb01c3603510ff45f0324f355",
-        "remoteId": "terratest-demo:217",
-        "issueNumber": 217,
+        "localHash": "7ed2007a266a2061f77d852692069272594cada2c7ee0c364be17b4b4c56ce81",
+        "remoteId": "local:18",
+        "issueNumber": 18,
         "title": "Buscar un usuario existente por nombre de usuario",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario ingresa un nombre de usuario válido en el campo \"Username\"\nAnd hace clic en el botón \"Search\"\nThen el sistema muestra los detalles del usuario en la tabla \"System Users\"\n```",
         "labels": [
@@ -512,7 +496,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Admin",
@@ -521,18 +504,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:00Z",
-        "updatedAt": "2026-06-11T20:39:00Z"
+        "createdAt": "2026-10-29T15:16:42.758Z",
+        "updatedAt": "2026-10-29T15:16:42.758Z"
       },
-      "lastApplied": "2026-06-11T20:39:01.793Z"
+      "lastApplied": "2026-10-29T15:16:42.760Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/admin.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\admin.case.feature.@tc-02",
       "attributes": {
-        "localHash": "6bb0bc972b82bec7ca75a854f670903966857e6b504f9eba1363401ee93f749b",
-        "remoteId": "terratest-demo:218",
-        "issueNumber": 218,
+        "localHash": "5048dd34d8b5f81d881653f6b993ca9022193370064719ca658e465d2c37c90f",
+        "remoteId": "local:19",
+        "issueNumber": 19,
         "title": "Buscar y filtrar usuarios por Rol y Estado",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario selecciona el rol \"<rol>\" en el menú \"User Role\"\nAnd selecciona el estado \"<estado>\" en el menú \"Status\"\nAnd hace clic en el botón \"Search\"\nThen la tabla muestra únicamente los usuarios que coinciden con los filtros\n```",
         "labels": [
@@ -541,7 +524,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Admin",
@@ -550,18 +532,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:02Z",
-        "updatedAt": "2026-06-11T20:39:02Z"
+        "createdAt": "2026-10-29T15:16:42.760Z",
+        "updatedAt": "2026-10-29T15:16:42.760Z"
       },
-      "lastApplied": "2026-06-11T20:39:04.061Z"
+      "lastApplied": "2026-10-29T15:16:42.763Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/admin.case.feature::@tc-03",
+      "identity": "testcase\\OrangeHRM\\admin.case.feature.@tc-03",
       "attributes": {
-        "localHash": "10b71d8dfa0ef60eb8485ce3c5912ef77a01f3816d1bec538034bfaff6ac5c29",
-        "remoteId": "terratest-demo:219",
-        "issueNumber": 219,
+        "localHash": "4c75ed6e15c236bf50bac298d0408d12f0a7007d4cf8bdae0cf0320915c0f18a",
+        "remoteId": "local:20",
+        "issueNumber": 20,
         "title": "Limpiar filtros de búsqueda",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario ingresa \"Admin\" en el campo \"Username\"\nAnd hace clic en el botón \"Reset\"\nThen los campos de búsqueda se vacían a sus valores por defecto\n```",
         "labels": [
@@ -570,7 +552,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Admin",
@@ -579,18 +560,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:04Z",
-        "updatedAt": "2026-06-11T20:39:04Z"
+        "createdAt": "2026-10-29T15:16:42.763Z",
+        "updatedAt": "2026-10-29T15:16:42.763Z"
       },
-      "lastApplied": "2026-06-11T20:39:06.437Z"
+      "lastApplied": "2026-10-29T15:16:42.765Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/admin.case.feature::@tc-04",
+      "identity": "testcase\\OrangeHRM\\admin.case.feature.@tc-04",
       "attributes": {
-        "localHash": "5491db2d7b1937cf5e56b2b83f7a8214f5f62b19c5fc55f37e767c33353cab51",
-        "remoteId": "terratest-demo:220",
-        "issueNumber": 220,
+        "localHash": "85ad44ecc806399f250b3fb8f3192d9c3a2daf75456d2753305f0218e98b0542",
+        "remoteId": "local:21",
+        "issueNumber": 21,
         "title": "Agregar un nuevo usuario del sistema",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario hace clic en el botón verde \"+ Add\"\nAnd completa los datos requeridos (User Role, Employee Name, Status, Username, Password)\nAnd hace clic en \"Save\"\nThen el sistema guarda al usuario y aparece en la tabla de System Users\n```",
         "labels": [
@@ -599,7 +580,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Admin",
@@ -608,18 +588,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:07Z",
-        "updatedAt": "2026-06-11T20:39:07Z"
+        "createdAt": "2026-10-29T15:16:42.765Z",
+        "updatedAt": "2026-10-29T15:16:42.765Z"
       },
-      "lastApplied": "2026-06-11T20:39:08.687Z"
+      "lastApplied": "2026-10-29T15:16:42.767Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/buzz.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\buzz.case.feature.@tc-01",
       "attributes": {
-        "localHash": "38323aff2b2f735224c99f7ddb04fe8337ec82cd0222e528039a23a469704861",
-        "remoteId": "terratest-demo:221",
-        "issueNumber": 221,
+        "localHash": "2a614db3db36c5a08cc0bb8ae5207d936b3f22499196e3840a2d979a2e09069a",
+        "remoteId": "local:22",
+        "issueNumber": 22,
         "title": "Publicar un estado en el muro",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Buzz\"\nWhen el usuario escribe \"Hola a todos, esta es una prueba\" en el cuadro de texto \"Update Status\"\nAnd hace clic en \"Post\"\nThen la publicación debe aparecer en el flujo de noticias recientes\n```",
         "labels": [
@@ -628,7 +608,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Buzz",
@@ -637,18 +616,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:09Z",
-        "updatedAt": "2026-06-11T20:39:09Z"
+        "createdAt": "2026-10-29T15:16:42.767Z",
+        "updatedAt": "2026-10-29T15:16:42.767Z"
       },
-      "lastApplied": "2026-06-11T20:39:10.876Z"
+      "lastApplied": "2026-10-29T15:16:42.770Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/buzz.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\buzz.case.feature.@tc-02",
       "attributes": {
-        "localHash": "e24be65af9eaceb4d1c783eb609d9446268c3ed16780d1ee7b3d48bf11448a99",
-        "remoteId": "terratest-demo:222",
-        "issueNumber": 222,
+        "localHash": "2f6ba13c9c1f3bbe09a90657be23f7c98339624cc36a7c4651b6bb88d3e5a677",
+        "remoteId": "local:23",
+        "issueNumber": 23,
         "title": "Dar 'Me gusta' a una publicación",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Buzz\"\nGiven existe al menos una publicación en el muro\nWhen el usuario hace clic en el ícono del corazón (Like) de una publicación\nThen el contador de \"Likes\" de la publicación debe incrementarse en uno\n```",
         "labels": [
@@ -657,7 +636,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Buzz",
@@ -666,18 +644,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:11Z",
-        "updatedAt": "2026-06-11T20:39:11Z"
+        "createdAt": "2026-10-29T15:16:42.770Z",
+        "updatedAt": "2026-10-29T15:16:42.770Z"
       },
-      "lastApplied": "2026-06-11T20:39:13.120Z"
+      "lastApplied": "2026-10-29T15:16:42.772Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/dashboard.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\dashboard.case.feature.@tc-01",
       "attributes": {
-        "localHash": "e48530970a93de8b4a5145a03165cb0137e26e4234a2c607d9dbd977f3ba981d",
-        "remoteId": "terratest-demo:223",
-        "issueNumber": 223,
+        "localHash": "309a5a4149362f8ba81a2e98d536bf01060c10377d8eb40c53f1c7314adbdd43",
+        "remoteId": "local:24",
+        "issueNumber": 24,
         "title": "Verificar la visibilidad de todos los widgets principales",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión exitosamente\nAnd es redirigido a la pantalla principal \"Dashboard\"\nWhen Se visualiza el Dashboard\nThen el usuario debe ver los siguientes widgets en el panel:\n```",
         "labels": [
@@ -686,7 +664,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Dashboard",
@@ -695,18 +672,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:13Z",
-        "updatedAt": "2026-06-11T20:39:13Z"
+        "createdAt": "2026-10-29T15:16:42.772Z",
+        "updatedAt": "2026-10-29T15:16:42.772Z"
       },
-      "lastApplied": "2026-06-11T20:39:15.147Z"
+      "lastApplied": "2026-10-29T15:16:42.774Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/dashboard.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\dashboard.case.feature.@tc-02",
       "attributes": {
-        "localHash": "1d3445f05f325b1f64f859a5bb358305c748fc8c6574349ccebeed8276e9c30e",
-        "remoteId": "terratest-demo:224",
-        "issueNumber": 224,
+        "localHash": "716d0b7fc50953de4b5e82b107dae48f56b7b402a90a76404313d09cf8514012",
+        "remoteId": "local:25",
+        "issueNumber": 25,
         "title": "Acceso rápido mediante los iconos de Quick Launch",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión exitosamente\nAnd es redirigido a la pantalla principal \"Dashboard\"\nWhen el usuario hace clic en el ícono \"<icono>\" dentro del widget \"Quick Launch\"\nThen el sistema redirige a la pantalla correspondiente\n```",
         "labels": [
@@ -715,7 +692,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Dashboard",
@@ -724,18 +700,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:15Z",
-        "updatedAt": "2026-06-11T20:39:15Z"
+        "createdAt": "2026-10-29T15:16:42.775Z",
+        "updatedAt": "2026-10-29T15:16:42.775Z"
       },
-      "lastApplied": "2026-06-11T20:39:17.447Z"
+      "lastApplied": "2026-10-29T15:16:42.776Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/directory.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\directory.case.feature.@tc-01",
       "attributes": {
-        "localHash": "e56701888de8067371302de5066bc0a99a2fc37588dd2b17111fe2d8af90840f",
-        "remoteId": "terratest-demo:225",
-        "issueNumber": 225,
+        "localHash": "05808144308392ff7b804c608b781fff05c9b35c5c7b886333e7305bdac57580",
+        "remoteId": "local:26",
+        "issueNumber": 26,
         "title": "Búsqueda exitosa de un empleado",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Directory\"\nWhen el usuario ingresa un nombre en \"Employee Name\"\nAnd hace clic en \"Search\"\nThen se muestran las tarjetas o resultados del empleado correspondiente con su Job Title y Location\n```",
         "labels": [
@@ -744,7 +720,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Directory",
@@ -753,18 +728,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:18Z",
-        "updatedAt": "2026-06-11T20:39:18Z"
+        "createdAt": "2026-10-29T15:16:42.777Z",
+        "updatedAt": "2026-10-29T15:16:42.777Z"
       },
-      "lastApplied": "2026-06-11T20:39:19.573Z"
+      "lastApplied": "2026-10-29T15:16:42.779Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/directory.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\directory.case.feature.@tc-02",
       "attributes": {
-        "localHash": "5f40131f4a539953b4a06558078cceda303f66596367bdcef34a6073149aff99",
-        "remoteId": "terratest-demo:226",
-        "issueNumber": 226,
+        "localHash": "8b249ade32c32dd56cec28e3d72ac97c2858a05bc60b022e87110c1453eb08e2",
+        "remoteId": "local:27",
+        "issueNumber": 27,
         "title": "Filtrar por puesto de trabajo (Job Title)",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Directory\"\nWhen el usuario selecciona un puesto específico en el menú desplegable \"Job Title\"\nAnd hace clic en \"Search\"\nThen se muestran todos los empleados que tienen asignado ese puesto\n```",
         "labels": [
@@ -773,7 +748,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Directory",
@@ -782,18 +756,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:20Z",
-        "updatedAt": "2026-06-11T20:39:20Z"
+        "createdAt": "2026-10-29T15:16:42.779Z",
+        "updatedAt": "2026-10-29T15:16:42.779Z"
       },
-      "lastApplied": "2026-06-11T20:39:21.802Z"
+      "lastApplied": "2026-10-29T15:16:42.781Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/leave.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\leave.case.feature.@tc-01",
       "attributes": {
-        "localHash": "e6929161565cb0c0a00b8f6b91749e1829032093a11d8285b6f7f25833a4074a",
-        "remoteId": "terratest-demo:227",
-        "issueNumber": 227,
+        "localHash": "ea4705daaa24f205733622e9866e83fb2aa2a5c4028b3f6476353893c868d976",
+        "remoteId": "local:28",
+        "issueNumber": 28,
         "title": "Solicitar un permiso con días disponibles",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Leave\"\nWhen el usuario navega a la pestaña \"Apply\"\nAnd selecciona un \"Leave Type\" válido\nAnd selecciona fechas de inicio y fin válidas\nAnd hace clic en \"Apply\"\nThen el sistema muestra un mensaje de \"Successfully Applied\"\nAnd la solicitud aparece en \"My Leave\" con estado pendiente\n```",
         "labels": [
@@ -802,7 +776,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Leave",
@@ -811,18 +784,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:22Z",
-        "updatedAt": "2026-06-11T20:39:22Z"
+        "createdAt": "2026-10-29T15:16:42.781Z",
+        "updatedAt": "2026-10-29T15:16:42.781Z"
       },
-      "lastApplied": "2026-06-11T20:39:24.256Z"
+      "lastApplied": "2026-10-29T15:16:42.783Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/leave.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\leave.case.feature.@tc-02",
       "attributes": {
-        "localHash": "43b006a8b57cafa12c5d340a36ad7e559114c40834c0a1cbd97bba457ab6fcf8",
-        "remoteId": "terratest-demo:228",
-        "issueNumber": 228,
+        "localHash": "b2908496f52e2993c566a9f45569b4b7e7a04ca99f5ee530bb95498eaef51299",
+        "remoteId": "local:29",
+        "issueNumber": 29,
         "title": "Asignar permisos desde el rol de administrador",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Leave\"\nGiven el usuario tiene permisos de administrador o HR\nWhen navega a la pestaña \"Assign Leave\"\nAnd selecciona un empleado, tipo de permiso y fechas\nAnd hace clic en \"Assign\"\nThen el sistema descuenta los días del balance del empleado\nAnd el permiso se registra exitosamente\n```",
         "labels": [
@@ -831,7 +804,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Leave",
@@ -840,18 +812,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:25Z",
-        "updatedAt": "2026-06-11T20:39:25Z"
+        "createdAt": "2026-10-29T15:16:42.783Z",
+        "updatedAt": "2026-10-29T15:16:42.783Z"
       },
-      "lastApplied": "2026-06-11T20:39:26.734Z"
+      "lastApplied": "2026-10-29T15:16:42.785Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/leave.case.feature::@tc-03",
+      "identity": "testcase\\OrangeHRM\\leave.case.feature.@tc-03",
       "attributes": {
-        "localHash": "42668fd2cad7df2c46b71eb489d46a451d4f367e8f084a0ac77cf0a836e5b308",
-        "remoteId": "terratest-demo:229",
-        "issueNumber": 229,
+        "localHash": "76f4907a6e04f0ba0620491ea30338311942086d1b569d7b66fcab97d716bcc9",
+        "remoteId": "local:30",
+        "issueNumber": 30,
         "title": "Aprobar una solicitud de permiso pendiente",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Leave\"\nGiven el usuario es supervisor o administrador\nWhen navega a la pestaña \"Leave List\"\nAnd busca las solicitudes con estado \"Pending Approval\"\nAnd selecciona la acción \"Approve\" para una solicitud\nAnd hace clic en \"Save\"\nThen el estado de la solicitud cambia a \"Scheduled\" o \"Taken\"\n```",
         "labels": [
@@ -860,7 +832,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Leave",
@@ -869,18 +840,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:27Z",
-        "updatedAt": "2026-06-11T20:39:27Z"
+        "createdAt": "2026-10-29T15:16:42.786Z",
+        "updatedAt": "2026-10-29T15:16:42.786Z"
       },
-      "lastApplied": "2026-06-11T20:39:29.136Z"
+      "lastApplied": "2026-10-29T15:16:42.788Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/login.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\login.case.feature.@tc-01",
       "attributes": {
-        "localHash": "4bc3f58870286348b841ccfe2e4b310ce7f4b0f2b9963a62c5ba4f8994e0c32e",
-        "remoteId": "terratest-demo:230",
-        "issueNumber": 230,
+        "localHash": "a54f291344e9466a7135ef7290bbc33e5b54f2e55c977a8cb446c6a6a1b23ba0",
+        "remoteId": "local:31",
+        "issueNumber": 31,
         "title": "Inicio de sesión exitoso con credenciales válidas",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario ingresa el nombre de usuario \"Admin\"\nAnd el usuario ingresa la contraseña \"admin123\"\nAnd hace clic en el botón de \"Login\"\nThen el sistema redirige al usuario al panel principal (Dashboard)\n```",
         "labels": [
@@ -889,7 +860,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Login",
@@ -898,18 +868,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:29Z",
-        "updatedAt": "2026-06-11T20:39:29Z"
+        "createdAt": "2026-10-29T15:16:42.788Z",
+        "updatedAt": "2026-10-29T15:16:42.788Z"
       },
-      "lastApplied": "2026-06-11T20:39:31.488Z"
+      "lastApplied": "2026-10-29T15:16:42.790Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/login.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\login.case.feature.@tc-02",
       "attributes": {
-        "localHash": "3b65e00d6a2298fab904afa8f4ec5aef52259b63f7a5ac529144a99841da0a54",
-        "remoteId": "terratest-demo:231",
-        "issueNumber": 231,
+        "localHash": "1c237ad78c953a11ddc8a46bc74c961e4253a403bed9b2e82d28e50b5e84b66d",
+        "remoteId": "local:32",
+        "issueNumber": 32,
         "title": "Inicio de sesión fallido por credenciales incorrectas",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario ingresa el nombre de usuario \"<usuario>\"\nAnd el usuario ingresa la contraseña \"<contrasena>\"\nAnd hace clic en el botón de \"Login\"\nThen el sistema deniega el acceso\nAnd muestra el mensaje de error \"Invalid credentials\"\n```",
         "labels": [
@@ -918,7 +888,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Login",
@@ -927,18 +896,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:32Z",
-        "updatedAt": "2026-06-11T20:39:32Z"
+        "createdAt": "2026-10-29T15:16:42.791Z",
+        "updatedAt": "2026-10-29T15:16:42.791Z"
       },
-      "lastApplied": "2026-06-11T20:39:33.659Z"
+      "lastApplied": "2026-10-29T15:16:42.793Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/login.case.feature::@tc-03",
+      "identity": "testcase\\OrangeHRM\\login.case.feature.@tc-03",
       "attributes": {
-        "localHash": "2904a1e6ff72a84259de47b536fe6071208df10cbaf8babe91ee2bf999a0af37",
-        "remoteId": "terratest-demo:232",
-        "issueNumber": 232,
+        "localHash": "402d16db2e14c01d6f3ce5b4b3c7d890d0d341a9212248c2f6bf9ef662264a7d",
+        "remoteId": "local:33",
+        "issueNumber": 33,
         "title": "Intento de inicio de sesión con campos requeridos vacíos",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario ingresa el nombre de usuario \"<usuario>\"\nAnd el usuario ingresa la contraseña \"<contrasena>\"\nAnd hace clic en el botón de \"Login\"\nThen el sistema no realiza la petición de inicio de sesión\nAnd muestra el mensaje de validación \"Required\" debajo del campo omitido\n```",
         "labels": [
@@ -947,7 +916,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Login",
@@ -956,18 +924,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:34Z",
-        "updatedAt": "2026-06-11T20:39:34Z"
+        "createdAt": "2026-10-29T15:16:42.793Z",
+        "updatedAt": "2026-10-29T15:16:42.793Z"
       },
-      "lastApplied": "2026-06-11T20:39:35.809Z"
+      "lastApplied": "2026-10-29T15:16:42.795Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/login.case.feature::@tc-04",
+      "identity": "testcase\\OrangeHRM\\login.case.feature.@tc-04",
       "attributes": {
-        "localHash": "dbea9ed9c2296964428be707b3e2c457a22dbff4fce81b6a5c095a37edf35384",
-        "remoteId": "terratest-demo:233",
-        "issueNumber": 233,
+        "localHash": "f4d1c12625fcbe676b6bd568dbbbad5396dc1f1fae7c34225254af27908f83a2",
+        "remoteId": "local:34",
+        "issueNumber": 34,
         "title": "Redirección para recuperar contraseña",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario hace clic en el enlace \"Forgot your password?\"\nThen el sistema redirige al usuario a la vista de recuperación de contraseña\n```",
         "labels": [
@@ -976,7 +944,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Login",
@@ -985,18 +952,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:36Z",
-        "updatedAt": "2026-06-11T20:39:36Z"
+        "createdAt": "2026-10-29T15:16:42.795Z",
+        "updatedAt": "2026-10-29T15:16:42.795Z"
       },
-      "lastApplied": "2026-06-11T20:39:38.346Z"
+      "lastApplied": "2026-10-29T15:16:42.799Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/login.case.feature::@tc-05",
+      "identity": "testcase\\OrangeHRM\\login.case.feature.@tc-05",
       "attributes": {
-        "localHash": "35531c8451bed159f193fea83b5f62e4e920bcf2eb272fb4cc9f841e94b53b96",
-        "remoteId": "terratest-demo:234",
-        "issueNumber": 234,
+        "localHash": "f373814e94eb01e585da69e6f7f09ad00f1b070cc9a039ca4a985037b8c2f286",
+        "remoteId": "local:35",
+        "issueNumber": 35,
         "title": "Redirección al sitio oficial de OrangeHRM",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario hace clic en el enlace \"OrangeHRM, Inc\" del pie de página\nThen se abre una nueva pestaña redirigiendo al sitio oficial de OrangeHRM\n```",
         "labels": [
@@ -1005,7 +972,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Login",
@@ -1014,18 +980,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:39Z",
-        "updatedAt": "2026-06-11T20:39:39Z"
+        "createdAt": "2026-10-29T15:16:42.799Z",
+        "updatedAt": "2026-10-29T15:16:42.799Z"
       },
-      "lastApplied": "2026-06-11T20:39:40.583Z"
+      "lastApplied": "2026-10-29T15:16:42.801Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/my_info.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\my_info.case.feature.@tc-01",
       "attributes": {
-        "localHash": "40aef6c09c818b7f40f60d6a8f4b7272f9cd1b7cd960cd0d70baf90853b74d15",
-        "remoteId": "terratest-demo:235",
-        "issueNumber": 235,
+        "localHash": "86900bac807714b5244ac4285badc6bf8fd316a5df207185bef8717923ddcc0a",
+        "remoteId": "local:36",
+        "issueNumber": 36,
         "title": "Actualizar información de contacto",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"My Info\"\nWhen el usuario selecciona la sección \"Contact Details\"\nAnd actualiza el campo de \"Street 1\" y \"Mobile\"\nAnd hace clic en \"Save\"\nThen el sistema guarda los cambios y muestra un mensaje de éxito\n```",
         "labels": [
@@ -1034,7 +1000,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "My Info",
@@ -1043,18 +1008,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:41Z",
-        "updatedAt": "2026-06-11T20:39:41Z"
+        "createdAt": "2026-10-29T15:16:42.801Z",
+        "updatedAt": "2026-10-29T15:16:42.801Z"
       },
-      "lastApplied": "2026-06-11T20:39:42.914Z"
+      "lastApplied": "2026-10-29T15:16:42.804Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/my_info.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\my_info.case.feature.@tc-02",
       "attributes": {
-        "localHash": "cca3a63ac93a0aa698e8d1f1b0b3c42cc1171e255ac103714d11bf923e305a0b",
-        "remoteId": "terratest-demo:236",
-        "issueNumber": 236,
+        "localHash": "cfdc9153592088d28f53ca15fd191c795a88ea79171c262f01e4e327fffc6d3c",
+        "remoteId": "local:37",
+        "issueNumber": 37,
         "title": "Agregar contacto de emergencia",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"My Info\"\nWhen el usuario selecciona la sección \"Emergency Contacts\"\nAnd hace clic en \"Add\"\nAnd ingresa el nombre y teléfono del contacto\nAnd hace clic en \"Save\"\nThen el contacto de emergencia aparece listado correctamente\n```",
         "labels": [
@@ -1063,7 +1028,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "My Info",
@@ -1072,18 +1036,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:43Z",
-        "updatedAt": "2026-06-11T20:39:43Z"
+        "createdAt": "2026-10-29T15:16:42.805Z",
+        "updatedAt": "2026-10-29T15:16:42.805Z"
       },
-      "lastApplied": "2026-06-11T20:39:45.229Z"
+      "lastApplied": "2026-10-29T15:16:42.807Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/pim.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\pim.case.feature.@tc-01",
       "attributes": {
-        "localHash": "717cf62b018952e074c58eb7745ee2e4207733a32dcad4c3c8edf2d37044b669",
-        "remoteId": "terratest-demo:237",
-        "issueNumber": 237,
+        "localHash": "a76f30a50d5c34e757531914db04525c4cae6a62ecab37e62716e8117823f8e0",
+        "remoteId": "local:38",
+        "issueNumber": 38,
         "title": "Agregar un nuevo empleado",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"PIM\"\nWhen el usuario hace clic en el botón \"Add\"\nAnd completa los campos \"First Name\", \"Last Name\" y \"Employee Id\"\nAnd hace clic en \"Save\"\nThen el sistema crea el registro del empleado\nAnd redirige a la vista de detalles personales del empleado\n```",
         "labels": [
@@ -1092,7 +1056,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "PIM",
@@ -1101,18 +1064,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:46Z",
-        "updatedAt": "2026-06-11T20:39:46Z"
+        "createdAt": "2026-10-29T15:16:42.807Z",
+        "updatedAt": "2026-10-29T15:16:42.807Z"
       },
-      "lastApplied": "2026-06-11T20:39:47.299Z"
+      "lastApplied": "2026-10-29T15:16:42.809Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/pim.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\pim.case.feature.@tc-02",
       "attributes": {
-        "localHash": "60c00811be7fe09d1bd1d4625a66704c842dbc6ba5b0eeadc34f78a221e15c6f",
-        "remoteId": "terratest-demo:238",
-        "issueNumber": 238,
+        "localHash": "059ee507d4e564d422ce3390afb4d171c83f3e4907c0c24b095bae765c342af8",
+        "remoteId": "local:39",
+        "issueNumber": 39,
         "title": "Buscar un empleado por nombre",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"PIM\"\nWhen el usuario ingresa un nombre válido en el campo \"Employee Name\"\nAnd hace clic en el botón \"Search\"\nThen la tabla de resultados muestra al empleado correspondiente\n```",
         "labels": [
@@ -1121,7 +1084,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "PIM",
@@ -1130,18 +1092,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:48Z",
-        "updatedAt": "2026-06-11T20:39:48Z"
+        "createdAt": "2026-10-29T15:16:42.809Z",
+        "updatedAt": "2026-10-29T15:16:42.809Z"
       },
-      "lastApplied": "2026-06-11T20:39:49.519Z"
+      "lastApplied": "2026-10-29T15:16:42.812Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/pim.case.feature::@tc-03",
+      "identity": "testcase\\OrangeHRM\\pim.case.feature.@tc-03",
       "attributes": {
-        "localHash": "fc31bd105f0548bb1c27894ac28b27f63d9bcb6fd2e8e875f4fcb110e4e7b27c",
-        "remoteId": "terratest-demo:239",
-        "issueNumber": 239,
+        "localHash": "b1d701de2c9a81e21af6abbd83c1a3dff49b9b96bea56c6d662c908df820db6f",
+        "remoteId": "local:40",
+        "issueNumber": 40,
         "title": "Eliminar un registro de empleado",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"PIM\"\nGiven existe al menos un empleado en la lista\nWhen el usuario selecciona a un empleado haciendo clic en la casilla de verificación\nAnd hace clic en el botón de eliminar (icono de basurero)\nAnd confirma la eliminación en el diálogo modal\nThen el sistema muestra el mensaje \"Successfully Deleted\"\nAnd el empleado ya no aparece en la lista\n```",
         "labels": [
@@ -1150,7 +1112,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "PIM",
@@ -1159,18 +1120,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:50Z",
-        "updatedAt": "2026-06-11T20:39:50Z"
+        "createdAt": "2026-10-29T15:16:42.812Z",
+        "updatedAt": "2026-10-29T15:16:42.812Z"
       },
-      "lastApplied": "2026-06-11T20:39:51.849Z"
+      "lastApplied": "2026-10-29T15:16:42.815Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/recruitment.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\recruitment.case.feature.@tc-01",
       "attributes": {
-        "localHash": "26e0e02f658be612b80074660d42295ef76cf76a5fb7866c21bace1f6ddee127",
-        "remoteId": "terratest-demo:240",
-        "issueNumber": 240,
+        "localHash": "e9521e4c3f601bfb3fca80dc9b9e5c41485fc2f18b49f580ab0d79091a375d46",
+        "remoteId": "local:41",
+        "issueNumber": 41,
         "title": "Crear una nueva vacante",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Recruitment\"\nWhen el usuario navega a \"Vacancies\" y hace clic en \"Add\"\nAnd completa los datos de \"Job Title\", \"Vacancy Name\" y \"Hiring Manager\"\nAnd hace clic en \"Save\"\nThen la vacante se guarda y aparece en la lista de vacantes activas\n```",
         "labels": [
@@ -1179,7 +1140,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Recruitment",
@@ -1188,18 +1148,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:52Z",
-        "updatedAt": "2026-06-11T20:39:52Z"
+        "createdAt": "2026-10-29T15:16:42.815Z",
+        "updatedAt": "2026-10-29T15:16:42.815Z"
       },
-      "lastApplied": "2026-06-11T20:39:53.902Z"
+      "lastApplied": "2026-10-29T15:16:42.818Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/recruitment.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\recruitment.case.feature.@tc-02",
       "attributes": {
-        "localHash": "03e7c4993e6e20f8638dd160798db7944ae3a7b3b7a9b0fd1cadcb118a34cc00",
-        "remoteId": "terratest-demo:241",
-        "issueNumber": 241,
+        "localHash": "837e42b8d28b2259be1d901cc2f7be47b20e0174730335e4171357fdb615a764",
+        "remoteId": "local:42",
+        "issueNumber": 42,
         "title": "Agregar un candidato nuevo",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Recruitment\"\nWhen el usuario navega a \"Candidates\" y hace clic en \"Add\"\nAnd completa los campos de nombre, apellido y correo\nAnd adjunta un currículum en formato PDF\nAnd hace clic en \"Save\"\nThen el candidato es registrado exitosamente en el sistema con el estado \"Application Initiated\"\n```",
         "labels": [
@@ -1208,7 +1168,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Recruitment",
@@ -1217,18 +1176,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:54Z",
-        "updatedAt": "2026-06-11T20:39:54Z"
+        "createdAt": "2026-10-29T15:16:42.818Z",
+        "updatedAt": "2026-10-29T15:16:42.818Z"
       },
-      "lastApplied": "2026-06-11T20:39:56.265Z"
+      "lastApplied": "2026-10-29T15:16:42.820Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/time.case.feature::@tc-01",
+      "identity": "testcase\\OrangeHRM\\time.case.feature.@tc-01",
       "attributes": {
-        "localHash": "325f33a6bf55f9964ae339a5ed3e0acdcfe95cc44d6c1f198d146d5ac0979238",
-        "remoteId": "terratest-demo:242",
-        "issueNumber": 242,
+        "localHash": "f28d422cec4cb204f5405d83224c45e8c0a6b0201f514558508d1dfd2e736e94",
+        "remoteId": "local:43",
+        "issueNumber": 43,
         "title": "Realizar \"Punch In\" (Registro de entrada)",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Time\"\nWhen el usuario navega a \"Attendance\" y selecciona \"Punch In/Out\"\nAnd ingresa una nota opcional\nAnd hace clic en \"In\"\nThen el sistema registra la hora actual de entrada\nAnd el estado cambia a \"Punched In\"\n```",
         "labels": [
@@ -1237,7 +1196,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Time",
@@ -1246,18 +1204,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:57Z",
-        "updatedAt": "2026-06-11T20:39:57Z"
+        "createdAt": "2026-10-29T15:16:42.820Z",
+        "updatedAt": "2026-10-29T15:16:42.820Z"
       },
-      "lastApplied": "2026-06-11T20:39:58.721Z"
+      "lastApplied": "2026-10-29T15:16:42.823Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/OrangeHRM/time.case.feature::@tc-02",
+      "identity": "testcase\\OrangeHRM\\time.case.feature.@tc-02",
       "attributes": {
-        "localHash": "238c9c477aa6b321302b594802d8ce599ef67127ddcd52111437c8d59efcce50",
-        "remoteId": "terratest-demo:243",
-        "issueNumber": 243,
+        "localHash": "e5926d5c146ae87bfa3ffb3282d47d8db0e7e54bf779978581d33d124808f985",
+        "remoteId": "local:44",
+        "issueNumber": 44,
         "title": "Crear y enviar una hoja de tiempo (Timesheet)",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Time\"\nWhen el usuario navega a \"Timesheets\" -> \"My Timesheets\"\nAnd selecciona una semana\nAnd agrega las horas trabajadas por proyecto y actividad\nAnd hace clic en \"Submit\"\nThen el estado de la hoja de tiempo cambia a \"Submitted\"\n```",
         "labels": [
@@ -1266,7 +1224,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "OrangeHRM",
           "module": "Time",
@@ -1275,18 +1232,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:39:59Z",
-        "updatedAt": "2026-06-11T20:39:59Z"
+        "createdAt": "2026-10-29T15:16:42.823Z",
+        "updatedAt": "2026-10-29T15:16:42.823Z"
       },
-      "lastApplied": "2026-06-11T20:40:01.272Z"
+      "lastApplied": "2026-10-29T15:16:42.825Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/ParaBank/account_services.case.feature::@tc-01",
+      "identity": "testcase\\ParaBank\\account_services.case.feature.@tc-01",
       "attributes": {
-        "localHash": "d21258580f59264547b4d3aec3a8f67abd69a5fb2abed0a9cdb1af3f3cca7b03",
-        "remoteId": "terratest-demo:244",
-        "issueNumber": 244,
+        "localHash": "dbfe719076c4f858ccf558a1375ce50676fd3f888404b8b3425a4cdc0bc49401",
+        "remoteId": "local:45",
+        "issueNumber": 45,
         "title": "Abrir una nueva cuenta bancaria",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Open New Account\"\nAnd selecciona el tipo de cuenta \"SAVINGS\"\nAnd selecciona una cuenta existente para transferir los fondos iniciales\nAnd hace clic en el botón \"Open New Account\"\nThen el sistema muestra el mensaje \"Account Opened!\"\nAnd genera un nuevo número de cuenta válido\n```",
         "labels": [
@@ -1295,7 +1252,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "ParaBank",
           "module": "Account Services",
@@ -1304,18 +1260,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:02Z",
-        "updatedAt": "2026-06-11T20:40:02Z"
+        "createdAt": "2026-10-29T15:16:42.826Z",
+        "updatedAt": "2026-10-29T15:16:42.826Z"
       },
-      "lastApplied": "2026-06-11T20:40:03.444Z"
+      "lastApplied": "2026-10-29T15:16:42.827Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/ParaBank/account_services.case.feature::@tc-02",
+      "identity": "testcase\\ParaBank\\account_services.case.feature.@tc-02",
       "attributes": {
-        "localHash": "d24b267377572d3109205d7986f61a5dc8d0b6a71a2b823b077946d61924ce3a",
-        "remoteId": "terratest-demo:245",
-        "issueNumber": 245,
+        "localHash": "91e1e088b92d624d1d488a91137c9ecc8d97f044299cdb0d68b4886c4585f384",
+        "remoteId": "local:46",
+        "issueNumber": 46,
         "title": "Visualizar el resumen de las cuentas (Accounts Overview)",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Accounts Overview\"\nThen el sistema muestra una tabla con todas las cuentas del cliente\nAnd se visualiza el saldo (\"Balance\") y los fondos disponibles (\"Available Amount\") para cada cuenta\nAnd el total global de los saldos se muestra en la fila inferior \"Total\"\n```",
         "labels": [
@@ -1324,7 +1280,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "ParaBank",
           "module": "Account Services",
@@ -1333,18 +1288,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:04Z",
-        "updatedAt": "2026-06-11T20:40:04Z"
+        "createdAt": "2026-10-29T15:16:42.828Z",
+        "updatedAt": "2026-10-29T15:16:42.828Z"
       },
-      "lastApplied": "2026-06-11T20:40:05.643Z"
+      "lastApplied": "2026-10-29T15:16:42.830Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/ParaBank/loan.case.feature::@tc-01",
+      "identity": "testcase\\ParaBank\\loan.case.feature.@tc-01",
       "attributes": {
-        "localHash": "d2b377a240f24a3e8af294074ff68e7473cc335b43d689299db0ec6ceff9d9c4",
-        "remoteId": "terratest-demo:246",
-        "issueNumber": 246,
+        "localHash": "b68fb26f307209b1784081db3eec2114f3ca776d31a4586b711e07a35738886c",
+        "remoteId": "local:47",
+        "issueNumber": 47,
         "title": "Solicitar un préstamo exitosamente",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Request Loan\"\nAnd ingresa un monto de préstamo \"1000.00\" (Loan Amount)\nAnd ingresa un pago inicial \"100.00\" (Down Payment)\nAnd selecciona una cuenta desde donde se pagará (From account id)\nAnd hace clic en el botón \"Apply Now\"\nThen el sistema procesa la solicitud\nAnd muestra el estado de la solicitud como \"Approved\"\nAnd genera y muestra un nuevo número de cuenta para el préstamo\n```",
         "labels": [
@@ -1353,7 +1308,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "ParaBank",
           "module": "Loan",
@@ -1362,18 +1316,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:06Z",
-        "updatedAt": "2026-06-11T20:40:06Z"
+        "createdAt": "2026-10-29T15:16:42.830Z",
+        "updatedAt": "2026-10-29T15:16:42.830Z"
       },
-      "lastApplied": "2026-06-11T20:40:07.797Z"
+      "lastApplied": "2026-10-29T15:16:42.832Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/ParaBank/loan.case.feature::@tc-02",
+      "identity": "testcase\\ParaBank\\loan.case.feature.@tc-02",
       "attributes": {
-        "localHash": "8c343288ff2505b5db4e8ceee1ca35c38c9eb8ff82d70839af9cf754f25e17c2",
-        "remoteId": "terratest-demo:247",
-        "issueNumber": 247,
+        "localHash": "b6a0388aa4c93165e00266a77ce3bb34edd47dd7f3ff637844a68cfb5fa1be8c",
+        "remoteId": "local:48",
+        "issueNumber": 48,
         "title": "Rechazo de préstamo por monto excesivo",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Request Loan\"\nAnd ingresa un monto de préstamo \"9999999.00\" con un pago inicial mínimo\nAnd hace clic en el botón \"Apply Now\"\nThen el sistema procesa la solicitud\nAnd muestra el estado de la solicitud como \"Denied\"\nAnd el sistema informa de insuficiencia de fondos\n```",
         "labels": [
@@ -1382,7 +1336,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "ParaBank",
           "module": "Loan",
@@ -1391,18 +1344,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:08Z",
-        "updatedAt": "2026-06-11T20:40:08Z"
+        "createdAt": "2026-10-29T15:16:42.833Z",
+        "updatedAt": "2026-10-29T15:16:42.833Z"
       },
-      "lastApplied": "2026-06-11T20:40:10.130Z"
+      "lastApplied": "2026-10-29T15:16:42.835Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/ParaBank/register_login.case.feature::@tc-01",
+      "identity": "testcase\\ParaBank\\register_login.case.feature.@tc-01",
       "attributes": {
-        "localHash": "bae77ee3adacbf1c65d34c7f8484477f8872d8f5f1d87517405d0d0ea68ca9a6",
-        "remoteId": "terratest-demo:248",
-        "issueNumber": 248,
+        "localHash": "32a83844002c3739d8d14fd09830a080e95787b133416b17d01e2e8032f5cb44",
+        "remoteId": "local:49",
+        "issueNumber": 49,
         "title": "Registrar un nuevo usuario exitosamente",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nWhen el usuario hace clic en el enlace \"Register\"\nAnd completa el formulario de registro con datos válidos (nombre, dirección, SSN, usuario y contraseña)\nAnd hace clic en el botón \"Register\"\nThen el sistema muestra el mensaje \"Your account was created successfully. You are now logged in.\"\n```",
         "labels": [
@@ -1411,7 +1364,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "ParaBank",
           "module": "Registration",
@@ -1420,18 +1372,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:10Z",
-        "updatedAt": "2026-06-11T20:40:10Z"
+        "createdAt": "2026-10-29T15:16:42.835Z",
+        "updatedAt": "2026-10-29T15:16:42.835Z"
       },
-      "lastApplied": "2026-06-11T20:40:12.202Z"
+      "lastApplied": "2026-10-29T15:16:42.838Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/ParaBank/register_login.case.feature::@tc-02",
+      "identity": "testcase\\ParaBank\\register_login.case.feature.@tc-02",
       "attributes": {
-        "localHash": "60e528f3dfc58d2c719ad9b7d452ec040fa931a4ef4df4fcdc0bcfc08f9235d3",
-        "remoteId": "terratest-demo:249",
-        "issueNumber": 249,
+        "localHash": "1f5ae1170fa5b691b0c1e7eb1d8144e899b28eb7c775bbd447588ce64d189bf2",
+        "remoteId": "local:50",
+        "issueNumber": 50,
         "title": "Iniciar sesión con credenciales válidas",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nGiven el usuario ya tiene una cuenta registrada\nWhen ingresa su nombre de usuario y contraseña en el panel \"Customer Login\"\nAnd hace clic en el botón \"Log In\"\nThen el sistema lo redirige a la página \"Accounts Overview\"\nAnd muestra el mensaje de bienvenida con su nombre\n```",
         "labels": [
@@ -1440,7 +1392,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "ParaBank",
           "module": "Registration",
@@ -1449,18 +1400,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:12Z",
-        "updatedAt": "2026-06-11T20:40:12Z"
+        "createdAt": "2026-10-29T15:16:42.838Z",
+        "updatedAt": "2026-10-29T15:16:42.838Z"
       },
-      "lastApplied": "2026-06-11T20:40:14.664Z"
+      "lastApplied": "2026-10-29T15:16:42.841Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/ParaBank/register_login.case.feature::@tc-03",
+      "identity": "testcase\\ParaBank\\register_login.case.feature.@tc-03",
       "attributes": {
-        "localHash": "cbec938b6e57e3cdfcc53f3f66df5af5f34b174cbed6d9e5a0d6374d8a214715",
-        "remoteId": "terratest-demo:250",
-        "issueNumber": 250,
+        "localHash": "26fa06efdd9b68f7f8888b46e5eb8318282a3c24f907d1a3950e84dce2aa07f7",
+        "remoteId": "local:51",
+        "issueNumber": 51,
         "title": "Error al iniciar sesión con credenciales inválidas",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nWhen ingresa un usuario inválido y una contraseña incorrecta en el panel \"Customer Login\"\nAnd hace clic en el botón \"Log In\"\nThen el sistema muestra un mensaje de error \"The username and password could not be verified.\"\n```",
         "labels": [
@@ -1469,7 +1420,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "ParaBank",
           "module": "Registration",
@@ -1478,18 +1428,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:15Z",
-        "updatedAt": "2026-06-11T20:40:15Z"
+        "createdAt": "2026-10-29T15:16:42.841Z",
+        "updatedAt": "2026-10-29T15:16:42.841Z"
       },
-      "lastApplied": "2026-06-11T20:40:18.498Z"
+      "lastApplied": "2026-10-29T15:16:42.843Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/ParaBank/transactions.case.feature::@tc-01",
+      "identity": "testcase\\ParaBank\\transactions.case.feature.@tc-01",
       "attributes": {
-        "localHash": "eaadcc7da43b34235bc240fc5a041133dc1c8da4b716bdb7dd23cdbd96e68f4d",
-        "remoteId": "terratest-demo:251",
-        "issueNumber": 251,
+        "localHash": "a58af17390aa5ed9585aa044befb8a5e7116b8edb35e39b847a2a1b2af457642",
+        "remoteId": "local:52",
+        "issueNumber": 52,
         "title": "Transferir fondos entre cuentas",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nAnd posee al menos dos cuentas con fondos disponibles\nWhen el usuario hace clic en el enlace \"Transfer Funds\"\nAnd ingresa el monto a transferir \"100.00\"\nAnd selecciona la cuenta de origen \"From account\"\nAnd selecciona la cuenta de destino \"To account\"\nAnd hace clic en el botón \"Transfer\"\nThen el sistema muestra el mensaje \"Transfer Complete!\"\nAnd el monto \"100.00\" es reflejado en los detalles de la transacción\n```",
         "labels": [
@@ -1498,7 +1448,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "ParaBank",
           "module": "ProduTransactions",
@@ -1507,18 +1456,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:19Z",
-        "updatedAt": "2026-06-11T20:40:19Z"
+        "createdAt": "2026-10-29T15:16:42.843Z",
+        "updatedAt": "2026-10-29T15:16:42.843Z"
       },
-      "lastApplied": "2026-06-11T20:40:20.720Z"
+      "lastApplied": "2026-10-29T15:16:42.846Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/ParaBank/transactions.case.feature::@tc-02",
+      "identity": "testcase\\ParaBank\\transactions.case.feature.@tc-02",
       "attributes": {
-        "localHash": "a16a6c2155c3ffec6f60640d14d21f8d3c914409c9f58b014985762436b0a96e",
-        "remoteId": "terratest-demo:252",
-        "issueNumber": 252,
+        "localHash": "6691eeb9b65768cdd0ffa2dd84f3beab31374378f574d37e9562475c4a88f6df",
+        "remoteId": "local:53",
+        "issueNumber": 53,
         "title": "Realizar un pago de servicios (Bill Pay)",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nAnd posee al menos dos cuentas con fondos disponibles\nWhen el usuario hace clic en el enlace \"Bill Pay\"\nAnd completa los datos del beneficiario \"Payee Information\" (Nombre, Dirección, Número de Cuenta)\nAnd ingresa el monto \"50.00\"\nAnd selecciona la cuenta desde la cual se pagará\nAnd hace clic en el botón \"Send Payment\"\nThen el sistema muestra el mensaje \"Bill Payment Complete\"\nAnd confirma que el pago de \"50.00\" fue enviado correctamente al beneficiario\n```",
         "labels": [
@@ -1527,7 +1476,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "ParaBank",
           "module": "ProduTransactions",
@@ -1536,18 +1484,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:21Z",
-        "updatedAt": "2026-06-11T20:40:21Z"
+        "createdAt": "2026-10-29T15:16:42.847Z",
+        "updatedAt": "2026-10-29T15:16:42.847Z"
       },
-      "lastApplied": "2026-06-11T20:40:23.889Z"
+      "lastApplied": "2026-10-29T15:16:42.849Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/cart.case.feature::@tc-01",
+      "identity": "testcase\\SauceDemo\\cart.case.feature.@tc-01",
       "attributes": {
-        "localHash": "af0333eea0c279e6e1cfacf483120b434216082c26cda4a531c1b19a7d508275",
-        "remoteId": "terratest-demo:253",
-        "issueNumber": 253,
+        "localHash": "a2c5bcc7f50c0de7e8b3383ab898fe98d2c4cf890078ffab0eef4fe95e81067e",
+        "remoteId": "local:54",
+        "issueNumber": 54,
         "title": "Visualizar los productos agregados",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd ha agregado el producto \"Sauce Labs Bike Light\" al carrito\nWhen hace clic en el ícono superior derecho del carrito\nThen el usuario debe ver la vista \"Your Cart\"\nAnd el producto \"Sauce Labs Bike Light\" debe estar en la lista con QTY \"1\"\n```",
         "labels": [
@@ -1556,7 +1504,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Cart",
@@ -1565,18 +1512,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:24Z",
-        "updatedAt": "2026-06-11T20:40:24Z"
+        "createdAt": "2026-10-29T15:16:42.849Z",
+        "updatedAt": "2026-10-29T15:28:07.486Z"
       },
-      "lastApplied": "2026-06-11T20:40:25.974Z"
+      "lastApplied": "2026-10-29T15:28:07.490Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/cart.case.feature::@tc-02",
+      "identity": "testcase\\SauceDemo\\cart.case.feature.@tc-02",
       "attributes": {
-        "localHash": "03297411dd58f1aab0533a33070d818a3d3982ae827de7b8880b8ceace5846c1",
-        "remoteId": "terratest-demo:254",
-        "issueNumber": 254,
+        "localHash": "77038361e3967ca0590c75cecac546e39b2d4bf6d355252dbdba24e6155b12f4",
+        "remoteId": "local:55",
+        "issueNumber": 55,
         "title": "Remover un producto desde el carrito",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd ha agregado el producto \"Sauce Labs Bike Light\" al carrito\nWhen hace clic en el ícono superior derecho del carrito\nWhen el usuario hace clic en el botón \"Remove\" del producto\nThen el producto desaparece inmediatamente de la lista\nAnd el carrito se muestra vacío\n```",
         "labels": [
@@ -1585,7 +1532,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Cart",
@@ -1594,18 +1540,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:26Z",
-        "updatedAt": "2026-06-11T20:40:26Z"
+        "createdAt": "2026-10-29T15:16:42.852Z",
+        "updatedAt": "2026-10-29T15:30:28.320Z"
       },
-      "lastApplied": "2026-06-11T20:40:28.206Z"
+      "lastApplied": "2026-10-29T15:30:28.324Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/cart.case.feature::@tc-03",
+      "identity": "testcase\\SauceDemo\\cart.case.feature.@tc-03",
       "attributes": {
-        "localHash": "e10d980a7a48c380a6481575ba289b30081e91cfcf05238e40d8f2442ba2dff2",
-        "remoteId": "terratest-demo:255",
-        "issueNumber": 255,
+        "localHash": "f6eed802f3a5798c6e8409d17cde0698505834f72b90464416ff88392b854991",
+        "remoteId": "local:56",
+        "issueNumber": 56,
         "title": "Continuar comprando desde el carrito",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd ha agregado el producto \"Sauce Labs Bike Light\" al carrito\nWhen hace clic en el ícono superior derecho del carrito\nWhen el usuario hace clic en el botón inferior izquierdo \"Continue Shopping\"\nThen el sistema lo redirige de vuelta a la página de \"Products\"\n```",
         "labels": [
@@ -1614,7 +1560,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Cart",
@@ -1623,18 +1568,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:29Z",
-        "updatedAt": "2026-06-11T20:40:29Z"
+        "createdAt": "2026-10-29T15:16:42.854Z",
+        "updatedAt": "2026-10-29T15:16:42.854Z"
       },
-      "lastApplied": "2026-06-11T20:40:30.719Z"
+      "lastApplied": "2026-10-29T15:16:42.856Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/checkout.case.feature::@tc-01",
+      "identity": "testcase\\SauceDemo\\checkout.case.feature.@tc-01",
       "attributes": {
-        "localHash": "d22235ac758f0937a5aa40568749580e57d7dec72115f3988ff5baf732db51a8",
-        "remoteId": "terratest-demo:256",
-        "issueNumber": 256,
+        "localHash": "95e79eeb760ec9b65b35a3c68bdb959548a031029cd9843eb9692730e16c33de",
+        "remoteId": "local:57",
+        "issueNumber": 57,
         "title": "Llenar información de envío exitosamente",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd está en la vista del carrito con productos agregados\nAnd hace clic en el botón inferior derecho \"Checkout\"\nWhen el usuario ingresa su nombre \"Juan\" en \"First Name\"\nAnd ingresa su apellido \"Pérez\" en \"Last Name\"\nAnd ingresa el código postal \"12345\" en \"Zip/Postal Code\"\nAnd hace clic en el botón \"Continue\"\nThen el sistema lo redirige a la pantalla \"Checkout: Overview\"\n```",
         "labels": [
@@ -1643,7 +1588,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Checkout",
@@ -1652,18 +1596,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:31Z",
-        "updatedAt": "2026-06-11T20:40:31Z"
+        "createdAt": "2026-10-29T15:16:42.856Z",
+        "updatedAt": "2026-10-29T15:16:42.856Z"
       },
-      "lastApplied": "2026-06-11T20:40:32.815Z"
+      "lastApplied": "2026-10-29T15:16:42.858Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/checkout.case.feature::@tc-02",
+      "identity": "testcase\\SauceDemo\\checkout.case.feature.@tc-02",
       "attributes": {
-        "localHash": "9bfc178fcd1d13c453be1308d46f40c5aa088fe60fbc6087a66a60c1b909874e",
-        "remoteId": "terratest-demo:257",
-        "issueNumber": 257,
+        "localHash": "e25ca8a13feacf1417cd7fa0a58b716219b61a28f41e353253c8b1676bed1f1c",
+        "remoteId": "local:58",
+        "issueNumber": 58,
         "title": "Validar error por falta de información de envío",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd está en la vista del carrito con productos agregados\nAnd hace clic en el botón inferior derecho \"Checkout\"\nWhen el usuario deja todos los campos vacíos\nAnd hace clic en \"Continue\"\nThen el sistema muestra el mensaje de error \"Error: First Name is required\"\n```",
         "labels": [
@@ -1672,7 +1616,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Checkout",
@@ -1681,18 +1624,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:33Z",
-        "updatedAt": "2026-06-11T20:40:33Z"
+        "createdAt": "2026-10-29T15:16:42.859Z",
+        "updatedAt": "2026-10-29T15:16:42.859Z"
       },
-      "lastApplied": "2026-06-11T20:40:35.254Z"
+      "lastApplied": "2026-10-29T15:16:42.861Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/checkout.case.feature::@tc-03",
+      "identity": "testcase\\SauceDemo\\checkout.case.feature.@tc-03",
       "attributes": {
-        "localHash": "589aa925fce68667f565143fae383c255a15f5ee0afa7f9890b30c7e3db9c875",
-        "remoteId": "terratest-demo:258",
-        "issueNumber": 258,
+        "localHash": "6e12e5a4b3e2002fbd05645e618b840c8d55bca618fc714b1c134cdc5538d3c2",
+        "remoteId": "local:59",
+        "issueNumber": 59,
         "title": "Finalizar compra exitosamente",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd está en la vista del carrito con productos agregados\nAnd hace clic en el botón inferior derecho \"Checkout\"\nGiven el usuario ha completado el formulario de envío y está en \"Checkout: Overview\"\nWhen verifica que el precio \"Item total\" y los impuestos \"Tax\" sean correctos\nAnd hace clic en el botón verde \"Finish\"\nThen el sistema muestra la pantalla \"Checkout: Complete!\"\nAnd el usuario visualiza el mensaje \"Thank you for your order!\"\n```",
         "labels": [
@@ -1701,7 +1644,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Checkout",
@@ -1710,18 +1652,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:36Z",
-        "updatedAt": "2026-06-11T20:40:36Z"
+        "createdAt": "2026-10-29T15:16:42.861Z",
+        "updatedAt": "2026-10-29T15:16:42.861Z"
       },
-      "lastApplied": "2026-06-11T20:40:37.698Z"
+      "lastApplied": "2026-10-29T15:16:42.864Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/login.case.feature::@tc-01",
+      "identity": "testcase\\SauceDemo\\login.case.feature.@tc-01",
       "attributes": {
-        "localHash": "a6b4873fa18afdfa8d761e9e7ea2003c0844058d9164ab31e3db701859f5fcc6",
-        "remoteId": "terratest-demo:259",
-        "issueNumber": 259,
+        "localHash": "f603c7cf0af9136ca5bd1f1cf6cd29c2a6fb4a8786bc0cedbde2b0c0f8b7d1a8",
+        "remoteId": "local:60",
+        "issueNumber": 60,
         "title": "Iniciar sesión exitosamente con usuario estándar",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de login \"https://www.saucedemo.com\"\nWhen el usuario ingresa el nombre de usuario \"standard_user\"\nAnd ingresa la contraseña \"secret_sauce\"\nAnd hace clic en el botón \"Login\"\nThen el sistema lo redirige a la página de inventario \"Products\"\n```",
         "labels": [
@@ -1730,7 +1672,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Login",
@@ -1739,18 +1680,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:38Z",
-        "updatedAt": "2026-06-11T20:40:38Z"
+        "createdAt": "2026-10-29T15:16:42.864Z",
+        "updatedAt": "2026-10-29T15:16:42.864Z"
       },
-      "lastApplied": "2026-06-11T20:40:39.873Z"
+      "lastApplied": "2026-10-29T15:16:42.866Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/login.case.feature::@tc-02",
+      "identity": "testcase\\SauceDemo\\login.case.feature.@tc-02",
       "attributes": {
-        "localHash": "bf501d81d8b5d6b0b44bf933a1bbc624963ef546c378c167600fb28daf94ffa5",
-        "remoteId": "terratest-demo:260",
-        "issueNumber": 260,
+        "localHash": "87439c394c957811c3ceaa8e76d6c78f7081eabc3ec74ff2e435aff93b9acd8c",
+        "remoteId": "local:61",
+        "issueNumber": 61,
         "title": "Iniciar sesión con un usuario bloqueado",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de login \"https://www.saucedemo.com\"\nWhen el usuario ingresa el nombre de usuario \"locked_out_user\"\nAnd ingresa la contraseña \"secret_sauce\"\nAnd hace clic en el botón \"Login\"\nThen el sistema muestra el mensaje de error \"Epic sadface: Sorry, this user has been locked out.\"\n```",
         "labels": [
@@ -1759,7 +1700,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Login",
@@ -1768,18 +1708,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:40Z",
-        "updatedAt": "2026-06-11T20:40:40Z"
+        "createdAt": "2026-10-29T15:16:42.867Z",
+        "updatedAt": "2026-10-29T15:16:42.867Z"
       },
-      "lastApplied": "2026-06-11T20:40:42.120Z"
+      "lastApplied": "2026-10-29T15:16:42.869Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/login.case.feature::@tc-03",
+      "identity": "testcase\\SauceDemo\\login.case.feature.@tc-03",
       "attributes": {
-        "localHash": "bbf13185b94b339dd08205038871884391e2bec0a196e78e234e9ff42e351151",
-        "remoteId": "terratest-demo:261",
-        "issueNumber": 261,
+        "localHash": "04269cb593e5bac9c329672066c4eceabe86164f9d93681551f01eaf1e654ac0",
+        "remoteId": "local:62",
+        "issueNumber": 62,
         "title": "Error al iniciar sesión sin credenciales",
         "body": "```gherkin\nGiven el usuario se encuentra en la página de login \"https://www.saucedemo.com\"\nWhen el usuario hace clic en el botón \"Login\" sin ingresar datos\nThen el sistema muestra el mensaje de error \"Epic sadface: Username is required\"\n```",
         "labels": [
@@ -1788,7 +1728,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Login",
@@ -1797,18 +1736,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:42Z",
-        "updatedAt": "2026-06-11T20:40:42Z"
+        "createdAt": "2026-10-29T15:16:42.869Z",
+        "updatedAt": "2026-10-29T15:16:42.869Z"
       },
-      "lastApplied": "2026-06-11T20:40:44.382Z"
+      "lastApplied": "2026-10-29T15:16:42.871Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/products.case.feature::@tc-01",
+      "identity": "testcase\\SauceDemo\\products.case.feature.@tc-01",
       "attributes": {
-        "localHash": "3d394cb9e365f757a1337dce7fd1a362ef794dc09c2d62c1fda128f3d37db629",
-        "remoteId": "terratest-demo:262",
-        "issueNumber": 262,
+        "localHash": "67b6f9f11e66a1e8f02bdc992fa36b2c70d58a5db02b440deda14ca28ba70ea1",
+        "remoteId": "local:63",
+        "issueNumber": 63,
         "title": "Agregar un producto al carrito",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd se encuentra en la página principal de \"Products\"\nWhen el usuario hace clic en el botón \"Add to cart\" del producto \"Sauce Labs Backpack\"\nThen el botón del producto cambia a color rojo con el texto \"Remove\"\nAnd el ícono del carrito en la esquina superior derecha muestra un \"1\"\n```",
         "labels": [
@@ -1817,7 +1756,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Products",
@@ -1826,18 +1764,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:45Z",
-        "updatedAt": "2026-06-11T20:40:45Z"
+        "createdAt": "2026-10-29T15:16:42.872Z",
+        "updatedAt": "2026-10-29T15:16:42.872Z"
       },
-      "lastApplied": "2026-06-11T20:40:46.704Z"
+      "lastApplied": "2026-10-29T15:16:42.873Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/products.case.feature::@tc-02",
+      "identity": "testcase\\SauceDemo\\products.case.feature.@tc-02",
       "attributes": {
-        "localHash": "377eb2898901023c35b91c08fae196486c11a24f6f22de4b28cb72a586b926a9",
-        "remoteId": "terratest-demo:263",
-        "issueNumber": 263,
+        "localHash": "4c0386e9dfd3db684e8a4259ed3571fdc64ac9a21af5786be51a481b0dd57aec",
+        "remoteId": "local:64",
+        "issueNumber": 64,
         "title": "Remover un producto desde la página de inventario",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd se encuentra en la página principal de \"Products\"\nGiven el usuario tiene el producto \"Sauce Labs Backpack\" en el carrito\nWhen el usuario hace clic en el botón \"Remove\" de dicho producto\nThen el botón cambia nuevamente a \"Add to cart\" verde\nAnd el contador numérico del carrito se oculta\n```",
         "labels": [
@@ -1846,7 +1784,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Products",
@@ -1855,18 +1792,18 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:47Z",
-        "updatedAt": "2026-06-11T20:40:47Z"
+        "createdAt": "2026-10-29T15:16:42.874Z",
+        "updatedAt": "2026-10-29T15:16:42.874Z"
       },
-      "lastApplied": "2026-06-11T20:40:48.704Z"
+      "lastApplied": "2026-10-29T15:16:42.876Z"
     },
     {
       "type": "github_testcase",
-      "identity": "testcase/SauceDemo/products.case.feature::@tc-03",
+      "identity": "testcase\\SauceDemo\\products.case.feature.@tc-03",
       "attributes": {
-        "localHash": "7caa4e9d17a366ed9bf5a1fefadf25dc6ec5a5f3c1ddfb31df1556e0897b71ce",
-        "remoteId": "terratest-demo:264",
-        "issueNumber": 264,
+        "localHash": "6a9dd16fc9693e954d149b2c0e260feda0e967077a402b16d146749896b28575",
+        "remoteId": "local:65",
+        "issueNumber": 65,
         "title": "Ordenar productos usando el filtro",
         "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd se encuentra en la página principal de \"Products\"\nWhen el usuario selecciona la opción \"<opcion_filtro>\" en el menú desplegable superior derecho\nThen los productos se reordenan según el criterio \"<criterio>\"\n```",
         "labels": [
@@ -1875,7 +1812,6 @@
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "SauceDemo",
           "module": "Products",
@@ -1884,27 +1820,26 @@
           "type_of_test": "funcional",
           "automate": "not apply"
         },
-        "createdAt": "2026-06-11T20:40:49Z",
-        "updatedAt": "2026-06-11T20:40:49Z"
+        "createdAt": "2026-10-29T15:16:42.877Z",
+        "updatedAt": "2026-10-29T15:16:42.877Z"
       },
-      "lastApplied": "2026-06-11T20:40:50.776Z"
+      "lastApplied": "2026-10-29T15:16:42.879Z"
     },
     {
       "type": "github_testrun",
-      "identity": "testruns/Magento-20260611_155546_5f736a.run.feature::@tr-1",
+      "identity": "testruns\\Magento-20260611_155546_5f736a.run.feature.@tr-1",
       "attributes": {
-        "localHash": "10035fd06744abb2c975f6b9be619d58f65a09043667d9a41e6ec64fb754e90e",
-        "remoteId": "terratest-demo:265",
-        "issueNumber": 265,
+        "localHash": "1fe5253147bf1c0de48947ddb4982f5f65f3aea8e11874787ea5f4f8709dd98c",
+        "remoteId": "local:66",
+        "issueNumber": 66,
         "title": "Magento-20260611_155546_5f736a",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #200\n- [ ] tc-02: #201\n\n\n**Origin:** catalog.case.feature\n- [ ] tc-01: #202\n- [ ] tc-02: #203\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #204\n- [ ] tc-02: #205\n\n\n**Origin:** customer.case.feature\n- [ ] tc-01: #206\n- [ ] tc-02: #207",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - Magento/cart.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - Magento/cart.case.feature.@tc-02",
         "labels": [
           "testrun"
         ],
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "component": "microservicio-1",
@@ -1915,1138 +1850,26 @@
           "sprint": "Sprint 3",
           "quarter": "Q2"
         },
-        "createdAt": "2026-06-11T21:03:35Z",
-        "updatedAt": "2026-06-12T16:36:55Z",
-        "testcaseCommentIds": {
-          "testcase/Magento/cart.case.feature::@tc-01": 4685057479,
-          "testcase/Magento/catalog.case.feature::@tc-01": 4685057664,
-          "testcase/Magento/checkout.case.feature::@tc-01": 4685057873,
-          "testcase/Magento/customer.case.feature::@tc-01": 4685058041,
-          "testcase/Magento/cart.case.feature::@tc-02": 4685058226,
-          "testcase/Magento/catalog.case.feature::@tc-02": 4685058443,
-          "testcase/Magento/checkout.case.feature::@tc-02": 4685058624,
-          "testcase/Magento/customer.case.feature::@tc-02": 4685058797
-        },
-        "testcaseStatuses": {
-          "testcase/Magento/cart.case.feature::@tc-01": "pending",
-          "testcase/Magento/catalog.case.feature::@tc-01": "pending",
-          "testcase/Magento/checkout.case.feature::@tc-01": "pending",
-          "testcase/Magento/customer.case.feature::@tc-01": "pending",
-          "testcase/Magento/cart.case.feature::@tc-02": "pending",
-          "testcase/Magento/catalog.case.feature::@tc-02": "pending",
-          "testcase/Magento/checkout.case.feature::@tc-02": "pending",
-          "testcase/Magento/customer.case.feature::@tc-02": "pending"
-        }
+        "createdAt": "2026-10-29T15:20:20.115Z",
+        "updatedAt": "2026-10-29T15:28:31.410Z"
       },
-      "lastApplied": "2026-06-12T16:36:57.070Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/OpenCart-20260611_155551_34d41d.run.feature::@tr-2",
-      "attributes": {
-        "localHash": "2e65e0576aeb02258b6ef1d2ed71517f67ade8b9a5978c8a58de60471d2fcfc6",
-        "remoteId": "terratest-demo:266",
-        "issueNumber": 266,
-        "title": "OpenCart-20260611_155551_34d41d",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** account.case.feature\n- [ ] tc-01: #208\n- [ ] tc-02: #209\n- [ ] tc-03: #210\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #211\n- [ ] tc-02: #212\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #213\n- [ ] tc-02: #214\n\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #215\n- [ ] tc-02: #216",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OpenCart",
-          "component": "microservicio-3",
-          "startDate": "2026-06-10",
-          "endDate": "2026-06-18",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-11T21:03:47Z",
-        "updatedAt": "2026-06-12T16:36:57Z",
-        "testcaseCommentIds": {
-          "testcase/OpenCart/account.case.feature::@tc-01": 4685059326,
-          "testcase/OpenCart/cart.case.feature::@tc-01": 4685059471,
-          "testcase/OpenCart/checkout.case.feature::@tc-01": 4685059606,
-          "testcase/OpenCart/shopping.case.feature::@tc-01": 4685059759,
-          "testcase/OpenCart/account.case.feature::@tc-02": 4685059898,
-          "testcase/OpenCart/cart.case.feature::@tc-02": 4685060089,
-          "testcase/OpenCart/checkout.case.feature::@tc-02": 4685060324,
-          "testcase/OpenCart/shopping.case.feature::@tc-02": 4685060511,
-          "testcase/OpenCart/account.case.feature::@tc-03": 4685060693
-        },
-        "testcaseStatuses": {
-          "testcase/OpenCart/account.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/cart.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/checkout.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/shopping.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/account.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/cart.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/checkout.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/shopping.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/account.case.feature::@tc-03": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:36:59.341Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/OrangeHRM-20260611_155558_06a56c.run.feature::@tr-3",
-      "attributes": {
-        "localHash": "a8680299eb2beb463144813bc12a6b038cb695014f55a920e6feb20c84993f80",
-        "remoteId": "terratest-demo:267",
-        "issueNumber": 267,
-        "title": "OrangeHRM-20260611_155558_06a56c",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** admin.case.feature\n- [ ] tc-01: #217\n- [ ] tc-02: #218\n- [ ] tc-03: #219\n- [ ] tc-04: #220\n\n\n**Origin:** buzz.case.feature\n- [ ] tc-01: #221\n- [ ] tc-02: #222\n\n\n**Origin:** dashboard.case.feature\n- [ ] tc-01: #223\n- [ ] tc-02: #224\n\n\n**Origin:** directory.case.feature\n- [ ] tc-01: #225\n- [ ] tc-02: #226\n\n\n**Origin:** leave.case.feature\n- [ ] tc-01: #227\n- [ ] tc-02: #228\n- [ ] tc-03: #229\n\n\n**Origin:** login.case.feature\n- [ ] tc-01: #230\n- [ ] tc-02: #231\n- [ ] tc-03: #232\n- [ ] tc-04: #233\n- [ ] tc-05: #234\n\n\n**Origin:** my_info.case.feature\n- [ ] tc-01: #235\n- [ ] tc-02: #236\n\n\n**Origin:** pim.case.feature\n- [ ] tc-01: #237\n- [ ] tc-02: #238\n- [ ] tc-03: #239\n\n\n**Origin:** recruitment.case.feature\n- [ ] tc-01: #240\n- [ ] tc-02: #241\n\n\n**Origin:** time.case.feature\n- [ ] tc-01: #242\n- [ ] tc-02: #243",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OrangeHRM",
-          "component": "microservicio-9",
-          "startDate": "2026-06-01",
-          "endDate": "2026-06-30",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-11T21:03:59Z",
-        "updatedAt": "2026-06-12T16:37:00Z",
-        "testcaseCommentIds": {
-          "testcase/OrangeHRM/admin.case.feature::@tc-01": 4685061242,
-          "testcase/OrangeHRM/buzz.case.feature::@tc-01": 4685061401,
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-01": 4685061596,
-          "testcase/OrangeHRM/directory.case.feature::@tc-01": 4685061791,
-          "testcase/OrangeHRM/leave.case.feature::@tc-01": 4685061953,
-          "testcase/OrangeHRM/login.case.feature::@tc-01": 4685062080,
-          "testcase/OrangeHRM/my_info.case.feature::@tc-01": 4685062222,
-          "testcase/OrangeHRM/pim.case.feature::@tc-01": 4685062376,
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-01": 4685062551,
-          "testcase/OrangeHRM/time.case.feature::@tc-01": 4685062702,
-          "testcase/OrangeHRM/admin.case.feature::@tc-02": 4685062865,
-          "testcase/OrangeHRM/buzz.case.feature::@tc-02": 4685063047,
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-02": 4685063211,
-          "testcase/OrangeHRM/directory.case.feature::@tc-02": 4685063339,
-          "testcase/OrangeHRM/leave.case.feature::@tc-02": 4685063469,
-          "testcase/OrangeHRM/login.case.feature::@tc-02": 4685063716,
-          "testcase/OrangeHRM/my_info.case.feature::@tc-02": 4685063837,
-          "testcase/OrangeHRM/pim.case.feature::@tc-02": 4685063964,
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-02": 4685064100,
-          "testcase/OrangeHRM/time.case.feature::@tc-02": 4685064266,
-          "testcase/OrangeHRM/admin.case.feature::@tc-03": 4685064426,
-          "testcase/OrangeHRM/leave.case.feature::@tc-03": 4685064552,
-          "testcase/OrangeHRM/login.case.feature::@tc-03": 4685064683,
-          "testcase/OrangeHRM/pim.case.feature::@tc-03": 4685064840,
-          "testcase/OrangeHRM/admin.case.feature::@tc-04": 4685065000,
-          "testcase/OrangeHRM/login.case.feature::@tc-04": 4685065141,
-          "testcase/OrangeHRM/login.case.feature::@tc-05": 4685065353
-        },
-        "testcaseStatuses": {
-          "testcase/OrangeHRM/admin.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/buzz.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/directory.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/my_info.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/time.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/buzz.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/directory.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/my_info.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/time.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-04": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-04": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-05": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:37:01.502Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/ParaBank-20260611_155609_da5690.run.feature::@tr-4",
-      "attributes": {
-        "localHash": "fd2a11d908b7ffdb669470113027edc2274f9caedfd7a30112d67efb6def4b79",
-        "remoteId": "terratest-demo:268",
-        "issueNumber": 268,
-        "title": "ParaBank-20260611_155609_da5690",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #244\n- [ ] tc-02: #245\n\n\n**Origin:** loan.case.feature\n- [ ] tc-01: #246\n- [ ] tc-02: #247\n\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #248\n- [ ] tc-02: #249\n- [ ] tc-03: #250\n\n\n**Origin:** transactions.case.feature\n- [ ] tc-01: #251\n- [ ] tc-02: #252",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "ParaBank",
-          "component": "microservicio-4",
-          "startDate": "2026-06-05",
-          "endDate": "2026-06-16",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-11T21:04:31Z",
-        "updatedAt": "2026-06-12T16:37:02Z",
-        "testcaseCommentIds": {
-          "testcase/ParaBank/account_services.case.feature::@tc-01": 4685065939,
-          "testcase/ParaBank/loan.case.feature::@tc-01": 4685066122,
-          "testcase/ParaBank/register_login.case.feature::@tc-01": 4685066331,
-          "testcase/ParaBank/transactions.case.feature::@tc-01": 4685066514,
-          "testcase/ParaBank/account_services.case.feature::@tc-02": 4685066670,
-          "testcase/ParaBank/loan.case.feature::@tc-02": 4685066844,
-          "testcase/ParaBank/register_login.case.feature::@tc-02": 4685067026,
-          "testcase/ParaBank/transactions.case.feature::@tc-02": 4685067246,
-          "testcase/ParaBank/register_login.case.feature::@tc-03": 4685067377
-        },
-        "testcaseStatuses": {
-          "testcase/ParaBank/account_services.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/loan.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/register_login.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/transactions.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/account_services.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/loan.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/register_login.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/transactions.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/register_login.case.feature::@tc-03": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:37:03.609Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/SauceDemo-20260611_155620_2598ef.run.feature::@tr-5",
-      "attributes": {
-        "localHash": "22a82e101eb7e4c72b8d93ba5c6696127317d772ac810ce6560226779f669027",
-        "remoteId": "terratest-demo:269",
-        "issueNumber": 269,
-        "title": "SauceDemo-20260611_155620_2598ef",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #253\n- [ ] tc-02: #254\n- [ ] tc-03: #255\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #256\n- [ ] tc-02: #257\n- [ ] tc-03: #258\n\n\n**Origin:** login.case.feature\n- [ ] tc-01: #259\n- [ ] tc-02: #260\n- [ ] tc-03: #261\n\n\n**Origin:** products.case.feature\n- [ ] tc-01: #262\n- [ ] tc-02: #263\n- [ ] tc-03: #264",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "SauceDemo",
-          "component": "microservicio-7",
-          "startDate": "2026-06-15",
-          "endDate": "2026-06-18",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-11T21:04:44Z",
-        "updatedAt": "2026-06-12T16:37:04Z",
-        "testcaseCommentIds": {
-          "testcase/SauceDemo/cart.case.feature::@tc-01": 4685067927,
-          "testcase/SauceDemo/checkout.case.feature::@tc-01": 4685068142,
-          "testcase/SauceDemo/login.case.feature::@tc-01": 4685068257,
-          "testcase/SauceDemo/products.case.feature::@tc-01": 4685068366,
-          "testcase/SauceDemo/cart.case.feature::@tc-02": 4685068491,
-          "testcase/SauceDemo/checkout.case.feature::@tc-02": 4685068623,
-          "testcase/SauceDemo/login.case.feature::@tc-02": 4685068777,
-          "testcase/SauceDemo/products.case.feature::@tc-02": 4685068885,
-          "testcase/SauceDemo/cart.case.feature::@tc-03": 4685069085,
-          "testcase/SauceDemo/checkout.case.feature::@tc-03": 4685069223,
-          "testcase/SauceDemo/login.case.feature::@tc-03": 4685069415,
-          "testcase/SauceDemo/products.case.feature::@tc-03": 4685069597
-        },
-        "testcaseStatuses": {
-          "testcase/SauceDemo/cart.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/products.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/cart.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/products.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/cart.case.feature::@tc-03": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-03": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-03": "pending",
-          "testcase/SauceDemo/products.case.feature::@tc-03": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:37:05.766Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/Magento-20260612_120000_6be4l9.run.feature::@tr-6",
-      "attributes": {
-        "localHash": "17046cd96940f51675213a30cb4ad9e50e901bc5a1ad23b90106a04117fae5cf",
-        "remoteId": "terratest-demo:280",
-        "issueNumber": 280,
-        "title": "Magento-20260612_120000_6be4l9",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** catalog.case.feature\n- [ ] tc-01: #202\n- [ ] tc-02: #203\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #204\n- [ ] tc-02: #205\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #200\n- [ ] tc-02: #201\n\n\n**Origin:** customer.case.feature\n- [ ] tc-01: #206\n- [ ] tc-02: #207",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "Magento",
-          "component": "microservicio-1",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:45:44Z",
-        "updatedAt": "2026-06-12T16:45:44Z",
-        "testcaseCommentIds": {
-          "testcase/Magento/catalog.case.feature::@tc-01": 4693311696,
-          "testcase/Magento/checkout.case.feature::@tc-01": 4693311803,
-          "testcase/Magento/cart.case.feature::@tc-01": 4693311913,
-          "testcase/Magento/customer.case.feature::@tc-01": 4693312035,
-          "testcase/Magento/catalog.case.feature::@tc-02": 4693312167,
-          "testcase/Magento/checkout.case.feature::@tc-02": 4693312318,
-          "testcase/Magento/cart.case.feature::@tc-02": 4693312447,
-          "testcase/Magento/customer.case.feature::@tc-02": 4693312563
-        },
-        "testcaseStatuses": {
-          "testcase/Magento/catalog.case.feature::@tc-01": "pending",
-          "testcase/Magento/checkout.case.feature::@tc-01": "pending",
-          "testcase/Magento/cart.case.feature::@tc-01": "pending",
-          "testcase/Magento/customer.case.feature::@tc-01": "pending",
-          "testcase/Magento/catalog.case.feature::@tc-02": "pending",
-          "testcase/Magento/checkout.case.feature::@tc-02": "pending",
-          "testcase/Magento/cart.case.feature::@tc-02": "pending",
-          "testcase/Magento/customer.case.feature::@tc-02": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:45:55.930Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/Magento-20260612_120001_hq71js.run.feature::@tr-7",
-      "attributes": {
-        "localHash": "c4114390a7c0b18d6fe4756792d4892fc6a905f2c44f26eea29092791890998b",
-        "remoteId": "terratest-demo:282",
-        "issueNumber": 282,
-        "title": "Magento-20260612_120001_hq71js",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** catalog.case.feature\n- [ ] tc-01: #202\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #204\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #200\n\n\n**Origin:** customer.case.feature\n- [ ] tc-01: #206",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "Magento",
-          "component": "microservicio-1",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:45:56Z",
-        "updatedAt": "2026-06-12T16:45:56Z",
-        "testcaseCommentIds": {
-          "testcase/Magento/catalog.case.feature::@tc-01": 4693313029,
-          "testcase/Magento/checkout.case.feature::@tc-01": 4693313146,
-          "testcase/Magento/cart.case.feature::@tc-01": 4693313274,
-          "testcase/Magento/customer.case.feature::@tc-01": 4693313379
-        },
-        "testcaseStatuses": {
-          "testcase/Magento/catalog.case.feature::@tc-01": "pending",
-          "testcase/Magento/checkout.case.feature::@tc-01": "pending",
-          "testcase/Magento/cart.case.feature::@tc-01": "pending",
-          "testcase/Magento/customer.case.feature::@tc-01": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:46:03.519Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/Magento-20260612_120002_9ca62m.run.feature::@tr-8",
-      "attributes": {
-        "localHash": "0f2434adee6a6cf328084b18ed74540cb4da2d6ac8ebda1ac33422fa7f4ce6c1",
-        "remoteId": "terratest-demo:284",
-        "issueNumber": 284,
-        "title": "Magento-20260612_120002_9ca62m",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** catalog.case.feature\n- [ ] tc-01: #202\n- [ ] tc-02: #203\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #204\n- [ ] tc-02: #205\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #200\n- [ ] tc-02: #201\n\n\n**Origin:** customer.case.feature\n- [ ] tc-01: #206\n- [ ] tc-02: #207",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "Magento",
-          "component": "microservicio-1",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:46:04Z",
-        "updatedAt": "2026-06-12T16:46:04Z",
-        "testcaseCommentIds": {
-          "testcase/Magento/catalog.case.feature::@tc-01": 4693313781,
-          "testcase/Magento/checkout.case.feature::@tc-01": 4693313924,
-          "testcase/Magento/cart.case.feature::@tc-01": 4693314123,
-          "testcase/Magento/customer.case.feature::@tc-01": 4693314247,
-          "testcase/Magento/catalog.case.feature::@tc-02": 4693314358,
-          "testcase/Magento/checkout.case.feature::@tc-02": 4693314510,
-          "testcase/Magento/cart.case.feature::@tc-02": 4693314640,
-          "testcase/Magento/customer.case.feature::@tc-02": 4693314818
-        },
-        "testcaseStatuses": {
-          "testcase/Magento/catalog.case.feature::@tc-01": "pending",
-          "testcase/Magento/checkout.case.feature::@tc-01": "pending",
-          "testcase/Magento/cart.case.feature::@tc-01": "pending",
-          "testcase/Magento/customer.case.feature::@tc-01": "pending",
-          "testcase/Magento/catalog.case.feature::@tc-02": "pending",
-          "testcase/Magento/checkout.case.feature::@tc-02": "pending",
-          "testcase/Magento/cart.case.feature::@tc-02": "pending",
-          "testcase/Magento/customer.case.feature::@tc-02": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:46:16.293Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/OpenCart-20260612_120000_zkzodt.run.feature::@tr-9",
-      "attributes": {
-        "localHash": "a9b62838f9f9680255897fb110c10c1ec96903ba0765588f89e9eec785b84e7f",
-        "remoteId": "terratest-demo:285",
-        "issueNumber": 285,
-        "title": "OpenCart-20260612_120000_zkzodt",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** account.case.feature\n- [ ] tc-01: #208\n- [ ] tc-02: #209\n- [ ] tc-03: #210\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #213\n- [ ] tc-02: #214\n\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #215\n- [ ] tc-02: #216\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #211\n- [ ] tc-02: #212",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OpenCart",
-          "component": "microservicio-3",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:46:17Z",
-        "updatedAt": "2026-06-12T16:46:17Z",
-        "testcaseCommentIds": {
-          "testcase/OpenCart/account.case.feature::@tc-01": 4693315268,
-          "testcase/OpenCart/checkout.case.feature::@tc-01": 4693315386,
-          "testcase/OpenCart/shopping.case.feature::@tc-01": 4693315511,
-          "testcase/OpenCart/cart.case.feature::@tc-01": 4693315654,
-          "testcase/OpenCart/account.case.feature::@tc-02": 4693315766,
-          "testcase/OpenCart/checkout.case.feature::@tc-02": 4693315903,
-          "testcase/OpenCart/shopping.case.feature::@tc-02": 4693316026,
-          "testcase/OpenCart/cart.case.feature::@tc-02": 4693316157,
-          "testcase/OpenCart/account.case.feature::@tc-03": 4693316541
-        },
-        "testcaseStatuses": {
-          "testcase/OpenCart/account.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/checkout.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/shopping.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/cart.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/account.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/checkout.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/shopping.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/cart.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/account.case.feature::@tc-03": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:46:31.471Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/OpenCart-20260612_120001_lcte3d.run.feature::@tr-10",
-      "attributes": {
-        "localHash": "21187435032e8ca26aff7400e98cddad9fd10a10952c0401a125db0c0dd3785c",
-        "remoteId": "terratest-demo:287",
-        "issueNumber": 287,
-        "title": "OpenCart-20260612_120001_lcte3d",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** account.case.feature\n- [ ] tc-01: #208\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #213\n\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #215\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #211",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OpenCart",
-          "component": "microservicio-3",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:46:32Z",
-        "updatedAt": "2026-06-12T16:46:32Z",
-        "testcaseCommentIds": {
-          "testcase/OpenCart/account.case.feature::@tc-01": 4693316998,
-          "testcase/OpenCart/checkout.case.feature::@tc-01": 4693317126,
-          "testcase/OpenCart/shopping.case.feature::@tc-01": 4693317247,
-          "testcase/OpenCart/cart.case.feature::@tc-01": 4693317372
-        },
-        "testcaseStatuses": {
-          "testcase/OpenCart/account.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/checkout.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/shopping.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/cart.case.feature::@tc-01": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:46:38.910Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/OpenCart-20260612_120002_88b60u.run.feature::@tr-11",
-      "attributes": {
-        "localHash": "215ba145f41bce43db0034cd69e2e5ed029c61ee6a1e913492a8ea2915b77914",
-        "remoteId": "terratest-demo:289",
-        "issueNumber": 289,
-        "title": "OpenCart-20260612_120002_88b60u",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** account.case.feature\n- [ ] tc-01: #208\n- [ ] tc-02: #209\n- [ ] tc-03: #210\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #213\n- [ ] tc-02: #214\n\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #215\n- [ ] tc-02: #216\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #211\n- [ ] tc-02: #212",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OpenCart",
-          "component": "microservicio-3",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:46:39Z",
-        "updatedAt": "2026-06-12T16:46:39Z",
-        "testcaseCommentIds": {
-          "testcase/OpenCart/account.case.feature::@tc-01": 4693317834,
-          "testcase/OpenCart/checkout.case.feature::@tc-01": 4693318011,
-          "testcase/OpenCart/shopping.case.feature::@tc-01": 4693318198,
-          "testcase/OpenCart/cart.case.feature::@tc-01": 4693318417,
-          "testcase/OpenCart/account.case.feature::@tc-02": 4693318566,
-          "testcase/OpenCart/checkout.case.feature::@tc-02": 4693318678,
-          "testcase/OpenCart/shopping.case.feature::@tc-02": 4693318779,
-          "testcase/OpenCart/cart.case.feature::@tc-02": 4693318883,
-          "testcase/OpenCart/account.case.feature::@tc-03": 4693319084
-        },
-        "testcaseStatuses": {
-          "testcase/OpenCart/account.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/checkout.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/shopping.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/cart.case.feature::@tc-01": "pending",
-          "testcase/OpenCart/account.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/checkout.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/shopping.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/cart.case.feature::@tc-02": "pending",
-          "testcase/OpenCart/account.case.feature::@tc-03": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:46:54.006Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/OrangeHRM-20260612_120001_85ddc4.run.feature::@tr-13",
-      "attributes": {
-        "localHash": "16eee46f36a11db6d4d330782cd1cb5655e99f4d681136537b48f702b130c6d8",
-        "remoteId": "terratest-demo:292",
-        "issueNumber": 292,
-        "title": "OrangeHRM-20260612_120001_85ddc4",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** dashboard.case.feature\n- [ ] tc-01: #223\n\n\n**Origin:** buzz.case.feature\n- [ ] tc-01: #221\n\n\n**Origin:** leave.case.feature\n- [ ] tc-01: #227\n\n\n**Origin:** my_info.case.feature\n- [ ] tc-01: #235\n\n\n**Origin:** directory.case.feature\n- [ ] tc-01: #225\n\n\n**Origin:** pim.case.feature\n- [ ] tc-01: #237\n\n\n**Origin:** time.case.feature\n- [ ] tc-01: #242\n\n\n**Origin:** login.case.feature\n- [ ] tc-01: #230\n\n\n**Origin:** recruitment.case.feature\n- [ ] tc-01: #240\n\n\n**Origin:** admin.case.feature\n- [ ] tc-01: #217",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OrangeHRM",
-          "component": "microservicio-9",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:48:08Z",
-        "updatedAt": "2026-06-12T16:48:08Z",
-        "testcaseCommentIds": {
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-01": 4693327783,
-          "testcase/OrangeHRM/buzz.case.feature::@tc-01": 4693327871,
-          "testcase/OrangeHRM/leave.case.feature::@tc-01": 4693327971,
-          "testcase/OrangeHRM/my_info.case.feature::@tc-01": 4693328067,
-          "testcase/OrangeHRM/directory.case.feature::@tc-01": 4693328198,
-          "testcase/OrangeHRM/pim.case.feature::@tc-01": 4693328316,
-          "testcase/OrangeHRM/time.case.feature::@tc-01": 4693328539,
-          "testcase/OrangeHRM/login.case.feature::@tc-01": 4693328695,
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-01": 4693328819,
-          "testcase/OrangeHRM/admin.case.feature::@tc-01": 4693328928
-        },
-        "testcaseStatuses": {
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/buzz.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/my_info.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/directory.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/time.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-01": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:48:21.924Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/OrangeHRM-20260612_120002_4dusjo.run.feature::@tr-14",
-      "attributes": {
-        "localHash": "2e0b77aebf0c003f971733ec81d68fc400ec091edba1aa47bedcd66163f0194b",
-        "remoteId": "terratest-demo:293",
-        "issueNumber": 293,
-        "title": "OrangeHRM-20260612_120002_4dusjo",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** dashboard.case.feature\n- [ ] tc-01: #223\n- [ ] tc-02: #224\n\n\n**Origin:** buzz.case.feature\n- [ ] tc-01: #221\n- [ ] tc-02: #222\n\n\n**Origin:** leave.case.feature\n- [ ] tc-01: #227\n- [ ] tc-02: #228\n- [ ] tc-03: #229\n\n\n**Origin:** my_info.case.feature\n- [ ] tc-01: #235\n- [ ] tc-02: #236\n\n\n**Origin:** directory.case.feature\n- [ ] tc-01: #225\n- [ ] tc-02: #226\n\n\n**Origin:** pim.case.feature\n- [ ] tc-01: #237\n- [ ] tc-02: #238\n- [ ] tc-03: #239\n\n\n**Origin:** time.case.feature\n- [ ] tc-01: #242\n- [ ] tc-02: #243\n\n\n**Origin:** login.case.feature\n- [ ] tc-01: #230\n- [ ] tc-02: #231\n- [ ] tc-03: #232\n- [ ] tc-04: #233\n- [ ] tc-05: #234\n\n\n**Origin:** recruitment.case.feature\n- [ ] tc-01: #240\n- [ ] tc-02: #241\n\n\n**Origin:** admin.case.feature\n- [ ] tc-01: #217\n- [ ] tc-02: #218\n- [ ] tc-03: #219\n- [ ] tc-04: #220",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OrangeHRM",
-          "component": "microservicio-9",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:48:22Z",
-        "updatedAt": "2026-06-12T16:48:22Z",
-        "testcaseCommentIds": {
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-01": 4693329301,
-          "testcase/OrangeHRM/buzz.case.feature::@tc-01": 4693329410,
-          "testcase/OrangeHRM/leave.case.feature::@tc-01": 4693329524,
-          "testcase/OrangeHRM/my_info.case.feature::@tc-01": 4693329643,
-          "testcase/OrangeHRM/directory.case.feature::@tc-01": 4693329784,
-          "testcase/OrangeHRM/pim.case.feature::@tc-01": 4693329913,
-          "testcase/OrangeHRM/time.case.feature::@tc-01": 4693330022,
-          "testcase/OrangeHRM/login.case.feature::@tc-01": 4693330136,
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-01": 4693330269,
-          "testcase/OrangeHRM/admin.case.feature::@tc-01": 4693330374,
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-02": 4693330491,
-          "testcase/OrangeHRM/buzz.case.feature::@tc-02": 4693330613,
-          "testcase/OrangeHRM/leave.case.feature::@tc-02": 4693330791,
-          "testcase/OrangeHRM/my_info.case.feature::@tc-02": 4693330909,
-          "testcase/OrangeHRM/directory.case.feature::@tc-02": 4693331114,
-          "testcase/OrangeHRM/pim.case.feature::@tc-02": 4693331241,
-          "testcase/OrangeHRM/time.case.feature::@tc-02": 4693331348,
-          "testcase/OrangeHRM/login.case.feature::@tc-02": 4693331470,
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-02": 4693331574,
-          "testcase/OrangeHRM/admin.case.feature::@tc-02": 4693331778,
-          "testcase/OrangeHRM/leave.case.feature::@tc-03": 4693331883,
-          "testcase/OrangeHRM/pim.case.feature::@tc-03": 4693332011,
-          "testcase/OrangeHRM/login.case.feature::@tc-03": 4693332119,
-          "testcase/OrangeHRM/admin.case.feature::@tc-03": 4693332269,
-          "testcase/OrangeHRM/login.case.feature::@tc-04": 4693332496,
-          "testcase/OrangeHRM/admin.case.feature::@tc-04": 4693332639,
-          "testcase/OrangeHRM/login.case.feature::@tc-05": 4693332792
-        },
-        "testcaseStatuses": {
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/buzz.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/my_info.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/directory.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/time.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/buzz.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/my_info.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/directory.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/time.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-04": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-04": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-05": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:48:55.697Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/ParaBank-20260612_120000_7l14q3.run.feature::@tr-15",
-      "attributes": {
-        "localHash": "0fc4b6f02adf361e80bcfe42614fa216c8863483bac84774297b4cd048e73fd1",
-        "remoteId": "terratest-demo:294",
-        "issueNumber": 294,
-        "title": "ParaBank-20260612_120000_7l14q3",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #248\n- [ ] tc-02: #249\n- [ ] tc-03: #250\n\n\n**Origin:** transactions.case.feature\n- [ ] tc-01: #251\n- [ ] tc-02: #252\n\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #244\n- [ ] tc-02: #245\n\n\n**Origin:** loan.case.feature\n- [ ] tc-01: #246\n- [ ] tc-02: #247",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "ParaBank",
-          "component": "microservicio-4",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:48:56Z",
-        "updatedAt": "2026-06-12T16:48:56Z",
-        "testcaseCommentIds": {
-          "testcase/ParaBank/register_login.case.feature::@tc-01": 4693333184,
-          "testcase/ParaBank/transactions.case.feature::@tc-01": 4693333339,
-          "testcase/ParaBank/account_services.case.feature::@tc-01": 4693333449,
-          "testcase/ParaBank/loan.case.feature::@tc-01": 4693333546,
-          "testcase/ParaBank/register_login.case.feature::@tc-02": 4693333852,
-          "testcase/ParaBank/transactions.case.feature::@tc-02": 4693334053,
-          "testcase/ParaBank/account_services.case.feature::@tc-02": 4693334176,
-          "testcase/ParaBank/loan.case.feature::@tc-02": 4693334437,
-          "testcase/ParaBank/register_login.case.feature::@tc-03": 4693334538
-        },
-        "testcaseStatuses": {
-          "testcase/ParaBank/register_login.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/transactions.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/account_services.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/loan.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/register_login.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/transactions.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/account_services.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/loan.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/register_login.case.feature::@tc-03": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:49:12.082Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/ParaBank-20260612_120001_vjb5b7.run.feature::@tr-16",
-      "attributes": {
-        "localHash": "c304dba6cb6712c5e11668e3b9a3bb2616e4d8633e8e235f446ababd6ef357ed",
-        "remoteId": "terratest-demo:295",
-        "issueNumber": 295,
-        "title": "ParaBank-20260612_120001_vjb5b7",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #248\n\n\n**Origin:** transactions.case.feature\n- [ ] tc-01: #251\n\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #244\n\n\n**Origin:** loan.case.feature\n- [ ] tc-01: #246",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "ParaBank",
-          "component": "microservicio-4",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:49:12Z",
-        "updatedAt": "2026-06-12T16:49:12Z",
-        "testcaseCommentIds": {
-          "testcase/ParaBank/register_login.case.feature::@tc-01": 4693335066,
-          "testcase/ParaBank/transactions.case.feature::@tc-01": 4693335184,
-          "testcase/ParaBank/account_services.case.feature::@tc-01": 4693335293,
-          "testcase/ParaBank/loan.case.feature::@tc-01": 4693335402
-        },
-        "testcaseStatuses": {
-          "testcase/ParaBank/register_login.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/transactions.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/account_services.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/loan.case.feature::@tc-01": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:49:19.366Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/ParaBank-20260612_120002_jziiea.run.feature::@tr-17",
-      "attributes": {
-        "localHash": "fd788784a67997c9e2fd51140031206c00b71dd04d3a532dcf7dde947927b503",
-        "remoteId": "terratest-demo:296",
-        "issueNumber": 296,
-        "title": "ParaBank-20260612_120002_jziiea",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #248\n- [ ] tc-02: #249\n- [ ] tc-03: #250\n\n\n**Origin:** transactions.case.feature\n- [ ] tc-01: #251\n- [ ] tc-02: #252\n\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #244\n- [ ] tc-02: #245\n\n\n**Origin:** loan.case.feature\n- [ ] tc-01: #246\n- [ ] tc-02: #247",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "ParaBank",
-          "component": "microservicio-4",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:49:20Z",
-        "updatedAt": "2026-06-12T16:49:20Z",
-        "testcaseCommentIds": {
-          "testcase/ParaBank/register_login.case.feature::@tc-01": 4693335819,
-          "testcase/ParaBank/transactions.case.feature::@tc-01": 4693335924,
-          "testcase/ParaBank/account_services.case.feature::@tc-01": 4693336020,
-          "testcase/ParaBank/loan.case.feature::@tc-01": 4693336112,
-          "testcase/ParaBank/register_login.case.feature::@tc-02": 4693336233,
-          "testcase/ParaBank/transactions.case.feature::@tc-02": 4693336380,
-          "testcase/ParaBank/account_services.case.feature::@tc-02": 4693336528,
-          "testcase/ParaBank/loan.case.feature::@tc-02": 4693336726,
-          "testcase/ParaBank/register_login.case.feature::@tc-03": 4693336869
-        },
-        "testcaseStatuses": {
-          "testcase/ParaBank/register_login.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/transactions.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/account_services.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/loan.case.feature::@tc-01": "pending",
-          "testcase/ParaBank/register_login.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/transactions.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/account_services.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/loan.case.feature::@tc-02": "pending",
-          "testcase/ParaBank/register_login.case.feature::@tc-03": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:49:32.824Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/SauceDemo-20260612_120000_qz3vjx.run.feature::@tr-18",
-      "attributes": {
-        "localHash": "9f74d1e929efbd616e7b35796fd164129db0cded0410c2f74521f43a2a3c0964",
-        "remoteId": "terratest-demo:297",
-        "issueNumber": 297,
-        "title": "SauceDemo-20260612_120000_qz3vjx",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** products.case.feature\n- [ ] tc-01: #262\n- [ ] tc-02: #263\n- [ ] tc-03: #264\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #256\n- [ ] tc-02: #257\n- [ ] tc-03: #258\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #253\n- [ ] tc-02: #254\n- [ ] tc-03: #255\n\n\n**Origin:** login.case.feature\n- [ ] tc-01: #259\n- [ ] tc-02: #260\n- [ ] tc-03: #261",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "SauceDemo",
-          "component": "microservicio-7",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:49:33Z",
-        "updatedAt": "2026-06-12T16:49:33Z",
-        "testcaseCommentIds": {
-          "testcase/SauceDemo/products.case.feature::@tc-01": 4693337294,
-          "testcase/SauceDemo/checkout.case.feature::@tc-01": 4693337393,
-          "testcase/SauceDemo/cart.case.feature::@tc-01": 4693337504,
-          "testcase/SauceDemo/login.case.feature::@tc-01": 4693337608,
-          "testcase/SauceDemo/products.case.feature::@tc-02": 4693337722,
-          "testcase/SauceDemo/checkout.case.feature::@tc-02": 4693337803,
-          "testcase/SauceDemo/cart.case.feature::@tc-02": 4693337897,
-          "testcase/SauceDemo/login.case.feature::@tc-02": 4693338007,
-          "testcase/SauceDemo/products.case.feature::@tc-03": 4693338116,
-          "testcase/SauceDemo/checkout.case.feature::@tc-03": 4693338421,
-          "testcase/SauceDemo/cart.case.feature::@tc-03": 4693338542,
-          "testcase/SauceDemo/login.case.feature::@tc-03": 4693338689
-        },
-        "testcaseStatuses": {
-          "testcase/SauceDemo/products.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/cart.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/products.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/cart.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/products.case.feature::@tc-03": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-03": "pending",
-          "testcase/SauceDemo/cart.case.feature::@tc-03": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-03": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:49:50.180Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/SauceDemo-20260612_120001_ah4sw0.run.feature::@tr-19",
-      "attributes": {
-        "localHash": "23bdf626aef613c562f12647648976258e4bb31caec0288356a4955634ae3dc6",
-        "remoteId": "terratest-demo:298",
-        "issueNumber": 298,
-        "title": "SauceDemo-20260612_120001_ah4sw0",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** products.case.feature\n- [ ] tc-01: #262\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #256\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #253\n\n\n**Origin:** login.case.feature\n- [ ] tc-01: #259",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "SauceDemo",
-          "component": "microservicio-7",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:49:50Z",
-        "updatedAt": "2026-06-12T16:49:50Z",
-        "testcaseCommentIds": {
-          "testcase/SauceDemo/products.case.feature::@tc-01": 4693339051,
-          "testcase/SauceDemo/checkout.case.feature::@tc-01": 4693339167,
-          "testcase/SauceDemo/cart.case.feature::@tc-01": 4693339269,
-          "testcase/SauceDemo/login.case.feature::@tc-01": 4693339385
-        },
-        "testcaseStatuses": {
-          "testcase/SauceDemo/products.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/cart.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-01": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:49:56.550Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/SauceDemo-20260612_120002_gp1yim.run.feature::@tr-20",
-      "attributes": {
-        "localHash": "60dfa57368968e9b9a5c51eb244c44b049e16c42c976357d10f134202c7c6aed",
-        "remoteId": "terratest-demo:299",
-        "issueNumber": 299,
-        "title": "SauceDemo-20260612_120002_gp1yim",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** products.case.feature\n- [ ] tc-01: #262\n- [ ] tc-02: #263\n- [ ] tc-03: #264\n\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #256\n- [ ] tc-02: #257\n- [ ] tc-03: #258\n\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #253\n- [ ] tc-02: #254\n- [ ] tc-03: #255\n\n\n**Origin:** login.case.feature\n- [ ] tc-01: #259\n- [ ] tc-02: #260\n- [ ] tc-03: #261",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "SauceDemo",
-          "component": "microservicio-7",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:49:57Z",
-        "updatedAt": "2026-06-12T16:49:57Z",
-        "testcaseCommentIds": {
-          "testcase/SauceDemo/products.case.feature::@tc-01": 4693339840,
-          "testcase/SauceDemo/checkout.case.feature::@tc-01": 4693339946,
-          "testcase/SauceDemo/cart.case.feature::@tc-01": 4693340042,
-          "testcase/SauceDemo/login.case.feature::@tc-01": 4693340215,
-          "testcase/SauceDemo/products.case.feature::@tc-02": 4693340378,
-          "testcase/SauceDemo/checkout.case.feature::@tc-02": 4693340484,
-          "testcase/SauceDemo/cart.case.feature::@tc-02": 4693340603,
-          "testcase/SauceDemo/login.case.feature::@tc-02": 4693340723,
-          "testcase/SauceDemo/products.case.feature::@tc-03": 4693340826,
-          "testcase/SauceDemo/checkout.case.feature::@tc-03": 4693340945,
-          "testcase/SauceDemo/cart.case.feature::@tc-03": 4693341054,
-          "testcase/SauceDemo/login.case.feature::@tc-03": 4693341195
-        },
-        "testcaseStatuses": {
-          "testcase/SauceDemo/products.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/cart.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-01": "pending",
-          "testcase/SauceDemo/products.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/cart.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-02": "pending",
-          "testcase/SauceDemo/products.case.feature::@tc-03": "pending",
-          "testcase/SauceDemo/checkout.case.feature::@tc-03": "pending",
-          "testcase/SauceDemo/cart.case.feature::@tc-03": "pending",
-          "testcase/SauceDemo/login.case.feature::@tc-03": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:50:12.633Z"
-    },
-    {
-      "type": "github_testrun",
-      "identity": "testruns/OrangeHRM-20260612_120000_5wtb8a.run.feature::@tr-12",
-      "attributes": {
-        "localHash": "1efdcac6779ec867b011a3405e2a19f7149f8ac1ea2530f110d406c3be6e75b8",
-        "remoteId": "terratest-demo:300",
-        "issueNumber": 300,
-        "title": "OrangeHRM-20260612_120000_5wtb8a",
-        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** dashboard.case.feature\n- [ ] tc-01: #223\n- [ ] tc-02: #224\n\n\n**Origin:** buzz.case.feature\n- [ ] tc-01: #221\n- [ ] tc-02: #222\n\n\n**Origin:** leave.case.feature\n- [ ] tc-01: #227\n- [ ] tc-02: #228\n- [ ] tc-03: #229\n\n\n**Origin:** my_info.case.feature\n- [ ] tc-01: #235\n- [ ] tc-02: #236\n\n\n**Origin:** directory.case.feature\n- [ ] tc-01: #225\n- [ ] tc-02: #226\n\n\n**Origin:** pim.case.feature\n- [ ] tc-01: #237\n- [ ] tc-02: #238\n- [ ] tc-03: #239\n\n\n**Origin:** time.case.feature\n- [ ] tc-01: #242\n- [ ] tc-02: #243\n\n\n**Origin:** login.case.feature\n- [ ] tc-01: #230\n- [ ] tc-02: #231\n- [ ] tc-03: #232\n- [ ] tc-04: #233\n- [ ] tc-05: #234\n\n\n**Origin:** recruitment.case.feature\n- [ ] tc-01: #240\n- [ ] tc-02: #241\n\n\n**Origin:** admin.case.feature\n- [ ] tc-01: #217\n- [ ] tc-02: #218\n- [ ] tc-03: #219\n- [ ] tc-04: #220",
-        "labels": [
-          "testrun"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OrangeHRM",
-          "component": "microservicio-9",
-          "startDate": "2026-06-12",
-          "endDate": "2026-06-19",
-          "priority": "@medium",
-          "Status": "Done",
-          "sprint": "Sprint 3",
-          "quarter": "Q2"
-        },
-        "createdAt": "2026-06-12T16:54:26Z",
-        "updatedAt": "2026-06-12T16:54:26Z",
-        "testcaseCommentIds": {
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-01": 4693370616,
-          "testcase/OrangeHRM/buzz.case.feature::@tc-01": 4693370740,
-          "testcase/OrangeHRM/leave.case.feature::@tc-01": 4693370864,
-          "testcase/OrangeHRM/my_info.case.feature::@tc-01": 4693371008,
-          "testcase/OrangeHRM/directory.case.feature::@tc-01": 4693371222,
-          "testcase/OrangeHRM/pim.case.feature::@tc-01": 4693371363,
-          "testcase/OrangeHRM/time.case.feature::@tc-01": 4693371493,
-          "testcase/OrangeHRM/login.case.feature::@tc-01": 4693371658,
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-01": 4693371824,
-          "testcase/OrangeHRM/admin.case.feature::@tc-01": 4693372118,
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-02": 4693372401,
-          "testcase/OrangeHRM/buzz.case.feature::@tc-02": 4693372602,
-          "testcase/OrangeHRM/leave.case.feature::@tc-02": 4693372859,
-          "testcase/OrangeHRM/my_info.case.feature::@tc-02": 4693373230,
-          "testcase/OrangeHRM/directory.case.feature::@tc-02": 4693373340,
-          "testcase/OrangeHRM/pim.case.feature::@tc-02": 4693373519,
-          "testcase/OrangeHRM/time.case.feature::@tc-02": 4693373649,
-          "testcase/OrangeHRM/login.case.feature::@tc-02": 4693373779,
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-02": 4693373904,
-          "testcase/OrangeHRM/admin.case.feature::@tc-02": 4693374060,
-          "testcase/OrangeHRM/leave.case.feature::@tc-03": 4693374258,
-          "testcase/OrangeHRM/pim.case.feature::@tc-03": 4693374347,
-          "testcase/OrangeHRM/login.case.feature::@tc-03": 4693374540,
-          "testcase/OrangeHRM/admin.case.feature::@tc-03": 4693374741,
-          "testcase/OrangeHRM/login.case.feature::@tc-04": 4693374874,
-          "testcase/OrangeHRM/admin.case.feature::@tc-04": 4693375033,
-          "testcase/OrangeHRM/login.case.feature::@tc-05": 4693375153
-        },
-        "testcaseStatuses": {
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/buzz.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/my_info.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/directory.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/time.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-01": "pending",
-          "testcase/OrangeHRM/dashboard.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/buzz.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/my_info.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/directory.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/time.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/recruitment.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-02": "pending",
-          "testcase/OrangeHRM/leave.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/pim.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-03": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-04": "pending",
-          "testcase/OrangeHRM/admin.case.feature::@tc-04": "pending",
-          "testcase/OrangeHRM/login.case.feature::@tc-05": "pending"
-        }
-      },
-      "lastApplied": "2026-06-12T16:55:06.222Z"
+      "lastApplied": "2026-10-29T15:28:31.416Z"
     },
     {
       "type": "github_testplan",
-      "identity": "testplans/Magento.plan.feature::@tp-1",
+      "identity": "testplans\\Magento.plan.feature.@tp-1",
       "attributes": {
-        "localHash": "d22f5dd7ab44b391678e5a965a0dc88d139a322433383818f017f3e44f4e7d12",
-        "remoteId": "terratest-demo:306",
-        "issueNumber": 306,
+        "localHash": "4350b11ea5cead63a70bf6365111fbfa8f0779ade4d4e2d9c767e55f57268d20",
+        "remoteId": "local:67",
+        "issueNumber": 67,
         "title": "Plan de Pruebas Magento",
-        "body": "### Test Runs\n- [ ] #265\n- [ ] #280\n- [ ] #282\n- [ ] #284",
+        "body": "### Test Runs\n- [ ] (not found in state) - testruns/Magento-20260611_155546_5f736a.run.feature\n- [ ] (not found in state) - testruns/Magento-20260612_120000_6be4l9.run.feature\n- [ ] (not found in state) - testruns/Magento-20260612_120001_hq71js.run.feature\n- [ ] (not found in state) - testruns/Magento-20260612_120002_9ca62m.run.feature",
         "labels": [
           "testplan"
         ],
         "assignees": [
           "fromeroc9"
         ],
-        "milestone": "",
         "custom_fields": {
           "project": "Magento",
           "component": "microservicio-1",
@@ -3054,122 +1877,11 @@
           "priority": "@medium",
           "Status": "Done"
         },
-        "createdAt": "2026-06-12T17:24:05Z",
-        "updatedAt": "2026-06-12T21:21:47Z"
+        "createdAt": "2026-10-29T15:24:49.180Z",
+        "updatedAt": "2026-10-29T15:24:49.180Z"
       },
-      "lastApplied": "2026-06-12T21:21:58.843Z"
-    },
-    {
-      "type": "github_testplan",
-      "identity": "testplans/OpenCart.plan.feature::@tp-2",
-      "attributes": {
-        "localHash": "91c9e8515222f2d2d78733377a2e839a41cf1c595ad85f84fc0ddd9b904d324e",
-        "remoteId": "terratest-demo:307",
-        "issueNumber": 307,
-        "title": "Plan de Pruebas OpenCart",
-        "body": "### Test Runs\n- [ ] #266\n- [ ] #285\n- [ ] #287\n- [ ] #289",
-        "labels": [
-          "testplan"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OpenCart",
-          "component": "microservicio-3",
-          "squad": "Moderatto",
-          "priority": "@medium",
-          "Status": "Done"
-        },
-        "createdAt": "2026-06-12T17:24:32Z",
-        "updatedAt": "2026-06-12T21:21:59Z"
-      },
-      "lastApplied": "2026-06-12T21:22:06.058Z"
-    },
-    {
-      "type": "github_testplan",
-      "identity": "testplans/OrangeHRM.plan.feature::@tp-3",
-      "attributes": {
-        "localHash": "6ff80335bee205f71756947cfdbb299c27c242a1e28fdd79958ad6a73957a4a0",
-        "remoteId": "terratest-demo:308",
-        "issueNumber": 308,
-        "title": "Plan de Pruebas OrangeHRM",
-        "body": "### Test Runs\n- [ ] #267\n- [ ] #300\n- [ ] #292\n- [ ] #293",
-        "labels": [
-          "testplan"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "OrangeHRM",
-          "component": "microservicio-9",
-          "squad": "Green Day",
-          "priority": "@medium",
-          "Status": "Done"
-        },
-        "createdAt": "2026-06-12T17:24:54Z",
-        "updatedAt": "2026-06-12T21:22:06Z"
-      },
-      "lastApplied": "2026-06-12T21:22:13.807Z"
-    },
-    {
-      "type": "github_testplan",
-      "identity": "testplans/ParaBank.plan.feature::@tp-4",
-      "attributes": {
-        "localHash": "4de66c854096d3058a10e9fedc1ca1bdae5d5d859f7aa0f270a64ba0a22cfca3",
-        "remoteId": "terratest-demo:309",
-        "issueNumber": 309,
-        "title": "Plan de Pruebas ParaBank",
-        "body": "### Test Runs\n- [ ] #268\n- [ ] #294\n- [ ] #295\n- [ ] #296",
-        "labels": [
-          "testplan"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "ParaBank",
-          "component": "microservicio-4",
-          "squad": "Father of Peace",
-          "priority": "@medium",
-          "Status": "Done"
-        },
-        "createdAt": "2026-06-12T17:25:11Z",
-        "updatedAt": "2026-06-12T21:22:14Z"
-      },
-      "lastApplied": "2026-06-12T21:22:20.961Z"
-    },
-    {
-      "type": "github_testplan",
-      "identity": "testplans/SauceDemo.plan.feature::@tp-5",
-      "attributes": {
-        "localHash": "e81a5fe45105689a1c82f7c4cfbdb7256807c4c1c4b28d7d56380c0acf71eed2",
-        "remoteId": "terratest-demo:310",
-        "issueNumber": 310,
-        "title": "Plan de Pruebas SauceDemo",
-        "body": "### Test Runs\n- [ ] #269\n- [ ] #297\n- [ ] #298\n- [ ] #299",
-        "labels": [
-          "testplan"
-        ],
-        "assignees": [
-          "fromeroc9"
-        ],
-        "milestone": "",
-        "custom_fields": {
-          "project": "SauceDemo",
-          "component": "microservicio-7",
-          "squad": "Nirvana",
-          "priority": "@medium",
-          "Status": "Done"
-        },
-        "createdAt": "2026-06-12T17:25:34Z",
-        "updatedAt": "2026-06-12T21:22:21Z"
-      },
-      "lastApplied": "2026-06-12T21:22:28.124Z"
+      "lastApplied": "2026-10-29T15:24:49.185Z"
     }
-  ]
+  ],
+  "outputs": {}
 }

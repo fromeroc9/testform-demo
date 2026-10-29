@@ -10,20 +10,20 @@ Feature: SauceDemo-20260612_120001_ah4sw0
   Rule: SauceDemo/products.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
   Rule: SauceDemo/checkout.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
   Rule: SauceDemo/cart.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
   Rule: SauceDemo/login.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 

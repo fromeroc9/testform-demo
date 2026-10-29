@@ -10,34 +10,34 @@ Feature: ParaBank-20260612_120002_jziiea
   Rule: ParaBank/register_login.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-03
-      * link status = pending
+      * mark status = pending
 
   Rule: ParaBank/transactions.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
 
   Rule: ParaBank/account_services.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
 
   Rule: ParaBank/loan.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending

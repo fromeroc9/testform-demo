@@ -10,31 +10,31 @@ Feature: Magento-20260612_120002_9ca62m
   Rule: Magento/catalog.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
 
   Rule: Magento/checkout.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
 
   Rule: Magento/cart.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
 
   Rule: Magento/customer.case.feature
 
     Scenario: @tc-01
-      * link status = pending
+      * mark status = pending
 
     Scenario: @tc-02
-      * link status = pending
+      * mark status = pending
