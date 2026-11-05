@@ -375,8 +375,295 @@
         "sprint": "Sprint 3",
         "quarter": "Q2"
       }
+    },
+    {
+      "id": 15,
+      "number": 15,
+      "title": "Abrir una nueva cuenta bancaria",
+      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Open New Account\"\nAnd selecciona el tipo de cuenta \"SAVINGS\"\nAnd selecciona una cuenta existente para transferir los fondos iniciales\nAnd hace clic en el botón \"Open New Account\"\nThen el sistema muestra el mensaje \"Account Opened!\"\nAnd genera un nuevo número de cuenta válido\n```",
+      "state": "open",
+      "node_id": "local_node_15",
+      "labels": [
+        "testcase"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T04:41:05.775Z",
+      "updated_at": "2026-11-05T04:41:05.775Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "module": "Account Services",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "type_of_test": "funcional",
+        "automate": "not apply"
+      }
+    },
+    {
+      "id": 16,
+      "number": 16,
+      "title": "Visualizar el resumen de las cuentas (Accounts Overview)",
+      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Accounts Overview\"\nThen el sistema muestra una tabla con todas las cuentas del cliente\nAnd se visualiza el saldo (\"Balance\") y los fondos disponibles (\"Available Amount\") para cada cuenta\nAnd el total global de los saldos se muestra en la fila inferior \"Total\"\n```",
+      "state": "open",
+      "node_id": "local_node_16",
+      "labels": [
+        "testcase"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T04:41:05.777Z",
+      "updated_at": "2026-11-05T04:41:05.777Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "module": "Account Services",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "type_of_test": "funcional",
+        "automate": "not apply"
+      }
+    },
+    {
+      "id": 17,
+      "number": 17,
+      "title": "Solicitar un préstamo exitosamente",
+      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Request Loan\"\nAnd ingresa un monto de préstamo \"1000.00\" (Loan Amount)\nAnd ingresa un pago inicial \"100.00\" (Down Payment)\nAnd selecciona una cuenta desde donde se pagará (From account id)\nAnd hace clic en el botón \"Apply Now\"\nThen el sistema procesa la solicitud\nAnd muestra el estado de la solicitud como \"Approved\"\nAnd genera y muestra un nuevo número de cuenta para el préstamo\n```",
+      "state": "open",
+      "node_id": "local_node_17",
+      "labels": [
+        "testcase"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T04:41:05.778Z",
+      "updated_at": "2026-11-05T04:41:05.778Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "module": "Loan",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "type_of_test": "funcional",
+        "automate": "not apply"
+      }
+    },
+    {
+      "id": 18,
+      "number": 18,
+      "title": "Rechazo de préstamo por monto excesivo",
+      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Request Loan\"\nAnd ingresa un monto de préstamo \"9999999.00\" con un pago inicial mínimo\nAnd hace clic en el botón \"Apply Now\"\nThen el sistema procesa la solicitud\nAnd muestra el estado de la solicitud como \"Denied\"\nAnd el sistema informa de insuficiencia de fondos\n```",
+      "state": "open",
+      "node_id": "local_node_18",
+      "labels": [
+        "testcase"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T04:41:05.779Z",
+      "updated_at": "2026-11-05T04:41:05.779Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "module": "Loan",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "type_of_test": "funcional",
+        "automate": "not apply"
+      }
+    },
+    {
+      "id": 19,
+      "number": 19,
+      "title": "Registrar un nuevo usuario exitosamente",
+      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nWhen el usuario hace clic en el enlace \"Register\"\nAnd completa el formulario de registro con datos válidos (nombre, dirección, SSN, usuario y contraseña)\nAnd hace clic en el botón \"Register\"\nThen el sistema muestra el mensaje \"Your account was created successfully. You are now logged in.\"\n```",
+      "state": "open",
+      "node_id": "local_node_19",
+      "labels": [
+        "testcase"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T04:41:05.780Z",
+      "updated_at": "2026-11-05T04:41:05.780Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "module": "Registration",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "type_of_test": "funcional",
+        "automate": "not apply"
+      }
+    },
+    {
+      "id": 20,
+      "number": 20,
+      "title": "Iniciar sesión con credenciales válidas",
+      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nGiven el usuario ya tiene una cuenta registrada\nWhen ingresa su nombre de usuario y contraseña en el panel \"Customer Login\"\nAnd hace clic en el botón \"Log In\"\nThen el sistema lo redirige a la página \"Accounts Overview\"\nAnd muestra el mensaje de bienvenida con su nombre\n```",
+      "state": "open",
+      "node_id": "local_node_20",
+      "labels": [
+        "testcase"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T04:41:05.782Z",
+      "updated_at": "2026-11-05T04:41:05.782Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "module": "Registration",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "type_of_test": "funcional",
+        "automate": "not apply"
+      }
+    },
+    {
+      "id": 21,
+      "number": 21,
+      "title": "Error al iniciar sesión con credenciales inválidas",
+      "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nWhen ingresa un usuario inválido y una contraseña incorrecta en el panel \"Customer Login\"\nAnd hace clic en el botón \"Log In\"\nThen el sistema muestra un mensaje de error \"The username and password could not be verified.\"\n```",
+      "state": "open",
+      "node_id": "local_node_21",
+      "labels": [
+        "testcase"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T04:41:05.783Z",
+      "updated_at": "2026-11-05T04:41:05.783Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "module": "Registration",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "type_of_test": "funcional",
+        "automate": "not apply"
+      }
+    },
+    {
+      "id": 22,
+      "number": 22,
+      "title": "Transferir fondos entre cuentas",
+      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nAnd posee al menos dos cuentas con fondos disponibles\nWhen el usuario hace clic en el enlace \"Transfer Funds\"\nAnd ingresa el monto a transferir \"100.00\"\nAnd selecciona la cuenta de origen \"From account\"\nAnd selecciona la cuenta de destino \"To account\"\nAnd hace clic en el botón \"Transfer\"\nThen el sistema muestra el mensaje \"Transfer Complete!\"\nAnd el monto \"100.00\" es reflejado en los detalles de la transacción\n```",
+      "state": "open",
+      "node_id": "local_node_22",
+      "labels": [
+        "testcase"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T04:41:05.784Z",
+      "updated_at": "2026-11-05T04:41:05.784Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "module": "ProduTransactions",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "type_of_test": "funcional",
+        "automate": "not apply"
+      }
+    },
+    {
+      "id": 23,
+      "number": 23,
+      "title": "Realizar un pago de servicios (Bill Pay)",
+      "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nAnd posee al menos dos cuentas con fondos disponibles\nWhen el usuario hace clic en el enlace \"Bill Pay\"\nAnd completa los datos del beneficiario \"Payee Information\" (Nombre, Dirección, Número de Cuenta)\nAnd ingresa el monto \"50.00\"\nAnd selecciona la cuenta desde la cual se pagará\nAnd hace clic en el botón \"Send Payment\"\nThen el sistema muestra el mensaje \"Bill Payment Complete\"\nAnd confirma que el pago de \"50.00\" fue enviado correctamente al beneficiario\n```",
+      "state": "open",
+      "node_id": "local_node_23",
+      "labels": [
+        "testcase"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T04:41:05.785Z",
+      "updated_at": "2026-11-05T04:41:05.785Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "module": "ProduTransactions",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "type_of_test": "funcional",
+        "automate": "not apply"
+      }
+    },
+    {
+      "id": 24,
+      "number": 24,
+      "title": "ParaBank-20260611_155609_da5690",
+      "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Origin:** loan.case.feature\n- [ ] tc-01: #17\n- [ ] tc-02: #18\n\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #19\n- [ ] tc-02: #20\n- [ ] tc-03: #21\n\n\n**Origin:** transactions.case.feature\n- [ ] tc-01: #22\n- [ ] tc-02: #23\n\n\n**Origin:** account_services.case.feature\n- [ ] tc-02: #16\n\n\n**Not Found in State**\n- [ ] tc-1: (not found in state) - ParaBank/account_services.case.feature.@tc-1",
+      "state": "open",
+      "node_id": "local_node_24",
+      "labels": [
+        "testrun"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T15:42:00.842Z",
+      "updated_at": "2026-11-05T15:42:00.842Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "component": "microservicio-4",
+        "startDate": "2026-06-05",
+        "endDate": "2026-06-16",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done",
+        "sprint": "Sprint 3",
+        "quarter": "Q2"
+      }
+    },
+    {
+      "id": 25,
+      "number": 25,
+      "title": "Plan de Pruebas ParaBank",
+      "body": "### Test Runs\n- [ ] #24",
+      "state": "open",
+      "node_id": "local_node_25",
+      "labels": [
+        "testplan"
+      ],
+      "assignees": [
+        "fromeroc9"
+      ],
+      "created_at": "2026-11-05T15:50:09.842Z",
+      "updated_at": "2026-11-05T15:50:09.842Z",
+      "comments": [],
+      "custom_fields": {
+        "project": "ParaBank",
+        "component": "microservicio-4",
+        "squad": "Father of Peace",
+        "team": "NO APLICA",
+        "priority": "@medium",
+        "Status": "Done"
+      }
     }
   ],
-  "next_issue_number": 15,
+  "next_issue_number": 26,
   "next_comment_id": 1
 }

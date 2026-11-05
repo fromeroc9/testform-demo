@@ -26,4 +26,3 @@ Feature: SauceDemo-20260612_120001_ah4sw0
 
     Scenario: @tc-01
       * mark status = pending
-

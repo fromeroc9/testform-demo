@@ -8,6 +8,9 @@ Feature: Plan de Pruebas SauceDemo
     * field priority = @high
 
   Rule: testruns/SauceDemo-20260611_155620_2598ef.run.feature
+
   Rule: testruns/SauceDemo-20260612_120000_qz3vjx.run.feature
+
   Rule: testruns/SauceDemo-20260612_120001_ah4sw0.run.feature
+
   Rule: testruns/SauceDemo-20260612_120002_gp1yim.run.feature

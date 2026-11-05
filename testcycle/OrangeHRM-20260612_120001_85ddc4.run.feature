@@ -56,4 +56,3 @@ Feature: OrangeHRM-20260612_120001_85ddc4
 
     Scenario: @tc-01
       * mark status = pending
-

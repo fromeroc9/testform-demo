@@ -7,7 +7,6 @@ Feature: SauceDemo-20260611_155620_2598ef
     * field startDate = 2026-06-15
     * field endDate = 2026-06-18
 
-
   Rule: SauceDemo/cart.case.feature
 
     Scenario: @tc-01

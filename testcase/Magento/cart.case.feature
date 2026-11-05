@@ -19,7 +19,7 @@ Feature: Carrito de Compras y Productos Configurables (Magento / Luma)
   @tc-02
   Scenario: Agregar un producto configurable exitosamente al carrito
     When el usuario hace clic para seleccionar la talla "M"
-    And hace clic para seleccionar el color "Blue" 
+    And hace clic para seleccionar el color "Blue"
     And hace clic en el botón "Add to Cart"
     Then el sistema muestra un mensaje de éxito verde indicando "You added Proteus Fitness Jackshirt to your shopping cart."
     And el contador numérico del ícono del carrito en la esquina superior derecha incrementa

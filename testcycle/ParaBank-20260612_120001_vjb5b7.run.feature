@@ -26,4 +26,3 @@ Feature: ParaBank-20260612_120001_vjb5b7
 
     Scenario: @tc-01
       * mark status = pending
-

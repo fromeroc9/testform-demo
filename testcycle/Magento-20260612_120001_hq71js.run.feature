@@ -26,4 +26,3 @@ Feature: Magento-20260612_120001_hq71js
 
     Scenario: @tc-01
       * mark status = pending
-

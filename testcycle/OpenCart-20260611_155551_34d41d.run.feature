@@ -7,7 +7,6 @@ Feature: OpenCart-20260611_155551_34d41d
     * field startDate = 2026-06-10
     * field endDate = 2026-06-18
 
-
   Rule: OpenCart/account.case.feature
 
     Scenario: @tc-01

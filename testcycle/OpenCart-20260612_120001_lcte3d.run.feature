@@ -26,4 +26,3 @@ Feature: OpenCart-20260612_120001_lcte3d
 
     Scenario: @tc-01
       * mark status = pending
-
