@@ -1,15 +1,15 @@
 {
   "version": "1.0",
-  "serial": 54,
+  "serial": 67,
   "lineage": "979e893f-13a3-430c-8a66-6b73e4194541",
-  "lastSync": "2026-11-05T15:50:06.592Z",
+  "lastSync": "2026-11-06T05:34:08.321Z",
   "provider": "local",
   "resources": [
     {
       "type": "github_testcase",
-      "identity": "testcase\\ParaBank\\account_services.case.feature.@tc-01",
+      "identity": "testcase/ParaBank/account_services.case.feature.@tc-01",
       "attributes": {
-        "localHash": "c08156f05f23024913c41984842651eaecd68a98ff484d9d6f153ff607b75582",
+        "localHash": "982f5622efc2bcd85b9b568da7bdff2dd029f07edda2dde999efec8f219a74b4",
         "remoteId": "local:15",
         "issueNumber": 15,
         "title": "Abrir una nueva cuenta bancaria",
@@ -37,9 +37,9 @@
     },
     {
       "type": "github_testcase",
-      "identity": "testcase\\ParaBank\\account_services.case.feature.@tc-02",
+      "identity": "testcase/ParaBank/account_services.case.feature.@tc-02",
       "attributes": {
-        "localHash": "041a6c7d5cf55a5cfcc1f4830d1c92c901de846297fc21957a1ad6e563277357",
+        "localHash": "31c5305990cdda0736ad510e0a2085291cd2ab97219e5cdb8898d6fd73341240",
         "remoteId": "local:16",
         "issueNumber": 16,
         "title": "Visualizar el resumen de las cuentas (Accounts Overview)",
@@ -67,9 +67,9 @@
     },
     {
       "type": "github_testcase",
-      "identity": "testcase\\ParaBank\\loan.case.feature.@tc-01",
+      "identity": "testcase/ParaBank/loan.case.feature.@tc-01",
       "attributes": {
-        "localHash": "14900ee7278264fc47c28c903af656b41a6c92576035e9491f06d8d9430b43db",
+        "localHash": "46147544e913b875d4e115913913459de9acbfcf9c4ce6e299df303050aacdc5",
         "remoteId": "local:17",
         "issueNumber": 17,
         "title": "Solicitar un préstamo exitosamente",
@@ -97,9 +97,9 @@
     },
     {
       "type": "github_testcase",
-      "identity": "testcase\\ParaBank\\loan.case.feature.@tc-02",
+      "identity": "testcase/ParaBank/loan.case.feature.@tc-02",
       "attributes": {
-        "localHash": "b781fa013dfdf95e5a0cddc52b0544d26c95b0d2e087af0e536e8687ed5872e7",
+        "localHash": "5d910e5746cfa1af9c489825b49250adef829f34e697f9e9f1151d30ddeb02a3",
         "remoteId": "local:18",
         "issueNumber": 18,
         "title": "Rechazo de préstamo por monto excesivo",
@@ -127,9 +127,9 @@
     },
     {
       "type": "github_testcase",
-      "identity": "testcase\\ParaBank\\register_login.case.feature.@tc-01",
+      "identity": "testcase/ParaBank/register_login.case.feature.@tc-01",
       "attributes": {
-        "localHash": "f2ff067e679b1e42b04698973a4db45e3eb2927d46ba29fd54c7d308a55c5006",
+        "localHash": "5c039fa5c859895a044253790c41160517ad2f5b6512f5094cb0527cab373c93",
         "remoteId": "local:19",
         "issueNumber": 19,
         "title": "Registrar un nuevo usuario exitosamente",
@@ -157,9 +157,9 @@
     },
     {
       "type": "github_testcase",
-      "identity": "testcase\\ParaBank\\register_login.case.feature.@tc-02",
+      "identity": "testcase/ParaBank/register_login.case.feature.@tc-02",
       "attributes": {
-        "localHash": "d4f9cc8ba8779eea20d29510afdbac15e7b0c62d6d1284a58e7e9ee601151b77",
+        "localHash": "f45d7667c3cf9135a7ad71f7693b2aa6fe5ff8f39db84a9d8b15e8285bf54c5e",
         "remoteId": "local:20",
         "issueNumber": 20,
         "title": "Iniciar sesión con credenciales válidas",
@@ -187,9 +187,9 @@
     },
     {
       "type": "github_testcase",
-      "identity": "testcase\\ParaBank\\register_login.case.feature.@tc-03",
+      "identity": "testcase/ParaBank/register_login.case.feature.@tc-03",
       "attributes": {
-        "localHash": "5b827e3bf4af229820965f609256b3e9853fc6b573aad352042d2a1eee30a400",
+        "localHash": "3cc7f408426788de63edc6b76346f76bb87e149c94bcbac4984d7600afaed5f6",
         "remoteId": "local:21",
         "issueNumber": 21,
         "title": "Error al iniciar sesión con credenciales inválidas",
@@ -217,9 +217,9 @@
     },
     {
       "type": "github_testcase",
-      "identity": "testcase\\ParaBank\\transactions.case.feature.@tc-01",
+      "identity": "testcase/ParaBank/transactions.case.feature.@tc-01",
       "attributes": {
-        "localHash": "c38686c6ee8b73f4ac0ac6a2829adc46af418db556a9f5cd19c4bf8ffee7ba15",
+        "localHash": "ef0cca3a3cc3b60edbf39386e7809cd128cd36c93f3d4c056a3f8a1b7af38612",
         "remoteId": "local:22",
         "issueNumber": 22,
         "title": "Transferir fondos entre cuentas",
@@ -247,9 +247,9 @@
     },
     {
       "type": "github_testcase",
-      "identity": "testcase\\ParaBank\\transactions.case.feature.@tc-02",
+      "identity": "testcase/ParaBank/transactions.case.feature.@tc-02",
       "attributes": {
-        "localHash": "ede8e031b0f4d13917299c3c9e511b4f65975190dc7c559d8987e36d835df914",
+        "localHash": "b7b17bc8bfb92587988cb77b3efa12ded7077425dee3a3b6981c23baf633779d",
         "remoteId": "local:23",
         "issueNumber": 23,
         "title": "Realizar un pago de servicios (Bill Pay)",
@@ -277,9 +277,9 @@
     },
     {
       "type": "github_testrun",
-      "identity": "testcycle\\ParaBank-20260611_155609_da5690.run.feature.@tr-4",
+      "identity": "testcycle/ParaBank-20260611_155609_da5690.run.feature.@tr-4",
       "attributes": {
-        "localHash": "df0c91d548f37c63e8e940fd9f9f0e83e5b3d41e8a07ca7eee4ef6485627324f",
+        "localHash": "f5ef375f6c7a7a5dfa6856d3d8806a2437f56270d8055ae692c89dc51b1c5a47",
         "remoteId": "local:24",
         "issueNumber": 24,
         "title": "ParaBank-20260611_155609_da5690",
@@ -317,6 +317,38 @@
         }
       },
       "lastApplied": "2026-11-05T15:42:00.849Z"
+    },
+    {
+      "type": "github_testplan",
+      "identity": "testplans/ParaBank-simple.plan.feature.@tp-6",
+      "attributes": {
+        "localHash": "3955834a61305b2cd7f820e4e1d1482a9f66ebec69e4fb2c8dd9a4225301a32e",
+        "remoteId": "local:25",
+        "issueNumber": 25,
+        "title": "Plan de Pruebas ParaBank",
+        "body": "### Test Runs\n- [ ] #24",
+        "labels": [
+          "testplan"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-05T15:50:09.842Z",
+        "updatedAt": "2026-11-05T15:50:09.842Z",
+        "custom_fields": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "squad": "Father of Peace",
+          "team": "NO APLICA",
+          "priority": "@medium",
+          "Status": "Done"
+        },
+        "status": "pending",
+        "testruns": {
+          "testruns/ParaBank-20260611_155609_da5690.run.feature": "pending"
+        }
+      },
+      "lastApplied": "2026-11-05T15:50:09.847Z"
     }
   ],
   "outputs": {}
