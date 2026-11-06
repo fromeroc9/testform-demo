@@ -6,7 +6,7 @@
   "provider": "local",
   "resources": [
     {
-      "type": "github_testcase",
+      "type": "testcase",
       "identity": "testcase/ParaBank/account_services.case.feature.@tc-01",
       "attributes": {
         "localHash": "982f5622efc2bcd85b9b568da7bdff2dd029f07edda2dde999efec8f219a74b4",
@@ -36,7 +36,7 @@
       "lastApplied": "2026-11-05T04:41:05.777Z"
     },
     {
-      "type": "github_testcase",
+      "type": "testcase",
       "identity": "testcase/ParaBank/account_services.case.feature.@tc-02",
       "attributes": {
         "localHash": "31c5305990cdda0736ad510e0a2085291cd2ab97219e5cdb8898d6fd73341240",
@@ -66,7 +66,7 @@
       "lastApplied": "2026-11-05T04:41:05.778Z"
     },
     {
-      "type": "github_testcase",
+      "type": "testcase",
       "identity": "testcase/ParaBank/loan.case.feature.@tc-01",
       "attributes": {
         "localHash": "46147544e913b875d4e115913913459de9acbfcf9c4ce6e299df303050aacdc5",
@@ -96,7 +96,7 @@
       "lastApplied": "2026-11-05T04:41:05.779Z"
     },
     {
-      "type": "github_testcase",
+      "type": "testcase",
       "identity": "testcase/ParaBank/loan.case.feature.@tc-02",
       "attributes": {
         "localHash": "5d910e5746cfa1af9c489825b49250adef829f34e697f9e9f1151d30ddeb02a3",
@@ -126,7 +126,7 @@
       "lastApplied": "2026-11-05T04:41:05.780Z"
     },
     {
-      "type": "github_testcase",
+      "type": "testcase",
       "identity": "testcase/ParaBank/register_login.case.feature.@tc-01",
       "attributes": {
         "localHash": "5c039fa5c859895a044253790c41160517ad2f5b6512f5094cb0527cab373c93",
@@ -156,7 +156,7 @@
       "lastApplied": "2026-11-05T04:41:05.781Z"
     },
     {
-      "type": "github_testcase",
+      "type": "testcase",
       "identity": "testcase/ParaBank/register_login.case.feature.@tc-02",
       "attributes": {
         "localHash": "f45d7667c3cf9135a7ad71f7693b2aa6fe5ff8f39db84a9d8b15e8285bf54c5e",
@@ -186,7 +186,7 @@
       "lastApplied": "2026-11-05T04:41:05.783Z"
     },
     {
-      "type": "github_testcase",
+      "type": "testcase",
       "identity": "testcase/ParaBank/register_login.case.feature.@tc-03",
       "attributes": {
         "localHash": "3cc7f408426788de63edc6b76346f76bb87e149c94bcbac4984d7600afaed5f6",
@@ -216,7 +216,7 @@
       "lastApplied": "2026-11-05T04:41:05.784Z"
     },
     {
-      "type": "github_testcase",
+      "type": "testcase",
       "identity": "testcase/ParaBank/transactions.case.feature.@tc-01",
       "attributes": {
         "localHash": "ef0cca3a3cc3b60edbf39386e7809cd128cd36c93f3d4c056a3f8a1b7af38612",
@@ -246,7 +246,7 @@
       "lastApplied": "2026-11-05T04:41:05.785Z"
     },
     {
-      "type": "github_testcase",
+      "type": "testcase",
       "identity": "testcase/ParaBank/transactions.case.feature.@tc-02",
       "attributes": {
         "localHash": "b7b17bc8bfb92587988cb77b3efa12ded7077425dee3a3b6981c23baf633779d",
@@ -276,7 +276,7 @@
       "lastApplied": "2026-11-05T04:41:05.786Z"
     },
     {
-      "type": "github_testrun",
+      "type": "testrun",
       "identity": "testcycle/ParaBank-20260611_155609_da5690.run.feature.@tr-4",
       "attributes": {
         "localHash": "f5ef375f6c7a7a5dfa6856d3d8806a2437f56270d8055ae692c89dc51b1c5a47",
@@ -319,7 +319,7 @@
       "lastApplied": "2026-11-05T15:42:00.849Z"
     },
     {
-      "type": "github_testplan",
+      "type": "testplan",
       "identity": "testplans/ParaBank-simple.plan.feature.@tp-6",
       "attributes": {
         "localHash": "3955834a61305b2cd7f820e4e1d1482a9f66ebec69e4fb2c8dd9a4225301a32e",
