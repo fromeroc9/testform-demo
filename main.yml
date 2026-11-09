@@ -7,11 +7,6 @@ provider: local
 resource:
   global:
     fields:
-      - name: team
-        source: "step"
-        required: false
-        enum: ["QA", "Dev", "BA", "PO", "PM"]
-        default: "NO APLICA"
       - name: priority
         source: "tag"
         required: false
