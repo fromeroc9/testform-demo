@@ -1,4 +1,4 @@
-@testcase
+@testcase @ns(magento)
 Feature: Carrito de Compras y Productos Configurables (Magento / Luma)
   Como cliente interesado en un producto de ropa
   Quiero seleccionar sus atributos obligatorios y agregarlo al carrito
@@ -9,7 +9,7 @@ Feature: Carrito de Compras y Productos Configurables (Magento / Luma)
     * field module = cart
     Given el usuario se encuentra en la página de detalles de una chaqueta (ej. "Proteus Fitness Jackshirt")
 
-  @tc-01
+  @tc-01 @low
   Scenario: Validar error al agregar al carrito sin seleccionar atributos
     When el usuario hace clic en el botón "Add to Cart" sin seleccionar ninguna talla ni color
     Then el sistema resalta los bloques de atributos

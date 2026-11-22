@@ -14,7 +14,7 @@ resource:
     scaffold:
       attach: "attachments"
     fields:
-      - name: priority
+      priority:
         source: "tag"
         required: false
         enum:
@@ -22,15 +22,15 @@ resource:
           - "@medium"
           - "@high"
         default: "@medium"
-      - name: Status
+      Status:
         source: "step"
         required: false
         default: "Done"
-      - name: assignees
+      assignees:  
         source: "step"
         required: false
         default: "fromeroc9"
-      - name: project
+      project:
         source: "step"
         required: true
 
