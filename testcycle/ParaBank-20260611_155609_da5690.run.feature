@@ -9,7 +9,7 @@ Feature: ParaBank-20260611_155609_da5690
 
   Rule: ParaBank/account_services.case.feature
 
-    Scenario: @tc-1
+    Scenario: @tc-01
       * mark status = pending
 
     Scenario: @tc-02

@@ -1,8 +1,13 @@
+version: "1.0"
 testform:
   required_version: ">= 1.0.0"
+  backend: local
 
-provider:
-  local: {}
+provider: 
+  github:
+    owner: "fromeroc9"
+    repository: "testform-demo"
+    project_id: "1"
 
 resource:
   global:

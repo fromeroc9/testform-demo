@@ -1,0 +1,11 @@
+# This file is maintained automatically by "testform init".
+# Manual edits may be lost in future updates.
+
+provider "github" {
+  version     = "1.0.0"
+  constraints = ">= 1.0.0"
+  hashes = [
+    "h1:builtin-provider-verified",
+  ]
+}
+
