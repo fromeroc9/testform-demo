@@ -10,6 +10,7 @@ Feature: Magento-20260612_120000_6be4l9
   Rule: Magento/catalog.case.feature
 
     Scenario:
+      * 
       * mark status = pending
 
     Scenario: @tc-02

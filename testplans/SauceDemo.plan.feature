@@ -1,11 +1,10 @@
-@testplan @tp-5
+@testplan @tp-5 @high
 Feature: Plan de Pruebas SauceDemo
 
   Background:
     * field project = SauceDemo
     * field component = microservicio-7
     * field squad = Nirvana
-    * field priority = @high
 
   Rule: testruns/SauceDemo-20260611_155620_2598ef.run.feature
 

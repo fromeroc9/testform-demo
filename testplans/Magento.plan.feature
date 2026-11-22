@@ -1,11 +1,10 @@
-@testplan @tp-1
+@testplan @tp-1 @high
 Feature: Plan de Pruebas Magento
 
   Background:
     * field project = Magento
     * field component = microservicio-1
     * field squad = Nirvana
-    * field priority = @high
 
   Rule: testruns/Magento-20260611_155546_5f736a.run.feature
 

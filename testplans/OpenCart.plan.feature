@@ -1,11 +1,10 @@
-@testplan @tp-2
+@testplan @tp-2 @medium
 Feature: Plan de Pruebas OpenCart
 
   Background:
     * field project = OpenCart
     * field component = microservicio-3
     * field squad = Moderatto
-    * field priority = @medium
 
   Rule: testruns/OpenCart-20260611_155551_34d41d.run.feature
 

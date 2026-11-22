@@ -1,11 +1,10 @@
-@testplan @tp-3
+@testplan @tp-3 @low
 Feature: Plan de Pruebas OrangeHRM
 
   Background:
     * field project = OrangeHRM
     * field component = microservicio-9
     * field squad = Green Day
-    * field priority = @low
 
   Rule: testruns/OrangeHRM-20260611_155558_06a56c.run.feature
 
