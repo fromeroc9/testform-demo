@@ -1,4 +1,4 @@
-@testrun @tr-19
+@tr-19 @testrun
 Feature: SauceDemo-20260612_120001_ah4sw0
 
   Background:
@@ -10,19 +10,19 @@ Feature: SauceDemo-20260612_120001_ah4sw0
   Rule: SauceDemo/products.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = ambiguous
 
   Rule: SauceDemo/checkout.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
   Rule: SauceDemo/cart.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
   Rule: SauceDemo/login.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending

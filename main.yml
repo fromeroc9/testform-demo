@@ -1,11 +1,13 @@
 testform:
   required_version: ">= 1.0.0"
-  backend: local
 
-provider: local
+provider:
+  local: {}
 
 resource:
   global:
+    scaffold:
+      attach: "attachments"
     fields:
       - name: priority
         source: "tag"
@@ -77,6 +79,29 @@ resource:
       - name: component
         source: "step"
         required: false
+        default: "core"
       - name: squad
         source: "step"
         required: false
+        default: "QA-Team"
+
+  bug:
+    match: "*.bug.feature"
+    scaffold:
+      directory: "bugs"
+      filename: "{slug}_{YYYYMMDD}.bug.feature"
+      attach: "attachments/bugs"
+    fields:
+      - name: severity
+        source: "step"
+        required: false
+        enum:
+          - "@blocker"
+          - "@critical"
+          - "@major"
+          - "@minor"
+        default: "@major"
+      - name: bug_type
+        source: "step"
+        required: false
+        default: "functional"

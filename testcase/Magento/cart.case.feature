@@ -5,7 +5,6 @@ Feature: Carrito de Compras y Productos Configurables (Magento / Luma)
   Para guardarlo y proceder con la compra posteriormente
 
   Background:
-    * field team = QA
     * field project = Magento
     * field module = cart
     Given el usuario se encuentra en la página de detalles de una chaqueta (ej. "Proteus Fitness Jackshirt")

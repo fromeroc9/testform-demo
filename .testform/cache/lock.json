@@ -6,6 +6,13 @@
       "hashes": [
         "h1:dGVzdGZvcm0tcHJvdmlkZXItbG9jay12ZXJpZmllZA=="
       ]
+    },
+    "local": {
+      "version": "1.0.0",
+      "constraints": ">= 1.0.0",
+      "hashes": [
+        "h1:builtin-provider-verified"
+      ]
     }
   }
 }
