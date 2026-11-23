@@ -11,31 +11,31 @@ Feature: Magento-20260612_120000_6be4l9
 
     Scenario:
       * 
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
   Rule: Magento/checkout.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
   Rule: Magento/cart.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
   Rule: Magento/customer.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending

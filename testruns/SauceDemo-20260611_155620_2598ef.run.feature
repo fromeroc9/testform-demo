@@ -10,43 +10,43 @@ Feature: SauceDemo-20260611_155620_2598ef
   Rule: SauceDemo/cart.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-03
-      * mark status = pending
+      * set status = pending
 
   Rule: SauceDemo/checkout.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-03
-      * mark status = pending
+      * set status = pending
 
   Rule: SauceDemo/login.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-03
-      * mark status = pending
+      * set status = pending
 
   Rule: SauceDemo/products.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-03
-      * mark status = pending
+      * set status = pending

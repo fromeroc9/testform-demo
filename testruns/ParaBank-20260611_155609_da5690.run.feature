@@ -10,34 +10,34 @@ Feature: ParaBank-20260611_155609_da5690
   Rule: ParaBank/account_services.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
   Rule: ParaBank/loan.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
   Rule: ParaBank/register_login.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-03
-      * mark status = pending
+      * set status = pending
 
   Rule: ParaBank/transactions.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending

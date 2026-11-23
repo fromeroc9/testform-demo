@@ -10,34 +10,34 @@ Feature: OpenCart-20260612_120000_zkzodt
   Rule: OpenCart/account.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-03
-      * mark status = pending
+      * set status = pending
 
   Rule: OpenCart/checkout.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
   Rule: OpenCart/shopping.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending
 
   Rule: OpenCart/cart.case.feature
 
     Scenario: @tc-01
-      * mark status = pending
+      * set status = pending
 
     Scenario: @tc-02
-      * mark status = pending
+      * set status = pending

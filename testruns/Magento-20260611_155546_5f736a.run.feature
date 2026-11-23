@@ -10,31 +10,31 @@ Feature: Magento-20260611_155546_5f736a
   Rule: Magento/cart.case.feature
 
     Scenario: @tc-01
-      * mark status = passed
+      * set status = passed
 
     Scenario: @tc-02
-      * mark status = passed
+      * set status = passed
 
   Rule: Magento/catalog.case.feature
 
     Scenario: @tc-01
-      * mark status = passed
+      * set status = passed
 
     Scenario: @tc-02
-      * mark status = passed
+      * set status = passed
 
   Rule: Magento/checkout.case.feature
 
     Scenario: @tc-01
-      * mark status = passed
+      * set status = passed
 
     Scenario: @tc-02
-      * mark status = passed
+      * set status = passed
 
   Rule: Magento/customer.case.feature
 
     Scenario: @tc-01
-      * mark status = passed
+      * set status = passed
 
     Scenario: @tc-02
-      * mark status = passed
+      * set status = passed

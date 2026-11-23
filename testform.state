@@ -1,9 +1,1170 @@
 {
   "version": "1.0",
-  "serial": 173,
+  "serial": 194,
   "lineage": "979e893f-13a3-430c-8a66-6b73e4194541",
-  "lastSync": "2026-11-22T23:31:28.089Z",
+  "lastSync": "2026-11-23T04:29:15.465Z",
   "provider": "local",
-  "resources": [],
+  "resources": [
+    {
+      "type": "testrun",
+      "address": "Magento-20260611_155546_5f736a.run.feature.@tr-1",
+      "path": "Magento-20260611_155546_5f736a.run.feature",
+      "tag": "@tr-1",
+      "physicalAddress": "Magento-20260611_155546_5f736a.run.feature.@tr-1",
+      "attributes": {
+        "localHash": "a56499693645d259d14d677e41a0711b4d93c38927620c96406d3f362dbafd5e",
+        "remoteId": "testform-demo:408",
+        "issueNumber": 408,
+        "title": "Magento-20260611_155546_5f736a",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - Magento/cart.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/catalog.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/customer.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - Magento/cart.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - Magento/catalog.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - Magento/checkout.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - Magento/customer.case.feature.@tc-02",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:27:22Z",
+        "updatedAt": "2026-11-23T04:27:22Z",
+        "custom_fields": {
+          "project": "Magento",
+          "component": "microservicio-1",
+          "startDate": "2026-06-11",
+          "endDate": "2026-06-11",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "passed",
+        "testcases": {
+          "Magento/cart.case.feature.@tc-01": "passed",
+          "Magento/cart.case.feature.@tc-02": "passed",
+          "Magento/catalog.case.feature.@tc-01": "passed",
+          "Magento/catalog.case.feature.@tc-02": "passed",
+          "Magento/checkout.case.feature.@tc-01": "passed",
+          "Magento/checkout.case.feature.@tc-02": "passed",
+          "Magento/customer.case.feature.@tc-01": "passed",
+          "Magento/customer.case.feature.@tc-02": "passed"
+        },
+        "metadata": {
+          "project": "Magento",
+          "component": "microservicio-1",
+          "startDate": "2026-06-11",
+          "endDate": "2026-06-11",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:27:29.563Z"
+    },
+    {
+      "type": "testrun",
+      "address": "Magento-20260612_120000_6be4l9.run.feature.@tr-6",
+      "path": "Magento-20260612_120000_6be4l9.run.feature",
+      "tag": "@tr-6",
+      "physicalAddress": "Magento-20260612_120000_6be4l9.run.feature.@tr-6",
+      "attributes": {
+        "localHash": "a98570a844476d2b34dd9ae143b7382d3c0ad44dc2f08d4ffd8293ea5dd1e133",
+        "remoteId": "testform-demo:409",
+        "issueNumber": 409,
+        "title": "Magento-20260612_120000_6be4l9",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - Magento/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/cart.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/customer.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - Magento/catalog.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - Magento/checkout.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - Magento/cart.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - Magento/customer.case.feature.@tc-02",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:27:28Z",
+        "updatedAt": "2026-11-23T04:27:28Z",
+        "custom_fields": {
+          "project": "Magento",
+          "component": "microservicio-1",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "Magento/catalog.case.feature.@tc-02": "pending",
+          "Magento/checkout.case.feature.@tc-01": "pending",
+          "Magento/checkout.case.feature.@tc-02": "pending",
+          "Magento/cart.case.feature.@tc-01": "pending",
+          "Magento/cart.case.feature.@tc-02": "pending",
+          "Magento/customer.case.feature.@tc-01": "pending",
+          "Magento/customer.case.feature.@tc-02": "pending"
+        },
+        "metadata": {
+          "project": "Magento",
+          "component": "microservicio-1",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:27:35.695Z"
+    },
+    {
+      "type": "testrun",
+      "address": "Magento-20260612_120001_hq71js.run.feature.@tr-7",
+      "path": "Magento-20260612_120001_hq71js.run.feature",
+      "tag": "@tr-7",
+      "physicalAddress": "Magento-20260612_120001_hq71js.run.feature.@tr-7",
+      "attributes": {
+        "localHash": "0e8b27be3782bf9deee8be0ef4c3899aad2eca854d875c637d40c8aec89dedc9",
+        "remoteId": "testform-demo:410",
+        "issueNumber": 410,
+        "title": "Magento-20260612_120001_hq71js",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - Magento/catalog.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/cart.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/customer.case.feature.@tc-01",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:27:35Z",
+        "updatedAt": "2026-11-23T04:27:35Z",
+        "custom_fields": {
+          "project": "Magento",
+          "component": "microservicio-1",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "Magento/catalog.case.feature.@tc-01": "passed",
+          "Magento/checkout.case.feature.@tc-01": "pending",
+          "Magento/cart.case.feature.@tc-01": "pending",
+          "Magento/customer.case.feature.@tc-01": "pending"
+        },
+        "metadata": {
+          "project": "Magento",
+          "component": "microservicio-1",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:27:40.535Z"
+    },
+    {
+      "type": "testrun",
+      "address": "Magento-20260612_120002_9ca62m.run.feature.@tr-8",
+      "path": "Magento-20260612_120002_9ca62m.run.feature",
+      "tag": "@tr-8",
+      "physicalAddress": "Magento-20260612_120002_9ca62m.run.feature.@tr-8",
+      "attributes": {
+        "localHash": "c785b62525bd4ea33d4a5c3abc5bb516e4a5b014518fb797b1c2de3a4ce1c89a",
+        "remoteId": "testform-demo:411",
+        "issueNumber": 411,
+        "title": "Magento-20260612_120002_9ca62m",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - Magento/catalog.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/cart.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - Magento/customer.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - Magento/catalog.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - Magento/checkout.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - Magento/cart.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - Magento/customer.case.feature.@tc-02",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:27:39Z",
+        "updatedAt": "2026-11-23T04:27:39Z",
+        "custom_fields": {
+          "project": "Magento",
+          "component": "microservicio-1",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "Magento/catalog.case.feature.@tc-01": "pending",
+          "Magento/catalog.case.feature.@tc-02": "pending",
+          "Magento/checkout.case.feature.@tc-01": "pending",
+          "Magento/checkout.case.feature.@tc-02": "pending",
+          "Magento/cart.case.feature.@tc-01": "pending",
+          "Magento/cart.case.feature.@tc-02": "pending",
+          "Magento/customer.case.feature.@tc-01": "pending",
+          "Magento/customer.case.feature.@tc-02": "pending"
+        },
+        "metadata": {
+          "project": "Magento",
+          "component": "microservicio-1",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:27:46.344Z"
+    },
+    {
+      "type": "testrun",
+      "address": "OpenCart-20260611_155551_34d41d.run.feature.@tr-2",
+      "path": "OpenCart-20260611_155551_34d41d.run.feature",
+      "tag": "@tr-2",
+      "physicalAddress": "OpenCart-20260611_155551_34d41d.run.feature.@tr-2",
+      "attributes": {
+        "localHash": "d9c1dc5d3878c005807c1c0cf3561d79d9d58131a719714fd78db48f6a5bd921",
+        "remoteId": "testform-demo:412",
+        "issueNumber": 412,
+        "title": "OpenCart-20260611_155551_34d41d",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - OpenCart/account.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/cart.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/shopping.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - OpenCart/account.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/cart.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/checkout.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/shopping.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - OpenCart/account.case.feature.@tc-03",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:27:45Z",
+        "updatedAt": "2026-11-23T04:27:45Z",
+        "custom_fields": {
+          "project": "OpenCart",
+          "component": "microservicio-3",
+          "startDate": "2026-06-10",
+          "endDate": "2026-06-18",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "OpenCart/account.case.feature.@tc-01": "pending",
+          "OpenCart/account.case.feature.@tc-02": "pending",
+          "OpenCart/account.case.feature.@tc-03": "pending",
+          "OpenCart/cart.case.feature.@tc-01": "pending",
+          "OpenCart/cart.case.feature.@tc-02": "pending",
+          "OpenCart/checkout.case.feature.@tc-01": "pending",
+          "OpenCart/checkout.case.feature.@tc-02": "pending",
+          "OpenCart/shopping.case.feature.@tc-01": "pending",
+          "OpenCart/shopping.case.feature.@tc-02": "pending"
+        },
+        "metadata": {
+          "project": "OpenCart",
+          "component": "microservicio-3",
+          "startDate": "2026-06-10",
+          "endDate": "2026-06-18",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:27:51.998Z"
+    },
+    {
+      "type": "testrun",
+      "address": "OpenCart-20260612_120000_zkzodt.run.feature.@tr-9",
+      "path": "OpenCart-20260612_120000_zkzodt.run.feature",
+      "tag": "@tr-9",
+      "physicalAddress": "OpenCart-20260612_120000_zkzodt.run.feature.@tr-9",
+      "attributes": {
+        "localHash": "381adcbd564f5129ff8e7c57f32a569a8f269a848d20f3f0b4d8e0477a899e92",
+        "remoteId": "testform-demo:413",
+        "issueNumber": 413,
+        "title": "OpenCart-20260612_120000_zkzodt",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - OpenCart/account.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/shopping.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/cart.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - OpenCart/account.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/checkout.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/shopping.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/cart.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - OpenCart/account.case.feature.@tc-03",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:27:51Z",
+        "updatedAt": "2026-11-23T04:27:51Z",
+        "custom_fields": {
+          "project": "OpenCart",
+          "component": "microservicio-3",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "OpenCart/account.case.feature.@tc-01": "pending",
+          "OpenCart/account.case.feature.@tc-02": "pending",
+          "OpenCart/account.case.feature.@tc-03": "pending",
+          "OpenCart/checkout.case.feature.@tc-01": "pending",
+          "OpenCart/checkout.case.feature.@tc-02": "pending",
+          "OpenCart/shopping.case.feature.@tc-01": "pending",
+          "OpenCart/shopping.case.feature.@tc-02": "pending",
+          "OpenCart/cart.case.feature.@tc-01": "pending",
+          "OpenCart/cart.case.feature.@tc-02": "pending"
+        },
+        "metadata": {
+          "project": "OpenCart",
+          "component": "microservicio-3",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:27:57.403Z"
+    },
+    {
+      "type": "testrun",
+      "address": "OpenCart-20260612_120001_lcte3d.run.feature.@tr-10",
+      "path": "OpenCart-20260612_120001_lcte3d.run.feature",
+      "tag": "@tr-10",
+      "physicalAddress": "OpenCart-20260612_120001_lcte3d.run.feature.@tr-10",
+      "attributes": {
+        "localHash": "a0e4a7905f143c93af1a4fc50179a9ad8f1bf5d05a131c0af0b65c054c7e0273",
+        "remoteId": "testform-demo:414",
+        "issueNumber": 414,
+        "title": "OpenCart-20260612_120001_lcte3d",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - OpenCart/account.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/shopping.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/cart.case.feature.@tc-01",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:27:56Z",
+        "updatedAt": "2026-11-23T04:27:56Z",
+        "custom_fields": {
+          "project": "OpenCart",
+          "component": "microservicio-3",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "OpenCart/account.case.feature.@tc-01": "pending",
+          "OpenCart/checkout.case.feature.@tc-01": "pending",
+          "OpenCart/shopping.case.feature.@tc-01": "pending",
+          "OpenCart/cart.case.feature.@tc-01": "pending"
+        },
+        "metadata": {
+          "project": "OpenCart",
+          "component": "microservicio-3",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:03.160Z"
+    },
+    {
+      "type": "testrun",
+      "address": "OpenCart-20260612_120002_88b60u.run.feature.@tr-11",
+      "path": "OpenCart-20260612_120002_88b60u.run.feature",
+      "tag": "@tr-11",
+      "physicalAddress": "OpenCart-20260612_120002_88b60u.run.feature.@tr-11",
+      "attributes": {
+        "localHash": "c4ecbae7d55a218f8dfa80651d09f8586d548584e2193de6724809707ea8ac2a",
+        "remoteId": "testform-demo:415",
+        "issueNumber": 415,
+        "title": "OpenCart-20260612_120002_88b60u",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - OpenCart/account.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/shopping.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OpenCart/cart.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - OpenCart/account.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/checkout.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/shopping.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OpenCart/cart.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - OpenCart/account.case.feature.@tc-03",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:02Z",
+        "updatedAt": "2026-11-23T04:28:02Z",
+        "custom_fields": {
+          "project": "OpenCart",
+          "component": "microservicio-3",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "OpenCart/account.case.feature.@tc-01": "pending",
+          "OpenCart/account.case.feature.@tc-02": "pending",
+          "OpenCart/account.case.feature.@tc-03": "pending",
+          "OpenCart/checkout.case.feature.@tc-01": "pending",
+          "OpenCart/checkout.case.feature.@tc-02": "pending",
+          "OpenCart/shopping.case.feature.@tc-01": "pending",
+          "OpenCart/shopping.case.feature.@tc-02": "pending",
+          "OpenCart/cart.case.feature.@tc-01": "pending",
+          "OpenCart/cart.case.feature.@tc-02": "pending"
+        },
+        "metadata": {
+          "project": "OpenCart",
+          "component": "microservicio-3",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:08.733Z"
+    },
+    {
+      "type": "testrun",
+      "address": "OrangeHRM-20260611_155558_06a56c.run.feature.@tr-3",
+      "path": "OrangeHRM-20260611_155558_06a56c.run.feature",
+      "tag": "@tr-3",
+      "physicalAddress": "OrangeHRM-20260611_155558_06a56c.run.feature.@tr-3",
+      "attributes": {
+        "localHash": "f2225b3e146cf2bb088a6cb1d270748f5f39b7cad7f35cf1e7684fc30db3b2a2",
+        "remoteId": "testform-demo:416",
+        "issueNumber": 416,
+        "title": "OrangeHRM-20260611_155558_06a56c",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - OrangeHRM/admin.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/buzz.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/dashboard.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/directory.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/leave.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/my_info.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/pim.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/recruitment.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/time.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - OrangeHRM/admin.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/buzz.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/dashboard.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/directory.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/leave.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/login.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/my_info.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/pim.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/recruitment.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/time.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - OrangeHRM/admin.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - OrangeHRM/leave.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - OrangeHRM/login.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - OrangeHRM/pim.case.feature.@tc-03\n- [ ] tc-04: (not found in state) - OrangeHRM/admin.case.feature.@tc-04\n- [ ] tc-04: (not found in state) - OrangeHRM/login.case.feature.@tc-04\n- [ ] tc-05: (not found in state) - OrangeHRM/login.case.feature.@tc-05",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:08Z",
+        "updatedAt": "2026-11-23T04:28:08Z",
+        "custom_fields": {
+          "project": "OrangeHRM",
+          "component": "microservicio-9",
+          "startDate": "2026-06-01",
+          "endDate": "2026-06-30",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "OrangeHRM/admin.case.feature.@tc-01": "pending",
+          "OrangeHRM/admin.case.feature.@tc-02": "pending",
+          "OrangeHRM/admin.case.feature.@tc-03": "pending",
+          "OrangeHRM/admin.case.feature.@tc-04": "pending",
+          "OrangeHRM/buzz.case.feature.@tc-01": "pending",
+          "OrangeHRM/buzz.case.feature.@tc-02": "pending",
+          "OrangeHRM/dashboard.case.feature.@tc-01": "pending",
+          "OrangeHRM/dashboard.case.feature.@tc-02": "pending",
+          "OrangeHRM/directory.case.feature.@tc-01": "pending",
+          "OrangeHRM/directory.case.feature.@tc-02": "pending",
+          "OrangeHRM/leave.case.feature.@tc-01": "pending",
+          "OrangeHRM/leave.case.feature.@tc-02": "pending",
+          "OrangeHRM/leave.case.feature.@tc-03": "pending",
+          "OrangeHRM/login.case.feature.@tc-01": "pending",
+          "OrangeHRM/login.case.feature.@tc-02": "pending",
+          "OrangeHRM/login.case.feature.@tc-03": "pending",
+          "OrangeHRM/login.case.feature.@tc-04": "pending",
+          "OrangeHRM/login.case.feature.@tc-05": "pending",
+          "OrangeHRM/my_info.case.feature.@tc-01": "pending",
+          "OrangeHRM/my_info.case.feature.@tc-02": "pending",
+          "OrangeHRM/pim.case.feature.@tc-01": "pending",
+          "OrangeHRM/pim.case.feature.@tc-02": "pending",
+          "OrangeHRM/pim.case.feature.@tc-03": "pending",
+          "OrangeHRM/recruitment.case.feature.@tc-01": "pending",
+          "OrangeHRM/recruitment.case.feature.@tc-02": "pending",
+          "OrangeHRM/time.case.feature.@tc-01": "pending",
+          "OrangeHRM/time.case.feature.@tc-02": "pending"
+        },
+        "metadata": {
+          "project": "OrangeHRM",
+          "component": "microservicio-9",
+          "startDate": "2026-06-01",
+          "endDate": "2026-06-30",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:14.734Z"
+    },
+    {
+      "type": "testrun",
+      "address": "OrangeHRM-20260612_120000_5wtb8a.run.feature.@tr-12",
+      "path": "OrangeHRM-20260612_120000_5wtb8a.run.feature",
+      "tag": "@tr-12",
+      "physicalAddress": "OrangeHRM-20260612_120000_5wtb8a.run.feature.@tr-12",
+      "attributes": {
+        "localHash": "b788f714902d222cd609c8fc44b47c3c98a82f5bae938174f7ddbe46a0d590c2",
+        "remoteId": "testform-demo:417",
+        "issueNumber": 417,
+        "title": "OrangeHRM-20260612_120000_5wtb8a",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - OrangeHRM/dashboard.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/buzz.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/leave.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/my_info.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/directory.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/pim.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/time.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/recruitment.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/admin.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - OrangeHRM/dashboard.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/buzz.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/leave.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/my_info.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/directory.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/pim.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/time.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/login.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/recruitment.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/admin.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - OrangeHRM/leave.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - OrangeHRM/pim.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - OrangeHRM/login.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - OrangeHRM/admin.case.feature.@tc-03\n- [ ] tc-04: (not found in state) - OrangeHRM/login.case.feature.@tc-04\n- [ ] tc-04: (not found in state) - OrangeHRM/admin.case.feature.@tc-04\n- [ ] tc-05: (not found in state) - OrangeHRM/login.case.feature.@tc-05",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:14Z",
+        "updatedAt": "2026-11-23T04:28:14Z",
+        "custom_fields": {
+          "project": "OrangeHRM",
+          "component": "microservicio-9",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "OrangeHRM/dashboard.case.feature.@tc-01": "pending",
+          "OrangeHRM/dashboard.case.feature.@tc-02": "pending",
+          "OrangeHRM/buzz.case.feature.@tc-01": "pending",
+          "OrangeHRM/buzz.case.feature.@tc-02": "pending",
+          "OrangeHRM/leave.case.feature.@tc-01": "pending",
+          "OrangeHRM/leave.case.feature.@tc-02": "pending",
+          "OrangeHRM/leave.case.feature.@tc-03": "pending",
+          "OrangeHRM/my_info.case.feature.@tc-01": "pending",
+          "OrangeHRM/my_info.case.feature.@tc-02": "pending",
+          "OrangeHRM/directory.case.feature.@tc-01": "pending",
+          "OrangeHRM/directory.case.feature.@tc-02": "pending",
+          "OrangeHRM/pim.case.feature.@tc-01": "pending",
+          "OrangeHRM/pim.case.feature.@tc-02": "pending",
+          "OrangeHRM/pim.case.feature.@tc-03": "pending",
+          "OrangeHRM/time.case.feature.@tc-01": "pending",
+          "OrangeHRM/time.case.feature.@tc-02": "pending",
+          "OrangeHRM/login.case.feature.@tc-01": "pending",
+          "OrangeHRM/login.case.feature.@tc-02": "pending",
+          "OrangeHRM/login.case.feature.@tc-03": "pending",
+          "OrangeHRM/login.case.feature.@tc-04": "pending",
+          "OrangeHRM/login.case.feature.@tc-05": "pending",
+          "OrangeHRM/recruitment.case.feature.@tc-01": "pending",
+          "OrangeHRM/recruitment.case.feature.@tc-02": "pending",
+          "OrangeHRM/admin.case.feature.@tc-01": "pending",
+          "OrangeHRM/admin.case.feature.@tc-02": "pending",
+          "OrangeHRM/admin.case.feature.@tc-03": "pending",
+          "OrangeHRM/admin.case.feature.@tc-04": "pending"
+        },
+        "metadata": {
+          "project": "OrangeHRM",
+          "component": "microservicio-9",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:20.361Z"
+    },
+    {
+      "type": "testrun",
+      "address": "OrangeHRM-20260612_120001_85ddc4.run.feature.@tr-13",
+      "path": "OrangeHRM-20260612_120001_85ddc4.run.feature",
+      "tag": "@tr-13",
+      "physicalAddress": "OrangeHRM-20260612_120001_85ddc4.run.feature.@tr-13",
+      "attributes": {
+        "localHash": "7eeb8fb406bd2731bee3bc7772d55d8a0a1bdca1631193c61074d76083d6a28b",
+        "remoteId": "testform-demo:418",
+        "issueNumber": 418,
+        "title": "OrangeHRM-20260612_120001_85ddc4",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - OrangeHRM/dashboard.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/buzz.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/leave.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/my_info.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/directory.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/pim.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/time.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/recruitment.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/admin.case.feature.@tc-01",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:19Z",
+        "updatedAt": "2026-11-23T04:28:19Z",
+        "custom_fields": {
+          "project": "OrangeHRM",
+          "component": "microservicio-9",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "OrangeHRM/dashboard.case.feature.@tc-01": "pending",
+          "OrangeHRM/buzz.case.feature.@tc-01": "pending",
+          "OrangeHRM/leave.case.feature.@tc-01": "pending",
+          "OrangeHRM/my_info.case.feature.@tc-01": "pending",
+          "OrangeHRM/directory.case.feature.@tc-01": "pending",
+          "OrangeHRM/pim.case.feature.@tc-01": "pending",
+          "OrangeHRM/time.case.feature.@tc-01": "pending",
+          "OrangeHRM/login.case.feature.@tc-01": "pending",
+          "OrangeHRM/recruitment.case.feature.@tc-01": "pending",
+          "OrangeHRM/admin.case.feature.@tc-01": "pending"
+        },
+        "metadata": {
+          "project": "OrangeHRM",
+          "component": "microservicio-9",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:25.177Z"
+    },
+    {
+      "type": "testrun",
+      "address": "OrangeHRM-20260612_120002_4dusjo.run.feature.@tr-14",
+      "path": "OrangeHRM-20260612_120002_4dusjo.run.feature",
+      "tag": "@tr-14",
+      "physicalAddress": "OrangeHRM-20260612_120002_4dusjo.run.feature.@tr-14",
+      "attributes": {
+        "localHash": "119355423601a57c469b605389255ebe780b2381f549cf6e36bd7f104a897212",
+        "remoteId": "testform-demo:419",
+        "issueNumber": 419,
+        "title": "OrangeHRM-20260612_120002_4dusjo",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - OrangeHRM/dashboard.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/buzz.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/leave.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/my_info.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/directory.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/pim.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/time.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/recruitment.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - OrangeHRM/admin.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - OrangeHRM/dashboard.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/buzz.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/leave.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/my_info.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/directory.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/pim.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/time.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/login.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/recruitment.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - OrangeHRM/admin.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - OrangeHRM/leave.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - OrangeHRM/pim.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - OrangeHRM/login.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - OrangeHRM/admin.case.feature.@tc-03\n- [ ] tc-04: (not found in state) - OrangeHRM/login.case.feature.@tc-04\n- [ ] tc-04: (not found in state) - OrangeHRM/admin.case.feature.@tc-04\n- [ ] tc-05: (not found in state) - OrangeHRM/login.case.feature.@tc-05",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:24Z",
+        "updatedAt": "2026-11-23T04:28:24Z",
+        "custom_fields": {
+          "project": "OrangeHRM",
+          "component": "microservicio-9",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "OrangeHRM/dashboard.case.feature.@tc-01": "pending",
+          "OrangeHRM/dashboard.case.feature.@tc-02": "pending",
+          "OrangeHRM/buzz.case.feature.@tc-01": "pending",
+          "OrangeHRM/buzz.case.feature.@tc-02": "pending",
+          "OrangeHRM/leave.case.feature.@tc-01": "pending",
+          "OrangeHRM/leave.case.feature.@tc-02": "pending",
+          "OrangeHRM/leave.case.feature.@tc-03": "pending",
+          "OrangeHRM/my_info.case.feature.@tc-01": "pending",
+          "OrangeHRM/my_info.case.feature.@tc-02": "pending",
+          "OrangeHRM/directory.case.feature.@tc-01": "pending",
+          "OrangeHRM/directory.case.feature.@tc-02": "pending",
+          "OrangeHRM/pim.case.feature.@tc-01": "pending",
+          "OrangeHRM/pim.case.feature.@tc-02": "pending",
+          "OrangeHRM/pim.case.feature.@tc-03": "pending",
+          "OrangeHRM/time.case.feature.@tc-01": "pending",
+          "OrangeHRM/time.case.feature.@tc-02": "pending",
+          "OrangeHRM/login.case.feature.@tc-01": "pending",
+          "OrangeHRM/login.case.feature.@tc-02": "pending",
+          "OrangeHRM/login.case.feature.@tc-03": "pending",
+          "OrangeHRM/login.case.feature.@tc-04": "pending",
+          "OrangeHRM/login.case.feature.@tc-05": "pending",
+          "OrangeHRM/recruitment.case.feature.@tc-01": "pending",
+          "OrangeHRM/recruitment.case.feature.@tc-02": "pending",
+          "OrangeHRM/admin.case.feature.@tc-01": "pending",
+          "OrangeHRM/admin.case.feature.@tc-02": "pending",
+          "OrangeHRM/admin.case.feature.@tc-03": "pending",
+          "OrangeHRM/admin.case.feature.@tc-04": "pending"
+        },
+        "metadata": {
+          "project": "OrangeHRM",
+          "component": "microservicio-9",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:31.427Z"
+    },
+    {
+      "type": "testrun",
+      "address": "ParaBank-20260611_155609_da5690.run.feature.@tr-4",
+      "path": "ParaBank-20260611_155609_da5690.run.feature",
+      "tag": "@tr-4",
+      "physicalAddress": "ParaBank-20260611_155609_da5690.run.feature.@tr-4",
+      "attributes": {
+        "localHash": "98ef19e58dd8881d3c153c502f40d98e70b71fc4326dee958e7db22a3222aadd",
+        "remoteId": "testform-demo:420",
+        "issueNumber": 420,
+        "title": "ParaBank-20260611_155609_da5690",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - ParaBank/account_services.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/loan.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/register_login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/transactions.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - ParaBank/account_services.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/loan.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/register_login.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/transactions.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - ParaBank/register_login.case.feature.@tc-03",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:31Z",
+        "updatedAt": "2026-11-23T04:28:31Z",
+        "custom_fields": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "startDate": "2026-06-05",
+          "endDate": "2026-06-16",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "ParaBank/account_services.case.feature.@tc-01": "pending",
+          "ParaBank/account_services.case.feature.@tc-02": "pending",
+          "ParaBank/loan.case.feature.@tc-01": "pending",
+          "ParaBank/loan.case.feature.@tc-02": "pending",
+          "ParaBank/register_login.case.feature.@tc-01": "pending",
+          "ParaBank/register_login.case.feature.@tc-02": "pending",
+          "ParaBank/register_login.case.feature.@tc-03": "pending",
+          "ParaBank/transactions.case.feature.@tc-01": "pending",
+          "ParaBank/transactions.case.feature.@tc-02": "pending"
+        },
+        "metadata": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "startDate": "2026-06-05",
+          "endDate": "2026-06-16",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:36.434Z"
+    },
+    {
+      "type": "testrun",
+      "address": "ParaBank-20260612_120000_7l14q3.run.feature.@tr-15",
+      "path": "ParaBank-20260612_120000_7l14q3.run.feature",
+      "tag": "@tr-15",
+      "physicalAddress": "ParaBank-20260612_120000_7l14q3.run.feature.@tr-15",
+      "attributes": {
+        "localHash": "1782c92943fd0ff1b21e8c08e382cec456ef152380a9a964244aa2616b2b5fc9",
+        "remoteId": "testform-demo:421",
+        "issueNumber": 421,
+        "title": "ParaBank-20260612_120000_7l14q3",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - ParaBank/register_login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/transactions.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/account_services.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/loan.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - ParaBank/register_login.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/transactions.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/account_services.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/loan.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - ParaBank/register_login.case.feature.@tc-03",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:35Z",
+        "updatedAt": "2026-11-23T04:28:35Z",
+        "custom_fields": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "ParaBank/register_login.case.feature.@tc-01": "pending",
+          "ParaBank/register_login.case.feature.@tc-02": "pending",
+          "ParaBank/register_login.case.feature.@tc-03": "pending",
+          "ParaBank/transactions.case.feature.@tc-01": "pending",
+          "ParaBank/transactions.case.feature.@tc-02": "pending",
+          "ParaBank/account_services.case.feature.@tc-01": "pending",
+          "ParaBank/account_services.case.feature.@tc-02": "pending",
+          "ParaBank/loan.case.feature.@tc-01": "pending",
+          "ParaBank/loan.case.feature.@tc-02": "pending"
+        },
+        "metadata": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:42.168Z"
+    },
+    {
+      "type": "testrun",
+      "address": "ParaBank-20260612_120001_vjb5b7.run.feature.@tr-16",
+      "path": "ParaBank-20260612_120001_vjb5b7.run.feature",
+      "tag": "@tr-16",
+      "physicalAddress": "ParaBank-20260612_120001_vjb5b7.run.feature.@tr-16",
+      "attributes": {
+        "localHash": "c1cb1cb943edb86d48a486c1f874cf2fba86a0e1f38a05fa4290e83ecb74a965",
+        "remoteId": "testform-demo:422",
+        "issueNumber": 422,
+        "title": "ParaBank-20260612_120001_vjb5b7",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - ParaBank/register_login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/transactions.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/account_services.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/loan.case.feature.@tc-01",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:41Z",
+        "updatedAt": "2026-11-23T04:28:41Z",
+        "custom_fields": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "ParaBank/register_login.case.feature.@tc-01": "pending",
+          "ParaBank/transactions.case.feature.@tc-01": "pending",
+          "ParaBank/account_services.case.feature.@tc-01": "pending",
+          "ParaBank/loan.case.feature.@tc-01": "pending"
+        },
+        "metadata": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:47.600Z"
+    },
+    {
+      "type": "testrun",
+      "address": "ParaBank-20260612_120002_jziiea.run.feature.@tr-17",
+      "path": "ParaBank-20260612_120002_jziiea.run.feature",
+      "tag": "@tr-17",
+      "physicalAddress": "ParaBank-20260612_120002_jziiea.run.feature.@tr-17",
+      "attributes": {
+        "localHash": "46e8aeeccbde9b31f520e67045042afa9f38692b259e218cab803710943b5112",
+        "remoteId": "testform-demo:423",
+        "issueNumber": 423,
+        "title": "ParaBank-20260612_120002_jziiea",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - ParaBank/register_login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/transactions.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/account_services.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - ParaBank/loan.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - ParaBank/register_login.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/transactions.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/account_services.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - ParaBank/loan.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - ParaBank/register_login.case.feature.@tc-03",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:46Z",
+        "updatedAt": "2026-11-23T04:28:46Z",
+        "custom_fields": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "ParaBank/register_login.case.feature.@tc-01": "pending",
+          "ParaBank/register_login.case.feature.@tc-02": "pending",
+          "ParaBank/register_login.case.feature.@tc-03": "pending",
+          "ParaBank/transactions.case.feature.@tc-01": "pending",
+          "ParaBank/transactions.case.feature.@tc-02": "pending",
+          "ParaBank/account_services.case.feature.@tc-01": "pending",
+          "ParaBank/account_services.case.feature.@tc-02": "pending",
+          "ParaBank/loan.case.feature.@tc-01": "pending",
+          "ParaBank/loan.case.feature.@tc-02": "pending"
+        },
+        "metadata": {
+          "project": "ParaBank",
+          "component": "microservicio-4",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:53.454Z"
+    },
+    {
+      "type": "testrun",
+      "address": "SauceDemo-20260611_155620_2598ef.run.feature.@tr-5",
+      "path": "SauceDemo-20260611_155620_2598ef.run.feature",
+      "tag": "@tr-5",
+      "physicalAddress": "SauceDemo-20260611_155620_2598ef.run.feature.@tr-5",
+      "attributes": {
+        "localHash": "572573177b0f6887f3dddba7e8b9d815adeea14e4fd1e17ec7f6e94d97f5a193",
+        "remoteId": "testform-demo:424",
+        "issueNumber": 424,
+        "title": "SauceDemo-20260611_155620_2598ef",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - SauceDemo/cart.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/login.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/products.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - SauceDemo/cart.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/checkout.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/login.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/products.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - SauceDemo/cart.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/checkout.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/login.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/products.case.feature.@tc-03",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:53Z",
+        "updatedAt": "2026-11-23T04:28:53Z",
+        "custom_fields": {
+          "project": "SauceDemo",
+          "component": "microservicio-7",
+          "startDate": "2026-06-15",
+          "endDate": "2026-06-18",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "SauceDemo/cart.case.feature.@tc-01": "pending",
+          "SauceDemo/cart.case.feature.@tc-02": "pending",
+          "SauceDemo/cart.case.feature.@tc-03": "pending",
+          "SauceDemo/checkout.case.feature.@tc-01": "pending",
+          "SauceDemo/checkout.case.feature.@tc-02": "pending",
+          "SauceDemo/checkout.case.feature.@tc-03": "pending",
+          "SauceDemo/login.case.feature.@tc-01": "pending",
+          "SauceDemo/login.case.feature.@tc-02": "pending",
+          "SauceDemo/login.case.feature.@tc-03": "pending",
+          "SauceDemo/products.case.feature.@tc-01": "pending",
+          "SauceDemo/products.case.feature.@tc-02": "pending",
+          "SauceDemo/products.case.feature.@tc-03": "pending"
+        },
+        "metadata": {
+          "project": "SauceDemo",
+          "component": "microservicio-7",
+          "startDate": "2026-06-15",
+          "endDate": "2026-06-18",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:28:58.630Z"
+    },
+    {
+      "type": "testrun",
+      "address": "SauceDemo-20260612_120000_qz3vjx.run.feature.@tr-18",
+      "path": "SauceDemo-20260612_120000_qz3vjx.run.feature",
+      "tag": "@tr-18",
+      "physicalAddress": "SauceDemo-20260612_120000_qz3vjx.run.feature.@tr-18",
+      "attributes": {
+        "localHash": "1d5c8539527d786517aa5aafc25ac437afb90b6d2e305696e07d31ed22e79bd4",
+        "remoteId": "testform-demo:425",
+        "issueNumber": 425,
+        "title": "SauceDemo-20260612_120000_qz3vjx",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - SauceDemo/products.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/cart.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/login.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - SauceDemo/products.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/checkout.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/cart.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/login.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - SauceDemo/products.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/checkout.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/cart.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/login.case.feature.@tc-03",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:28:57Z",
+        "updatedAt": "2026-11-23T04:28:57Z",
+        "custom_fields": {
+          "project": "SauceDemo",
+          "component": "microservicio-7",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "pending",
+        "testcases": {
+          "SauceDemo/products.case.feature.@tc-01": "pending",
+          "SauceDemo/products.case.feature.@tc-02": "pending",
+          "SauceDemo/products.case.feature.@tc-03": "pending",
+          "SauceDemo/checkout.case.feature.@tc-01": "pending",
+          "SauceDemo/checkout.case.feature.@tc-02": "pending",
+          "SauceDemo/checkout.case.feature.@tc-03": "pending",
+          "SauceDemo/cart.case.feature.@tc-01": "pending",
+          "SauceDemo/cart.case.feature.@tc-02": "pending",
+          "SauceDemo/cart.case.feature.@tc-03": "pending",
+          "SauceDemo/login.case.feature.@tc-01": "pending",
+          "SauceDemo/login.case.feature.@tc-02": "pending",
+          "SauceDemo/login.case.feature.@tc-03": "pending"
+        },
+        "metadata": {
+          "project": "SauceDemo",
+          "component": "microservicio-7",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:29:04.550Z"
+    },
+    {
+      "type": "testrun",
+      "address": "SauceDemo-20260612_120001_ah4sw0.run.feature.@tr-19",
+      "path": "SauceDemo-20260612_120001_ah4sw0.run.feature",
+      "tag": "@tr-19",
+      "physicalAddress": "SauceDemo-20260612_120001_ah4sw0.run.feature.@tr-19",
+      "attributes": {
+        "localHash": "872d6863e83026dba42d2e30ce44b132259500599a831b17ab8326d050383efb",
+        "remoteId": "testform-demo:426",
+        "issueNumber": 426,
+        "title": "SauceDemo-20260612_120001_ah4sw0",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - SauceDemo/products.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/cart.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/login.case.feature.@tc-01",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:29:04Z",
+        "updatedAt": "2026-11-23T04:29:04Z",
+        "custom_fields": {
+          "project": "SauceDemo",
+          "component": "microservicio-7",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "ambiguous",
+        "testcases": {
+          "SauceDemo/products.case.feature.@tc-01": "ambiguous",
+          "SauceDemo/checkout.case.feature.@tc-01": "pending",
+          "SauceDemo/cart.case.feature.@tc-01": "pending",
+          "SauceDemo/login.case.feature.@tc-01": "pending"
+        },
+        "metadata": {
+          "project": "SauceDemo",
+          "component": "microservicio-7",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:29:10.604Z"
+    },
+    {
+      "type": "testrun",
+      "address": "SauceDemo-20260612_120002_gp1yim.run.feature.@tr-20",
+      "path": "SauceDemo-20260612_120002_gp1yim.run.feature",
+      "tag": "@tr-20",
+      "physicalAddress": "SauceDemo-20260612_120002_gp1yim.run.feature.@tr-20",
+      "attributes": {
+        "localHash": "d9354c8d5ff04a8a465adc9a159851908126dedfce043baab16ba2615395b12c",
+        "remoteId": "testform-demo:427",
+        "issueNumber": 427,
+        "title": "SauceDemo-20260612_120002_gp1yim",
+        "body": "### 🚀 Test Run Execution\n\nThis issue serves as the central hub for tracking the execution of this Test Run. All associated test cases are linked below as tasks.\n\n**Instructions:**\n- Execution results for each test case will be recorded dynamically as comments on this issue.\n- Click on individual test case links to view their details or attach evidence.\n\n**Not Found in State**\n- [ ] tc-01: (not found in state) - SauceDemo/products.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/checkout.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/cart.case.feature.@tc-01\n- [ ] tc-01: (not found in state) - SauceDemo/login.case.feature.@tc-01\n- [ ] tc-02: (not found in state) - SauceDemo/products.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/checkout.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/cart.case.feature.@tc-02\n- [ ] tc-02: (not found in state) - SauceDemo/login.case.feature.@tc-02\n- [ ] tc-03: (not found in state) - SauceDemo/products.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/checkout.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/cart.case.feature.@tc-03\n- [ ] tc-03: (not found in state) - SauceDemo/login.case.feature.@tc-03",
+        "labels": [
+          "testrun"
+        ],
+        "assignees": [
+          "fromeroc9"
+        ],
+        "createdAt": "2026-11-23T04:29:10Z",
+        "updatedAt": "2026-11-23T04:29:10Z",
+        "custom_fields": {
+          "project": "SauceDemo",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "component": "microservicio-7",
+          "priority": "@medium",
+          "Status": "Done",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        },
+        "status": "failed",
+        "testcases": {
+          "SauceDemo/products.case.feature.@tc-01": "failed",
+          "SauceDemo/products.case.feature.@tc-02": "pending",
+          "SauceDemo/products.case.feature.@tc-03": "skipped",
+          "SauceDemo/checkout.case.feature.@tc-01": "passed",
+          "SauceDemo/checkout.case.feature.@tc-02": "failed",
+          "SauceDemo/checkout.case.feature.@tc-03": "passed",
+          "SauceDemo/cart.case.feature.@tc-01": "passed",
+          "SauceDemo/cart.case.feature.@tc-02": "passed",
+          "SauceDemo/cart.case.feature.@tc-03": "skipped",
+          "SauceDemo/login.case.feature.@tc-01": "skipped",
+          "SauceDemo/login.case.feature.@tc-02": "blocked",
+          "SauceDemo/login.case.feature.@tc-03": "skipped"
+        },
+        "metadata": {
+          "project": "SauceDemo",
+          "startDate": "2026-06-12",
+          "endDate": "2026-06-19",
+          "component": "microservicio-7",
+          "priority": "@medium",
+          "Status": "Done",
+          "assignees": "fromeroc9",
+          "sprint": "Sprint 3",
+          "quarter": "Q2"
+        }
+      },
+      "lastApplied": "2026-11-23T04:29:15.462Z"
+    }
+  ],
   "outputs": {}
 }
