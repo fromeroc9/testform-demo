@@ -6,6 +6,7 @@ Feature: Magento-20260611_155546_5f736a
     * field component = microservicio-1
     * field startDate = 2026-06-11
     * field endDate = 2026-06-11
+    * field Status = skipped
   
   Rule: Magento/cart.case.feature
 

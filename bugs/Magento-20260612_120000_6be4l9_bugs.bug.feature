@@ -1,4 +1,4 @@
-@bug @medium
+@bug
 Feature: Defectos encontrados en Magento
 
   Background:
@@ -10,11 +10,7 @@ Feature: Defectos encontrados en Magento
     @bg-1 @depends_on(@tc-02)
     Scenario: Defecto no especificado
       * set status = open
-      * field severity = @major
-      * field bug_type = functional
 
     @bg-2 @tc-02
     Scenario: Nuevo defecto
       * set status = open
-      * field severity = @minor
-      * field bug_type = functional

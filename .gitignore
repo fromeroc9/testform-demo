@@ -1,0 +1,4 @@
+.testform.lock
+.testform/cache/backend.json
+.testform/cache/lock.json
+.testform/cache/parser-ast.json

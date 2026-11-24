@@ -4,16 +4,17 @@ testform:
   backend: local
 
 provider: 
-  github:
-    owner: "fromeroc9"
-    repository: "testform-demo"
-    project_id: "1"
+  gitlab:
+    host: "https://gitlab.com"
+    projectId: "fromeroc9/testform-demo"
 
 resource:
   global:
-    scaffold:
-      attach: "attachments"
     fields:
+      Status:
+        source: "step"
+        required: false
+        default: "Done"
       priority:
         source: "tag"
         required: false
@@ -22,10 +23,6 @@ resource:
           - "@medium"
           - "@high"
         default: "@medium"
-      Status:
-        source: "step"
-        required: false
-        default: "Done"
       assignees:  
         source: "step"
         required: false
@@ -34,28 +31,26 @@ resource:
         source: "step"
         required: true
 
-  testcase:
-    match: "*.case.feature"
-    scaffold:
-      directory: "testcase"
-      filename: "{slug}_{YYYYMMDD}.case.feature"
+  testcase:   
+    match: "*.case.feature" 
+    directory: "testcase"
+    filename: "{slug}_{YYYYMMDD}.case.feature"
     fields:
-      - name: type_of_test
+      type_of_test:
         source: "step"
         required: false
         default: "funcional"
-      - name: automate
+      automate:
         source: "tag"
         default: "not apply"
-      - name: module
+      module:
         source: "step"
         required: true
 
   testrun:
     match: "*.run.feature"
-    scaffold:
-      directory: "testruns"
-      filename: "{slug}_{YYYYMMDD}.run.feature"
+    directory: "testruns"
+    filename: "{slug}_{YYYYMMDD}.run.feature"
     fields:
       - name: component
         source: "step"
@@ -77,9 +72,8 @@ resource:
 
   testplan:
     match: "*.plan.feature"
-    scaffold:
-      directory: "testplans"
-      filename: "{slug}_{YYYYMMDD}.plan.feature"
+    directory: "testplans"
+    filename: "{slug}_{YYYYMMDD}.plan.feature"
     fields:
       - name: component
         source: "step"
@@ -92,21 +86,6 @@ resource:
 
   bug:
     match: "*.bug.feature"
-    scaffold:
-      directory: "bugs"
-      filename: "{slug}_{YYYYMMDD}.bug.feature"
-      attach: "attachments/bugs"
-    fields:
-      - name: severity
-        source: "step"
-        required: false
-        enum:
-          - "@blocker"
-          - "@critical"
-          - "@major"
-          - "@minor"
-        default: "@major"
-      - name: bug_type
-        source: "step"
-        required: false
-        default: "functional"
+    directory: "bugs"
+    filename: "{slug}_{YYYYMMDD}.bug.feature"
+    attach: "attachments"

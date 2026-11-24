@@ -1,4 +1,4 @@
-@testcase
+@testcase @ns(magento)
 Feature: Flujo de Pago y Orden (Checkout Magento / Luma)
   Como cliente con artículos en el carrito
   Quiero completar el formulario de envío y pago
