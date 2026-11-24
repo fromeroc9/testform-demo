@@ -1,12 +1,17 @@
 version: "1.0"
 testform:
   required_version: ">= 1.0.0"
-  backend: local
-
+  backend: 
+      github:
+        repository: "fromeroc9/testform-state"
+        branch: "main"
+        path: "testform-demo.state"
+        
 provider: 
-  gitlab:
-    host: "https://gitlab.com"
-    projectId: "fromeroc9/testform-demo"
+  github:
+    owner: "fromeroc9"
+    repository: "testform-demo"
+    project_id: "1"
 
 resource:
   global:
