@@ -6,12 +6,8 @@ testform:
         repository: "fromeroc9/testform-state"
         branch: "main"
         path: "testform-demo.state"
-        
-provider: 
-  github:
-    owner: "fromeroc9"
-    repository: "testform-demo"
-    project_id: "1"
+
+provider: local
 
 resource:
   global:
