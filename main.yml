@@ -7,7 +7,11 @@ testform:
         branch: "main"
         path: "testform-demo.state"
 
-provider: local
+provider: 
+  github:
+    owner: "fromeroc9"
+    repository: "testform-demo"
+    project_id: "1"
 
 resource:
   global:

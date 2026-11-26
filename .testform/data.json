@@ -5,7 +5,7 @@
       "number": 1,
       "title": "Validar error al agregar al carrito sin seleccionar atributos",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de detalles de una chaqueta (ej. \"Proteus Fitness Jackshirt\")\nWhen el usuario hace clic en el botón \"Add to Cart\" sin seleccionar ninguna talla ni color\nThen el sistema resalta los bloques de atributos\nAnd muestra el mensaje de validación \"This is a required field.\" debajo de Talla (Size) y Color\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_1",
       "labels": [
         "testcase"
@@ -13,8 +13,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.489Z",
-      "updated_at": "2026-11-24T19:27:07.489Z",
+      "created_at": "2026-11-26T06:43:17.621Z",
+      "updated_at": "2026-11-26T06:45:16.905Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -30,7 +30,7 @@
       "number": 2,
       "title": "Agregar un producto configurable exitosamente al carrito",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de detalles de una chaqueta (ej. \"Proteus Fitness Jackshirt\")\nWhen el usuario hace clic para seleccionar la talla \"M\"\nAnd hace clic para seleccionar el color \"Blue\"\nAnd hace clic en el botón \"Add to Cart\"\nThen el sistema muestra un mensaje de éxito verde indicando \"You added Proteus Fitness Jackshirt to your shopping cart.\"\nAnd el contador numérico del ícono del carrito en la esquina superior derecha incrementa\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_2",
       "labels": [
         "testcase"
@@ -38,8 +38,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.495Z",
-      "updated_at": "2026-11-24T19:27:07.495Z",
+      "created_at": "2026-11-26T06:43:17.629Z",
+      "updated_at": "2026-11-26T06:45:16.912Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -55,7 +55,7 @@
       "number": 3,
       "title": "Filtrar productos por atributos (Tamaño y Color)",
       "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario navega por el menú superior a \"Men\" > \"Tops\" > \"Jackets\"\nAnd despliega el filtro \"Size\" en la barra lateral y escoge la talla \"L\"\nAnd despliega el filtro \"Color\" en la barra lateral y escoge \"Black\"\nThen la lista de productos se actualiza automáticamente\nAnd solo se muestran chaquetas que estén disponibles en color negro y talla L\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_3",
       "labels": [
         "testcase"
@@ -63,8 +63,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.505Z",
-      "updated_at": "2026-11-24T19:27:07.505Z",
+      "created_at": "2026-11-26T06:43:17.635Z",
+      "updated_at": "2026-11-26T06:45:16.917Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -80,7 +80,7 @@
       "number": 4,
       "title": "Búsqueda de productos desde la barra de búsqueda general",
       "body": "```gherkin\nGiven el usuario está en la página principal de la tienda\nWhen el usuario escribe la palabra clave \"Yoga\" en la barra de búsqueda superior\nAnd presiona la tecla Enter o hace clic en el ícono de la lupa\nThen el sistema lo redirige a la página \"Search results for: 'Yoga'\"\nAnd se muestran productos relacionados como leggings de yoga, mats o tops\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_4",
       "labels": [
         "testcase"
@@ -88,8 +88,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.517Z",
-      "updated_at": "2026-11-24T19:27:07.517Z",
+      "created_at": "2026-11-26T06:43:17.642Z",
+      "updated_at": "2026-11-26T06:45:16.920Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -105,7 +105,7 @@
       "number": 5,
       "title": "Completar el paso de Envío (Shipping Step)",
       "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nWhen el usuario ingresa su correo electrónico (si actúa como invitado)\nAnd ingresa su dirección de envío, ciudad, código postal y teléfono\nAnd selecciona un método de envío disponible (ej. \"Flat Rate - Fixed\")\nAnd hace clic en el botón \"Next\"\nThen el sistema avanza al segundo paso \"Review & Payments\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_5",
       "labels": [
         "testcase"
@@ -113,8 +113,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.522Z",
-      "updated_at": "2026-11-24T19:27:07.522Z",
+      "created_at": "2026-11-26T06:43:17.650Z",
+      "updated_at": "2026-11-26T06:45:16.923Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -130,7 +130,7 @@
       "number": 6,
       "title": "Validar el resumen y realizar el pago (Payment Step)",
       "body": "```gherkin\nGiven el usuario tiene al menos un producto en su carrito\nAnd navega a la página principal de \"Checkout\"\nGiven el usuario se encuentra en el paso de \"Review & Payments\"\nWhen revisa que la sección \"Ship To:\" contenga la dirección correcta\nAnd verifica el total final en la sección \"Order Summary\"\nAnd hace clic en el botón inferior \"Place Order\"\nThen la página finaliza el proceso mostrando el título \"Thank you for your purchase!\"\nAnd el sistema genera y muestra el número de orden (Ej. Order # 000001234)\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_6",
       "labels": [
         "testcase"
@@ -138,8 +138,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.526Z",
-      "updated_at": "2026-11-24T19:27:07.526Z",
+      "created_at": "2026-11-26T06:43:17.655Z",
+      "updated_at": "2026-11-26T06:45:16.929Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -155,7 +155,7 @@
       "number": 7,
       "title": "Crear una nueva cuenta de cliente exitosamente",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de la tienda Magento Luma\nWhen el usuario hace clic en el enlace superior \"Create an Account\"\nAnd completa los campos de \"Personal Information\" (First Name, Last Name)\nAnd completa los campos de \"Sign-in Information\" (Email, Password, Confirm Password)\nAnd hace clic en el botón \"Create an Account\"\nThen el sistema lo redirige al panel \"My Account\"\nAnd muestra el mensaje de éxito \"Thank you for registering with Main Website Store.\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_7",
       "labels": [
         "testcase"
@@ -163,8 +163,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.530Z",
-      "updated_at": "2026-11-24T19:27:07.530Z",
+      "created_at": "2026-11-26T06:43:17.660Z",
+      "updated_at": "2026-11-26T06:45:16.934Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -180,7 +180,7 @@
       "number": 8,
       "title": "Iniciar sesión con una cuenta existente",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de la tienda Magento Luma\nWhen el usuario hace clic en el enlace superior \"Sign In\"\nAnd ingresa su email registrado y contraseña en la página de Login\nAnd hace clic en el botón \"Sign In\"\nThen el sistema lo autentica correctamente\nAnd muestra el mensaje \"Welcome, [Nombre del Usuario]!\" en el encabezado de la página\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_8",
       "labels": [
         "testcase"
@@ -188,8 +188,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.534Z",
-      "updated_at": "2026-11-24T19:27:07.534Z",
+      "created_at": "2026-11-26T06:43:17.667Z",
+      "updated_at": "2026-11-26T06:45:16.939Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -205,7 +205,7 @@
       "number": 9,
       "title": "Iniciar sesión exitosamente",
       "body": "```gherkin\nGiven el usuario navega a \"https://demo.opencart.com/index.php?route=account/login\"\nWhen el usuario ingresa su correo en el campo \"E-Mail Address\"\nAnd ingresa su contraseña en el campo \"Password\"\nAnd hace clic en el botón \"Login\"\nThen el sistema redirige a la página \"My Account\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_9",
       "labels": [
         "testcase"
@@ -213,8 +213,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.539Z",
-      "updated_at": "2026-11-24T19:27:07.539Z",
+      "created_at": "2026-11-26T06:43:17.671Z",
+      "updated_at": "2026-11-26T06:45:16.944Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -230,7 +230,7 @@
       "number": 10,
       "title": "Error de inicio de sesión por credenciales incorrectas",
       "body": "```gherkin\nGiven el usuario navega a \"https://demo.opencart.com/index.php?route=account/login\"\nWhen el usuario ingresa credenciales inválidas\nAnd hace clic en \"Login\"\nThen el sistema muestra el mensaje de alerta \"Warning: No match for E-Mail Address and/or Password.\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_10",
       "labels": [
         "testcase"
@@ -238,8 +238,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.543Z",
-      "updated_at": "2026-11-24T19:27:07.543Z",
+      "created_at": "2026-11-26T06:43:17.675Z",
+      "updated_at": "2026-11-26T06:45:16.951Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -255,7 +255,7 @@
       "number": 11,
       "title": "Registrar una nueva cuenta",
       "body": "```gherkin\nGiven el usuario navega a \"https://demo.opencart.com/index.php?route=account/login\"\nWhen el usuario hace clic en el botón \"Continue\" bajo la sección \"New Customer\"\nAnd completa el formulario \"Register Account\" con datos personales y contraseña\nAnd acepta la Política de Privacidad (Privacy Policy)\nAnd hace clic en el botón \"Continue\"\nThen el sistema muestra la pantalla \"Your Account Has Been Created!\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_11",
       "labels": [
         "testcase"
@@ -263,8 +263,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.546Z",
-      "updated_at": "2026-11-24T19:27:07.546Z",
+      "created_at": "2026-11-26T06:43:17.681Z",
+      "updated_at": "2026-11-26T06:45:16.955Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -280,7 +280,7 @@
       "number": 12,
       "title": "Agregar producto al carrito desde la vista de resultados",
       "body": "```gherkin\nGiven el usuario ha buscado y encontrado el producto \"iPhone\" en la tienda\nWhen el usuario hace clic en el botón \"Add to Cart\" del producto \"iPhone\"\nThen el sistema muestra una alerta de éxito indicando \"Success: You have added iPhone to your shopping cart!\"\nAnd el botón negro superior del carrito (Mini Cart) actualiza el total de ítems y el monto (ej. \"1 item(s)\")\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_12",
       "labels": [
         "testcase"
@@ -288,8 +288,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.549Z",
-      "updated_at": "2026-11-24T19:27:07.549Z",
+      "created_at": "2026-11-26T06:43:17.688Z",
+      "updated_at": "2026-11-26T06:45:16.960Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -305,7 +305,7 @@
       "number": 13,
       "title": "Visualizar y actualizar contenido del carrito de compras",
       "body": "```gherkin\nGiven el usuario ha buscado y encontrado el producto \"iPhone\" en la tienda\nGiven el usuario tiene al menos un producto en el carrito\nWhen hace clic en el enlace \"Shopping Cart\" ubicado en la barra superior\nThen se muestra la tabla con el nombre del producto, modelo, cantidad y precio unitario/total\nWhen el usuario cambia la cantidad a \"2\" y presiona el botón \"Update\"\nThen el sistema muestra un mensaje indicando \"Success: You have modified your shopping cart!\"\nAnd el precio total se recalcula correctamente\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_13",
       "labels": [
         "testcase"
@@ -313,8 +313,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.554Z",
-      "updated_at": "2026-11-24T19:27:07.554Z",
+      "created_at": "2026-11-26T06:43:17.693Z",
+      "updated_at": "2026-11-26T06:45:16.965Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -330,7 +330,7 @@
       "number": 14,
       "title": "Completar la compra como invitado (Guest Checkout)",
       "body": "```gherkin\nGiven el usuario tiene productos en su carrito\nAnd navega a la página de \"Checkout\" haciendo clic en el enlace superior\nWhen el usuario selecciona la opción \"Guest Checkout\" en la sección \"Checkout Options\"\nAnd hace clic en \"Continue\"\nAnd llena los datos personales requeridos en \"Billing Details\"\nAnd selecciona un método de envío (Flat Shipping Rate)\nAnd selecciona el método de pago (Cash On Delivery)\nAnd marca la casilla para aceptar los Términos y Condiciones\nAnd hace clic en \"Confirm Order\"\nThen el sistema muestra la pantalla final \"Your order has been placed!\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_14",
       "labels": [
         "testcase"
@@ -338,8 +338,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.559Z",
-      "updated_at": "2026-11-24T19:27:07.559Z",
+      "created_at": "2026-11-26T06:43:17.700Z",
+      "updated_at": "2026-11-26T06:45:16.969Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -355,7 +355,7 @@
       "number": 15,
       "title": "Error al procesar el pago por no aceptar los términos",
       "body": "```gherkin\nGiven el usuario tiene productos en su carrito\nAnd navega a la página de \"Checkout\" haciendo clic en el enlace superior\nWhen el usuario llega al paso de \"Payment Method\"\nAnd desmarca o no acepta la casilla de los Términos y Condiciones\nAnd hace clic en \"Continue\"\nThen el sistema muestra una advertencia indicando \"Warning: You must agree to the Terms & Conditions!\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_15",
       "labels": [
         "testcase"
@@ -363,8 +363,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.562Z",
-      "updated_at": "2026-11-24T19:27:07.562Z",
+      "created_at": "2026-11-26T06:43:17.705Z",
+      "updated_at": "2026-11-26T06:45:16.973Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -380,7 +380,7 @@
       "number": 16,
       "title": "Buscar un producto específico",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de OpenCart\nWhen el usuario ingresa \"MacBook\" en la barra de búsqueda superior\nAnd hace clic en el ícono de la lupa (Buscar)\nThen la página de resultados muestra al menos un producto relacionado con \"MacBook\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_16",
       "labels": [
         "testcase"
@@ -388,8 +388,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.565Z",
-      "updated_at": "2026-11-24T19:27:07.565Z",
+      "created_at": "2026-11-26T06:43:17.711Z",
+      "updated_at": "2026-11-26T06:45:16.978Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -405,7 +405,7 @@
       "number": 17,
       "title": "Navegar por categorías del menú",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio de OpenCart\nWhen el usuario pasa el cursor sobre la categoría \"Desktops\" en el menú principal\nAnd selecciona la subcategoría \"Mac (1)\"\nThen el sistema muestra los productos correspondientes a la categoría \"Mac\"\nAnd se visualiza el producto \"iMac\" en la cuadrícula de productos\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_17",
       "labels": [
         "testcase"
@@ -413,8 +413,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.568Z",
-      "updated_at": "2026-11-24T19:27:07.568Z",
+      "created_at": "2026-11-26T06:43:17.715Z",
+      "updated_at": "2026-11-26T06:45:16.982Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -430,7 +430,7 @@
       "number": 18,
       "title": "Buscar un usuario existente por nombre de usuario",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario ingresa un nombre de usuario válido en el campo \"Username\"\nAnd hace clic en el botón \"Search\"\nThen el sistema muestra los detalles del usuario en la tabla \"System Users\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_18",
       "labels": [
         "testcase"
@@ -438,8 +438,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.573Z",
-      "updated_at": "2026-11-24T19:27:07.573Z",
+      "created_at": "2026-11-26T06:43:17.720Z",
+      "updated_at": "2026-11-26T06:45:16.986Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -455,7 +455,7 @@
       "number": 19,
       "title": "Buscar y filtrar usuarios por Rol y Estado",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario selecciona el rol \"<rol>\" en el menú \"User Role\"\nAnd selecciona el estado \"<estado>\" en el menú \"Status\"\nAnd hace clic en el botón \"Search\"\nThen la tabla muestra únicamente los usuarios que coinciden con los filtros\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_19",
       "labels": [
         "testcase"
@@ -463,8 +463,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.577Z",
-      "updated_at": "2026-11-24T19:27:07.577Z",
+      "created_at": "2026-11-26T06:43:17.724Z",
+      "updated_at": "2026-11-26T06:45:16.989Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -480,7 +480,7 @@
       "number": 20,
       "title": "Limpiar filtros de búsqueda",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario ingresa \"Admin\" en el campo \"Username\"\nAnd hace clic en el botón \"Reset\"\nThen los campos de búsqueda se vacían a sus valores por defecto\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_20",
       "labels": [
         "testcase"
@@ -488,8 +488,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.581Z",
-      "updated_at": "2026-11-24T19:27:07.581Z",
+      "created_at": "2026-11-26T06:43:17.729Z",
+      "updated_at": "2026-11-26T06:45:16.994Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -505,7 +505,7 @@
       "number": 21,
       "title": "Agregar un nuevo usuario del sistema",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como Administrador\nAnd navega a la sección \"Admin\"\nWhen el usuario hace clic en el botón verde \"+ Add\"\nAnd completa los datos requeridos (User Role, Employee Name, Status, Username, Password)\nAnd hace clic en \"Save\"\nThen el sistema guarda al usuario y aparece en la tabla de System Users\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_21",
       "labels": [
         "testcase"
@@ -513,8 +513,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.589Z",
-      "updated_at": "2026-11-24T19:27:07.589Z",
+      "created_at": "2026-11-26T06:43:17.735Z",
+      "updated_at": "2026-11-26T06:45:17.002Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -530,7 +530,7 @@
       "number": 22,
       "title": "Publicar un estado en el muro",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Buzz\"\nWhen el usuario escribe \"Hola a todos, esta es una prueba\" en el cuadro de texto \"Update Status\"\nAnd hace clic en \"Post\"\nThen la publicación debe aparecer en el flujo de noticias recientes\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_22",
       "labels": [
         "testcase"
@@ -538,8 +538,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.593Z",
-      "updated_at": "2026-11-24T19:27:07.593Z",
+      "created_at": "2026-11-26T06:43:17.742Z",
+      "updated_at": "2026-11-26T06:45:17.007Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -555,7 +555,7 @@
       "number": 23,
       "title": "Dar 'Me gusta' a una publicación",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Buzz\"\nGiven existe al menos una publicación en el muro\nWhen el usuario hace clic en el ícono del corazón (Like) de una publicación\nThen el contador de \"Likes\" de la publicación debe incrementarse en uno\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_23",
       "labels": [
         "testcase"
@@ -563,8 +563,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.595Z",
-      "updated_at": "2026-11-24T19:27:07.595Z",
+      "created_at": "2026-11-26T06:43:17.746Z",
+      "updated_at": "2026-11-26T06:45:17.012Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -580,7 +580,7 @@
       "number": 24,
       "title": "Verificar la visibilidad de todos los widgets principales",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión exitosamente\nAnd es redirigido a la pantalla principal \"Dashboard\"\nWhen Se visualiza el Dashboard\nThen el usuario debe ver los siguientes widgets en el panel:\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_24",
       "labels": [
         "testcase"
@@ -588,8 +588,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.599Z",
-      "updated_at": "2026-11-24T19:27:07.599Z",
+      "created_at": "2026-11-26T06:43:17.752Z",
+      "updated_at": "2026-11-26T06:45:17.018Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -605,7 +605,7 @@
       "number": 25,
       "title": "Acceso rápido mediante los iconos de Quick Launch",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión exitosamente\nAnd es redirigido a la pantalla principal \"Dashboard\"\nWhen el usuario hace clic en el ícono \"<icono>\" dentro del widget \"Quick Launch\"\nThen el sistema redirige a la pantalla correspondiente\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_25",
       "labels": [
         "testcase"
@@ -613,8 +613,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.604Z",
-      "updated_at": "2026-11-24T19:27:07.604Z",
+      "created_at": "2026-11-26T06:43:17.757Z",
+      "updated_at": "2026-11-26T06:45:17.022Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -630,7 +630,7 @@
       "number": 26,
       "title": "Búsqueda exitosa de un empleado",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Directory\"\nWhen el usuario ingresa un nombre en \"Employee Name\"\nAnd hace clic en \"Search\"\nThen se muestran las tarjetas o resultados del empleado correspondiente con su Job Title y Location\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_26",
       "labels": [
         "testcase"
@@ -638,8 +638,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.609Z",
-      "updated_at": "2026-11-24T19:27:07.609Z",
+      "created_at": "2026-11-26T06:43:17.766Z",
+      "updated_at": "2026-11-26T06:45:17.028Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -655,7 +655,7 @@
       "number": 27,
       "title": "Filtrar por puesto de trabajo (Job Title)",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Directory\"\nWhen el usuario selecciona un puesto específico en el menú desplegable \"Job Title\"\nAnd hace clic en \"Search\"\nThen se muestran todos los empleados que tienen asignado ese puesto\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_27",
       "labels": [
         "testcase"
@@ -663,8 +663,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.612Z",
-      "updated_at": "2026-11-24T19:27:07.612Z",
+      "created_at": "2026-11-26T06:43:17.771Z",
+      "updated_at": "2026-11-26T06:45:17.033Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -680,7 +680,7 @@
       "number": 28,
       "title": "Solicitar un permiso con días disponibles",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Leave\"\nWhen el usuario navega a la pestaña \"Apply\"\nAnd selecciona un \"Leave Type\" válido\nAnd selecciona fechas de inicio y fin válidas\nAnd hace clic en \"Apply\"\nThen el sistema muestra un mensaje de \"Successfully Applied\"\nAnd la solicitud aparece en \"My Leave\" con estado pendiente\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_28",
       "labels": [
         "testcase"
@@ -688,8 +688,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.615Z",
-      "updated_at": "2026-11-24T19:27:07.615Z",
+      "created_at": "2026-11-26T06:43:17.792Z",
+      "updated_at": "2026-11-26T06:45:17.036Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -705,7 +705,7 @@
       "number": 29,
       "title": "Asignar permisos desde el rol de administrador",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Leave\"\nGiven el usuario tiene permisos de administrador o HR\nWhen navega a la pestaña \"Assign Leave\"\nAnd selecciona un empleado, tipo de permiso y fechas\nAnd hace clic en \"Assign\"\nThen el sistema descuenta los días del balance del empleado\nAnd el permiso se registra exitosamente\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_29",
       "labels": [
         "testcase"
@@ -713,8 +713,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.618Z",
-      "updated_at": "2026-11-24T19:27:07.618Z",
+      "created_at": "2026-11-26T06:43:17.802Z",
+      "updated_at": "2026-11-26T06:45:17.040Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -730,7 +730,7 @@
       "number": 30,
       "title": "Aprobar una solicitud de permiso pendiente",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Leave\"\nGiven el usuario es supervisor o administrador\nWhen navega a la pestaña \"Leave List\"\nAnd busca las solicitudes con estado \"Pending Approval\"\nAnd selecciona la acción \"Approve\" para una solicitud\nAnd hace clic en \"Save\"\nThen el estado de la solicitud cambia a \"Scheduled\" o \"Taken\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_30",
       "labels": [
         "testcase"
@@ -738,8 +738,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.622Z",
-      "updated_at": "2026-11-24T19:27:07.622Z",
+      "created_at": "2026-11-26T06:43:17.807Z",
+      "updated_at": "2026-11-26T06:45:17.046Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -755,7 +755,7 @@
       "number": 31,
       "title": "Inicio de sesión exitoso con credenciales válidas",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario ingresa el nombre de usuario \"Admin\"\nAnd el usuario ingresa la contraseña \"admin123\"\nAnd hace clic en el botón de \"Login\"\nThen el sistema redirige al usuario al panel principal (Dashboard)\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_31",
       "labels": [
         "testcase"
@@ -763,8 +763,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.625Z",
-      "updated_at": "2026-11-24T19:27:07.625Z",
+      "created_at": "2026-11-26T06:43:17.815Z",
+      "updated_at": "2026-11-26T06:45:17.052Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -780,7 +780,7 @@
       "number": 32,
       "title": "Inicio de sesión fallido por credenciales incorrectas",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario ingresa el nombre de usuario \"<usuario>\"\nAnd el usuario ingresa la contraseña \"<contrasena>\"\nAnd hace clic en el botón de \"Login\"\nThen el sistema deniega el acceso\nAnd muestra el mensaje de error \"Invalid credentials\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_32",
       "labels": [
         "testcase"
@@ -788,8 +788,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.628Z",
-      "updated_at": "2026-11-24T19:27:07.628Z",
+      "created_at": "2026-11-26T06:43:17.820Z",
+      "updated_at": "2026-11-26T06:45:17.055Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -805,7 +805,7 @@
       "number": 33,
       "title": "Intento de inicio de sesión con campos requeridos vacíos",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario ingresa el nombre de usuario \"<usuario>\"\nAnd el usuario ingresa la contraseña \"<contrasena>\"\nAnd hace clic en el botón de \"Login\"\nThen el sistema no realiza la petición de inicio de sesión\nAnd muestra el mensaje de validación \"Required\" debajo del campo omitido\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_33",
       "labels": [
         "testcase"
@@ -813,8 +813,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.631Z",
-      "updated_at": "2026-11-24T19:27:07.631Z",
+      "created_at": "2026-11-26T06:43:17.826Z",
+      "updated_at": "2026-11-26T06:45:17.059Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -830,7 +830,7 @@
       "number": 34,
       "title": "Redirección para recuperar contraseña",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario hace clic en el enlace \"Forgot your password?\"\nThen el sistema redirige al usuario a la vista de recuperación de contraseña\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_34",
       "labels": [
         "testcase"
@@ -838,8 +838,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.636Z",
-      "updated_at": "2026-11-24T19:27:07.636Z",
+      "created_at": "2026-11-26T06:43:17.832Z",
+      "updated_at": "2026-11-26T06:45:17.066Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -855,7 +855,7 @@
       "number": 35,
       "title": "Redirección al sitio oficial de OrangeHRM",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de login de OrangeHRM\nWhen el usuario hace clic en el enlace \"OrangeHRM, Inc\" del pie de página\nThen se abre una nueva pestaña redirigiendo al sitio oficial de OrangeHRM\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_35",
       "labels": [
         "testcase"
@@ -863,8 +863,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.640Z",
-      "updated_at": "2026-11-24T19:27:07.640Z",
+      "created_at": "2026-11-26T06:43:17.835Z",
+      "updated_at": "2026-11-26T06:45:17.069Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -880,7 +880,7 @@
       "number": 36,
       "title": "Actualizar información de contacto",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"My Info\"\nWhen el usuario selecciona la sección \"Contact Details\"\nAnd actualiza el campo de \"Street 1\" y \"Mobile\"\nAnd hace clic en \"Save\"\nThen el sistema guarda los cambios y muestra un mensaje de éxito\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_36",
       "labels": [
         "testcase"
@@ -888,8 +888,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.643Z",
-      "updated_at": "2026-11-24T19:27:07.643Z",
+      "created_at": "2026-11-26T06:43:17.839Z",
+      "updated_at": "2026-11-26T06:45:17.072Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -905,7 +905,7 @@
       "number": 37,
       "title": "Agregar contacto de emergencia",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"My Info\"\nWhen el usuario selecciona la sección \"Emergency Contacts\"\nAnd hace clic en \"Add\"\nAnd ingresa el nombre y teléfono del contacto\nAnd hace clic en \"Save\"\nThen el contacto de emergencia aparece listado correctamente\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_37",
       "labels": [
         "testcase"
@@ -913,8 +913,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.645Z",
-      "updated_at": "2026-11-24T19:27:07.645Z",
+      "created_at": "2026-11-26T06:43:17.843Z",
+      "updated_at": "2026-11-26T06:45:17.074Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -930,7 +930,7 @@
       "number": 38,
       "title": "Agregar un nuevo empleado",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"PIM\"\nWhen el usuario hace clic en el botón \"Add\"\nAnd completa los campos \"First Name\", \"Last Name\" y \"Employee Id\"\nAnd hace clic en \"Save\"\nThen el sistema crea el registro del empleado\nAnd redirige a la vista de detalles personales del empleado\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_38",
       "labels": [
         "testcase"
@@ -938,8 +938,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.649Z",
-      "updated_at": "2026-11-24T19:27:07.649Z",
+      "created_at": "2026-11-26T06:43:17.845Z",
+      "updated_at": "2026-11-26T06:45:17.078Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -955,7 +955,7 @@
       "number": 39,
       "title": "Buscar un empleado por nombre",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"PIM\"\nWhen el usuario ingresa un nombre válido en el campo \"Employee Name\"\nAnd hace clic en el botón \"Search\"\nThen la tabla de resultados muestra al empleado correspondiente\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_39",
       "labels": [
         "testcase"
@@ -963,8 +963,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.652Z",
-      "updated_at": "2026-11-24T19:27:07.652Z",
+      "created_at": "2026-11-26T06:43:17.848Z",
+      "updated_at": "2026-11-26T06:45:17.081Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -980,7 +980,7 @@
       "number": 40,
       "title": "Eliminar un registro de empleado",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"PIM\"\nGiven existe al menos un empleado en la lista\nWhen el usuario selecciona a un empleado haciendo clic en la casilla de verificación\nAnd hace clic en el botón de eliminar (icono de basurero)\nAnd confirma la eliminación en el diálogo modal\nThen el sistema muestra el mensaje \"Successfully Deleted\"\nAnd el empleado ya no aparece en la lista\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_40",
       "labels": [
         "testcase"
@@ -988,8 +988,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.656Z",
-      "updated_at": "2026-11-24T19:27:07.656Z",
+      "created_at": "2026-11-26T06:43:17.850Z",
+      "updated_at": "2026-11-26T06:45:17.087Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -1005,7 +1005,7 @@
       "number": 41,
       "title": "Crear una nueva vacante",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Recruitment\"\nWhen el usuario navega a \"Vacancies\" y hace clic en \"Add\"\nAnd completa los datos de \"Job Title\", \"Vacancy Name\" y \"Hiring Manager\"\nAnd hace clic en \"Save\"\nThen la vacante se guarda y aparece en la lista de vacantes activas\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_41",
       "labels": [
         "testcase"
@@ -1013,8 +1013,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.659Z",
-      "updated_at": "2026-11-24T19:27:07.659Z",
+      "created_at": "2026-11-26T06:43:17.853Z",
+      "updated_at": "2026-11-26T06:45:17.090Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -1030,7 +1030,7 @@
       "number": 42,
       "title": "Agregar un candidato nuevo",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Recruitment\"\nWhen el usuario navega a \"Candidates\" y hace clic en \"Add\"\nAnd completa los campos de nombre, apellido y correo\nAnd adjunta un currículum en formato PDF\nAnd hace clic en \"Save\"\nThen el candidato es registrado exitosamente en el sistema con el estado \"Application Initiated\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_42",
       "labels": [
         "testcase"
@@ -1038,8 +1038,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.662Z",
-      "updated_at": "2026-11-24T19:27:07.662Z",
+      "created_at": "2026-11-26T06:43:17.857Z",
+      "updated_at": "2026-11-26T06:45:17.093Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -1055,7 +1055,7 @@
       "number": 43,
       "title": "Realizar \"Punch In\" (Registro de entrada)",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Time\"\nWhen el usuario navega a \"Attendance\" y selecciona \"Punch In/Out\"\nAnd ingresa una nota opcional\nAnd hace clic en \"In\"\nThen el sistema registra la hora actual de entrada\nAnd el estado cambia a \"Punched In\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_43",
       "labels": [
         "testcase"
@@ -1063,8 +1063,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.666Z",
-      "updated_at": "2026-11-24T19:27:07.666Z",
+      "created_at": "2026-11-26T06:43:17.861Z",
+      "updated_at": "2026-11-26T06:45:17.098Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -1080,7 +1080,7 @@
       "number": 44,
       "title": "Crear y enviar una hoja de tiempo (Timesheet)",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd navega a la sección \"Time\"\nWhen el usuario navega a \"Timesheets\" -> \"My Timesheets\"\nAnd selecciona una semana\nAnd agrega las horas trabajadas por proyecto y actividad\nAnd hace clic en \"Submit\"\nThen el estado de la hoja de tiempo cambia a \"Submitted\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_44",
       "labels": [
         "testcase"
@@ -1088,8 +1088,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.671Z",
-      "updated_at": "2026-11-24T19:27:07.671Z",
+      "created_at": "2026-11-26T06:43:17.865Z",
+      "updated_at": "2026-11-26T06:45:17.100Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -1105,7 +1105,7 @@
       "number": 45,
       "title": "Abrir una nueva cuenta bancaria",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Open New Account\"\nAnd selecciona el tipo de cuenta \"SAVINGS\"\nAnd selecciona una cuenta existente para transferir los fondos iniciales\nAnd hace clic en el botón \"Open New Account\"\nThen el sistema muestra el mensaje \"Account Opened!\"\nAnd genera un nuevo número de cuenta válido\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_45",
       "labels": [
         "testcase"
@@ -1113,8 +1113,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.675Z",
-      "updated_at": "2026-11-24T19:27:07.675Z",
+      "created_at": "2026-11-26T06:43:17.867Z",
+      "updated_at": "2026-11-26T06:45:17.103Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -1130,7 +1130,7 @@
       "number": 46,
       "title": "Visualizar el resumen de las cuentas (Accounts Overview)",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Accounts Overview\"\nThen el sistema muestra una tabla con todas las cuentas del cliente\nAnd se visualiza el saldo (\"Balance\") y los fondos disponibles (\"Available Amount\") para cada cuenta\nAnd el total global de los saldos se muestra en la fila inferior \"Total\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_46",
       "labels": [
         "testcase"
@@ -1138,8 +1138,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.678Z",
-      "updated_at": "2026-11-24T19:27:07.678Z",
+      "created_at": "2026-11-26T06:43:17.869Z",
+      "updated_at": "2026-11-26T06:45:17.105Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -1155,7 +1155,7 @@
       "number": 47,
       "title": "Solicitar un préstamo exitosamente",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Request Loan\"\nAnd ingresa un monto de préstamo \"1000.00\" (Loan Amount)\nAnd ingresa un pago inicial \"100.00\" (Down Payment)\nAnd selecciona una cuenta desde donde se pagará (From account id)\nAnd hace clic en el botón \"Apply Now\"\nThen el sistema procesa la solicitud\nAnd muestra el estado de la solicitud como \"Approved\"\nAnd genera y muestra un nuevo número de cuenta para el préstamo\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_47",
       "labels": [
         "testcase"
@@ -1163,8 +1163,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.682Z",
-      "updated_at": "2026-11-24T19:27:07.682Z",
+      "created_at": "2026-11-26T06:43:17.871Z",
+      "updated_at": "2026-11-26T06:45:17.108Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -1180,7 +1180,7 @@
       "number": 48,
       "title": "Rechazo de préstamo por monto excesivo",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nWhen el usuario hace clic en el enlace \"Request Loan\"\nAnd ingresa un monto de préstamo \"9999999.00\" con un pago inicial mínimo\nAnd hace clic en el botón \"Apply Now\"\nThen el sistema procesa la solicitud\nAnd muestra el estado de la solicitud como \"Denied\"\nAnd el sistema informa de insuficiencia de fondos\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_48",
       "labels": [
         "testcase"
@@ -1188,8 +1188,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.687Z",
-      "updated_at": "2026-11-24T19:27:07.687Z",
+      "created_at": "2026-11-26T06:43:17.873Z",
+      "updated_at": "2026-11-26T06:45:17.111Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -1205,7 +1205,7 @@
       "number": 49,
       "title": "Registrar un nuevo usuario exitosamente",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nWhen el usuario hace clic en el enlace \"Register\"\nAnd completa el formulario de registro con datos válidos (nombre, dirección, SSN, usuario y contraseña)\nAnd hace clic en el botón \"Register\"\nThen el sistema muestra el mensaje \"Your account was created successfully. You are now logged in.\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_49",
       "labels": [
         "testcase"
@@ -1213,8 +1213,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.690Z",
-      "updated_at": "2026-11-24T19:27:07.690Z",
+      "created_at": "2026-11-26T06:43:17.875Z",
+      "updated_at": "2026-11-26T06:45:17.115Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -1230,7 +1230,7 @@
       "number": 50,
       "title": "Iniciar sesión con credenciales válidas",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nGiven el usuario ya tiene una cuenta registrada\nWhen ingresa su nombre de usuario y contraseña en el panel \"Customer Login\"\nAnd hace clic en el botón \"Log In\"\nThen el sistema lo redirige a la página \"Accounts Overview\"\nAnd muestra el mensaje de bienvenida con su nombre\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_50",
       "labels": [
         "testcase"
@@ -1238,8 +1238,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.693Z",
-      "updated_at": "2026-11-24T19:27:07.693Z",
+      "created_at": "2026-11-26T06:43:17.878Z",
+      "updated_at": "2026-11-26T06:45:17.117Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -1255,7 +1255,7 @@
       "number": 51,
       "title": "Error al iniciar sesión con credenciales inválidas",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de inicio \"https://parabank.parasoft.com/\"\nWhen ingresa un usuario inválido y una contraseña incorrecta en el panel \"Customer Login\"\nAnd hace clic en el botón \"Log In\"\nThen el sistema muestra un mensaje de error \"The username and password could not be verified.\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_51",
       "labels": [
         "testcase"
@@ -1263,8 +1263,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.696Z",
-      "updated_at": "2026-11-24T19:27:07.696Z",
+      "created_at": "2026-11-26T06:43:17.880Z",
+      "updated_at": "2026-11-26T06:45:17.120Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -1280,7 +1280,7 @@
       "number": 52,
       "title": "Transferir fondos entre cuentas",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nAnd posee al menos dos cuentas con fondos disponibles\nWhen el usuario hace clic en el enlace \"Transfer Funds\"\nAnd ingresa el monto a transferir \"100.00\"\nAnd selecciona la cuenta de origen \"From account\"\nAnd selecciona la cuenta de destino \"To account\"\nAnd hace clic en el botón \"Transfer\"\nThen el sistema muestra el mensaje \"Transfer Complete!\"\nAnd el monto \"100.00\" es reflejado en los detalles de la transacción\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_52",
       "labels": [
         "testcase"
@@ -1288,8 +1288,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.700Z",
-      "updated_at": "2026-11-24T19:27:07.700Z",
+      "created_at": "2026-11-26T06:43:17.883Z",
+      "updated_at": "2026-11-26T06:45:17.123Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -1305,7 +1305,7 @@
       "number": 53,
       "title": "Realizar un pago de servicios (Bill Pay)",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión en ParaBank\nAnd posee al menos dos cuentas con fondos disponibles\nWhen el usuario hace clic en el enlace \"Bill Pay\"\nAnd completa los datos del beneficiario \"Payee Information\" (Nombre, Dirección, Número de Cuenta)\nAnd ingresa el monto \"50.00\"\nAnd selecciona la cuenta desde la cual se pagará\nAnd hace clic en el botón \"Send Payment\"\nThen el sistema muestra el mensaje \"Bill Payment Complete\"\nAnd confirma que el pago de \"50.00\" fue enviado correctamente al beneficiario\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_53",
       "labels": [
         "testcase"
@@ -1313,8 +1313,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.703Z",
-      "updated_at": "2026-11-24T19:27:07.703Z",
+      "created_at": "2026-11-26T06:43:17.884Z",
+      "updated_at": "2026-11-26T06:45:17.125Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -1330,7 +1330,7 @@
       "number": 54,
       "title": "Visualizar los productos agregados",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd ha agregado el producto \"Sauce Labs Bike Light\" al carrito\nWhen hace clic en el ícono superior derecho del carrito\nThen el usuario debe ver la vista \"Your Cart\"\nAnd el producto \"Sauce Labs Bike Light\" debe estar en la lista con QTY \"1\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_54",
       "labels": [
         "testcase"
@@ -1338,8 +1338,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.707Z",
-      "updated_at": "2026-11-24T19:27:07.707Z",
+      "created_at": "2026-11-26T06:43:17.886Z",
+      "updated_at": "2026-11-26T06:45:17.129Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1355,7 +1355,7 @@
       "number": 55,
       "title": "Remover un producto desde el carrito",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd ha agregado el producto \"Sauce Labs Bike Light\" al carrito\nWhen hace clic en el ícono superior derecho del carrito\nWhen el usuario hace clic en el botón \"Remove\" del producto\nThen el producto desaparece inmediatamente de la lista\nAnd el carrito se muestra vacío\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_55",
       "labels": [
         "testcase"
@@ -1363,8 +1363,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.710Z",
-      "updated_at": "2026-11-24T19:27:07.710Z",
+      "created_at": "2026-11-26T06:43:17.888Z",
+      "updated_at": "2026-11-26T06:45:17.133Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1380,7 +1380,7 @@
       "number": 56,
       "title": "Continuar comprando desde el carrito",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd ha agregado el producto \"Sauce Labs Bike Light\" al carrito\nWhen hace clic en el ícono superior derecho del carrito\nWhen el usuario hace clic en el botón inferior izquierdo \"Continue Shopping\"\nThen el sistema lo redirige de vuelta a la página de \"Products\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_56",
       "labels": [
         "testcase"
@@ -1388,8 +1388,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.713Z",
-      "updated_at": "2026-11-24T19:27:07.713Z",
+      "created_at": "2026-11-26T06:43:17.890Z",
+      "updated_at": "2026-11-26T06:45:17.135Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1405,7 +1405,7 @@
       "number": 57,
       "title": "Llenar información de envío exitosamente",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd está en la vista del carrito con productos agregados\nAnd hace clic en el botón inferior derecho \"Checkout\"\nWhen el usuario ingresa su nombre \"Juan\" en \"First Name\"\nAnd ingresa su apellido \"Pérez\" en \"Last Name\"\nAnd ingresa el código postal \"12345\" en \"Zip/Postal Code\"\nAnd hace clic en el botón \"Continue\"\nThen el sistema lo redirige a la pantalla \"Checkout: Overview\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_57",
       "labels": [
         "testcase"
@@ -1413,8 +1413,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.732Z",
-      "updated_at": "2026-11-24T19:27:07.732Z",
+      "created_at": "2026-11-26T06:43:17.892Z",
+      "updated_at": "2026-11-26T06:45:17.138Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1430,7 +1430,7 @@
       "number": 58,
       "title": "Validar error por falta de información de envío",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd está en la vista del carrito con productos agregados\nAnd hace clic en el botón inferior derecho \"Checkout\"\nWhen el usuario deja todos los campos vacíos\nAnd hace clic en \"Continue\"\nThen el sistema muestra el mensaje de error \"Error: First Name is required\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_58",
       "labels": [
         "testcase"
@@ -1438,8 +1438,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.739Z",
-      "updated_at": "2026-11-24T19:27:07.739Z",
+      "created_at": "2026-11-26T06:43:17.894Z",
+      "updated_at": "2026-11-26T06:45:17.141Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1455,7 +1455,7 @@
       "number": 59,
       "title": "Finalizar compra exitosamente",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión\nAnd está en la vista del carrito con productos agregados\nAnd hace clic en el botón inferior derecho \"Checkout\"\nGiven el usuario ha completado el formulario de envío y está en \"Checkout: Overview\"\nWhen verifica que el precio \"Item total\" y los impuestos \"Tax\" sean correctos\nAnd hace clic en el botón verde \"Finish\"\nThen el sistema muestra la pantalla \"Checkout: Complete!\"\nAnd el usuario visualiza el mensaje \"Thank you for your order!\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_59",
       "labels": [
         "testcase"
@@ -1463,8 +1463,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.744Z",
-      "updated_at": "2026-11-24T19:27:07.744Z",
+      "created_at": "2026-11-26T06:43:17.897Z",
+      "updated_at": "2026-11-26T06:45:17.147Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1480,7 +1480,7 @@
       "number": 60,
       "title": "Iniciar sesión exitosamente con usuario estándar",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de login \"https://www.saucedemo.com\"\nWhen el usuario ingresa el nombre de usuario \"standard_user\"\nAnd ingresa la contraseña \"secret_sauce\"\nAnd hace clic en el botón \"Login\"\nThen el sistema lo redirige a la página de inventario \"Products\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_60",
       "labels": [
         "testcase"
@@ -1488,8 +1488,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.749Z",
-      "updated_at": "2026-11-24T19:27:07.749Z",
+      "created_at": "2026-11-26T06:43:17.899Z",
+      "updated_at": "2026-11-26T06:45:17.150Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1505,7 +1505,7 @@
       "number": 61,
       "title": "Iniciar sesión con un usuario bloqueado",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de login \"https://www.saucedemo.com\"\nWhen el usuario ingresa el nombre de usuario \"locked_out_user\"\nAnd ingresa la contraseña \"secret_sauce\"\nAnd hace clic en el botón \"Login\"\nThen el sistema muestra el mensaje de error \"Epic sadface: Sorry, this user has been locked out.\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_61",
       "labels": [
         "testcase"
@@ -1513,8 +1513,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.756Z",
-      "updated_at": "2026-11-24T19:27:07.756Z",
+      "created_at": "2026-11-26T06:43:17.901Z",
+      "updated_at": "2026-11-26T06:45:17.153Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1530,7 +1530,7 @@
       "number": 62,
       "title": "Error al iniciar sesión sin credenciales",
       "body": "```gherkin\nGiven el usuario se encuentra en la página de login \"https://www.saucedemo.com\"\nWhen el usuario hace clic en el botón \"Login\" sin ingresar datos\nThen el sistema muestra el mensaje de error \"Epic sadface: Username is required\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_62",
       "labels": [
         "testcase"
@@ -1538,8 +1538,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.761Z",
-      "updated_at": "2026-11-24T19:27:07.761Z",
+      "created_at": "2026-11-26T06:43:17.903Z",
+      "updated_at": "2026-11-26T06:45:17.156Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1555,7 +1555,7 @@
       "number": 63,
       "title": "Agregar un producto al carrito",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd se encuentra en la página principal de \"Products\"\nWhen el usuario hace clic en el botón \"Add to cart\" del producto \"Sauce Labs Backpack\"\nThen el botón del producto cambia a color rojo con el texto \"Remove\"\nAnd el ícono del carrito en la esquina superior derecha muestra un \"1\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_63",
       "labels": [
         "testcase"
@@ -1563,8 +1563,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.764Z",
-      "updated_at": "2026-11-24T19:27:07.764Z",
+      "created_at": "2026-11-26T06:43:17.905Z",
+      "updated_at": "2026-11-26T06:45:17.160Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1580,7 +1580,7 @@
       "number": 64,
       "title": "Remover un producto desde la página de inventario",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd se encuentra en la página principal de \"Products\"\nGiven el usuario tiene el producto \"Sauce Labs Backpack\" en el carrito\nWhen el usuario hace clic en el botón \"Remove\" de dicho producto\nThen el botón cambia nuevamente a \"Add to cart\" verde\nAnd el contador numérico del carrito se oculta\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_64",
       "labels": [
         "testcase"
@@ -1588,8 +1588,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.769Z",
-      "updated_at": "2026-11-24T19:27:07.769Z",
+      "created_at": "2026-11-26T06:43:17.907Z",
+      "updated_at": "2026-11-26T06:45:17.163Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1605,7 +1605,7 @@
       "number": 65,
       "title": "Ordenar productos usando el filtro",
       "body": "```gherkin\nGiven el usuario ha iniciado sesión como \"standard_user\"\nAnd se encuentra en la página principal de \"Products\"\nWhen el usuario selecciona la opción \"<opcion_filtro>\" en el menú desplegable superior derecho\nThen los productos se reordenan según el criterio \"<criterio>\"\n```",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_65",
       "labels": [
         "testcase"
@@ -1613,8 +1613,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.773Z",
-      "updated_at": "2026-11-24T19:27:07.773Z",
+      "created_at": "2026-11-26T06:43:17.909Z",
+      "updated_at": "2026-11-26T06:45:17.165Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1630,7 +1630,7 @@
       "number": 66,
       "title": "Nuevo defecto",
       "body": "### 🔗 Context\n- **Testcase:** `Magento/catalog.case.feature.@tc-02`\n- **Testrun:** `testcycle/Magento-20260612_120000_6be4l9.run.feature`",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_66",
       "labels": [
         "bug"
@@ -1638,8 +1638,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.777Z",
-      "updated_at": "2026-11-24T19:27:07.777Z",
+      "created_at": "2026-11-26T06:43:17.912Z",
+      "updated_at": "2026-11-26T06:45:19.565Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -1653,7 +1653,7 @@
       "number": 67,
       "title": "No carga los productos del carrito",
       "body": "### 🐾 Steps to Reproduce\n```gherkin\nGiven usuario inicia sesión en la aplicación\nWhen usuario agrega un producto al carrito\nThen usuario no puede ver los productos en el carrito\n```\n\n### 🔗 Context\n- **Testcase:** `SauceDemo/products.case.feature.@tc-01`\n- **Testrun:** `testcycle/SauceDemo-20260612_120002_gp1yim.run.feature`\n\n### 🚨 Trace\n```text\nHola Mundo.\n```\n\n### 📸 Evidence / Attachments\n![Evidence](bg-1_1794601845303.png)",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_67",
       "labels": [
         "bug"
@@ -1661,8 +1661,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.780Z",
-      "updated_at": "2026-11-24T19:27:07.780Z",
+      "created_at": "2026-11-26T06:43:17.915Z",
+      "updated_at": "2026-11-26T06:45:19.569Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -1676,7 +1676,7 @@
       "number": 68,
       "title": "Defecto no especificado",
       "body": "### 🔗 Context\n- **Testcase:** `Magento/catalog.case.feature.@tc-02`\n- **Testrun:** `testcycle/Magento-20260612_120000_6be4l9.run.feature`",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_68",
       "labels": [
         "bug"
@@ -1684,8 +1684,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.783Z",
-      "updated_at": "2026-11-24T19:27:07.783Z",
+      "created_at": "2026-11-26T06:43:17.918Z",
+      "updated_at": "2026-11-26T06:45:19.573Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -1699,7 +1699,7 @@
       "number": 69,
       "title": "Magento-20260611_155546_5f736a",
       "body": "### 🟡 **SKIPPED** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 16 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 4 &nbsp;|&nbsp; **Total:** 20\n\n### 📋 Test Cases\n\n**Origin:** cart.case.feature\n- [x] tc-01: #1 - **passed**\n- [x] tc-01: #12 - **passed**\n- [x] tc-01: #54 - **passed**\n- [x] tc-02: #2 - **passed**\n- [x] tc-02: #13 - **passed**\n- [x] tc-02: #55 - **passed**\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n- [ ] tc-02: #10 - **pending**\n\n**Origin:** checkout.case.feature\n- [x] tc-01: #14 - **passed**\n- [x] tc-01: #5 - **passed**\n- [x] tc-01: #57 - **passed**\n- [x] tc-02: #15 - **passed**\n- [x] tc-02: #6 - **passed**\n- [x] tc-02: #58 - **passed**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n- [ ] tc-02: #17 - **pending**\n\n**Origin:** catalog.case.feature\n- [x] tc-01: #3 - **passed**\n- [x] tc-02: #4 - **passed**\n\n**Origin:** customer.case.feature\n- [x] tc-01: #7 - **passed**\n- [x] tc-02: #8 - **passed**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_69",
       "labels": [
         "testrun"
@@ -1707,8 +1707,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.787Z",
-      "updated_at": "2026-11-24T19:27:07.787Z",
+      "created_at": "2026-11-26T06:43:17.922Z",
+      "updated_at": "2026-11-26T06:45:17.432Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -1726,7 +1726,7 @@
       "number": 70,
       "title": "Magento-20260612_120000_6be4l9",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 19 &nbsp;|&nbsp; **Total:** 19\n\n### 📋 Test Cases\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #57 - **pending**\n- [ ] tc-02: #6 - **pending**\n- [ ] tc-02: #15 - **pending**\n- [ ] tc-02: #58 - **pending**\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**\n- [ ] tc-02: #2 - **pending**\n- [ ] tc-02: #13 - **pending**\n- [ ] tc-02: #55 - **pending**\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n- [ ] tc-02: #10 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n- [ ] tc-02: #17 - **pending**\n\n**Origin:** customer.case.feature\n- [ ] tc-01: #7 - **pending**\n- [ ] tc-02: #8 - **pending**\n\n**Origin:** catalog.case.feature\n- [ ] tc-02: #4 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_70",
       "labels": [
         "testrun"
@@ -1734,8 +1734,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.792Z",
-      "updated_at": "2026-11-24T19:27:07.792Z",
+      "created_at": "2026-11-26T06:43:17.926Z",
+      "updated_at": "2026-11-26T06:45:17.434Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -1753,7 +1753,7 @@
       "number": 71,
       "title": "Magento-20260612_120001_hq71js",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 1 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 9 &nbsp;|&nbsp; **Total:** 10\n\n### 📋 Test Cases\n\n**Origin:** catalog.case.feature\n- [x] tc-01: #3 - **passed**\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #57 - **pending**\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n\n**Origin:** customer.case.feature\n- [ ] tc-01: #7 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_71",
       "labels": [
         "testrun"
@@ -1761,8 +1761,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.797Z",
-      "updated_at": "2026-11-24T19:27:07.797Z",
+      "created_at": "2026-11-26T06:43:17.930Z",
+      "updated_at": "2026-11-26T06:45:17.436Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -1780,7 +1780,7 @@
       "number": 72,
       "title": "Magento-20260612_120002_9ca62m",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 20 &nbsp;|&nbsp; **Total:** 20\n\n### 📋 Test Cases\n\n**Origin:** catalog.case.feature\n- [ ] tc-01: #3 - **pending**\n- [ ] tc-02: #4 - **pending**\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #57 - **pending**\n- [ ] tc-02: #6 - **pending**\n- [ ] tc-02: #15 - **pending**\n- [ ] tc-02: #58 - **pending**\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**\n- [ ] tc-02: #2 - **pending**\n- [ ] tc-02: #13 - **pending**\n- [ ] tc-02: #55 - **pending**\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n- [ ] tc-02: #10 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n- [ ] tc-02: #17 - **pending**\n\n**Origin:** customer.case.feature\n- [ ] tc-01: #7 - **pending**\n- [ ] tc-02: #8 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_72",
       "labels": [
         "testrun"
@@ -1788,8 +1788,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.801Z",
-      "updated_at": "2026-11-24T19:27:07.801Z",
+      "created_at": "2026-11-26T06:43:17.936Z",
+      "updated_at": "2026-11-26T06:45:17.437Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -1807,7 +1807,7 @@
       "number": 73,
       "title": "OpenCart-20260611_155551_34d41d",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 19 &nbsp;|&nbsp; **Total:** 19\n\n### 📋 Test Cases\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n- [ ] tc-02: #10 - **pending**\n- [ ] tc-03: #11 - **pending**\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #45 - **pending**\n- [ ] tc-02: #46 - **pending**\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**\n- [ ] tc-02: #2 - **pending**\n- [ ] tc-02: #13 - **pending**\n- [ ] tc-02: #55 - **pending**\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #57 - **pending**\n- [ ] tc-02: #15 - **pending**\n- [ ] tc-02: #6 - **pending**\n- [ ] tc-02: #58 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n- [ ] tc-02: #17 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_73",
       "labels": [
         "testrun"
@@ -1815,8 +1815,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.804Z",
-      "updated_at": "2026-11-24T19:27:07.804Z",
+      "created_at": "2026-11-26T06:43:17.940Z",
+      "updated_at": "2026-11-26T06:45:17.440Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -1834,7 +1834,7 @@
       "number": 74,
       "title": "OpenCart-20260612_120000_zkzodt",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 19 &nbsp;|&nbsp; **Total:** 19\n\n### 📋 Test Cases\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n- [ ] tc-02: #10 - **pending**\n- [ ] tc-03: #11 - **pending**\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #45 - **pending**\n- [ ] tc-02: #46 - **pending**\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #57 - **pending**\n- [ ] tc-02: #6 - **pending**\n- [ ] tc-02: #15 - **pending**\n- [ ] tc-02: #58 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n- [ ] tc-02: #17 - **pending**\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**\n- [ ] tc-02: #2 - **pending**\n- [ ] tc-02: #13 - **pending**\n- [ ] tc-02: #55 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_74",
       "labels": [
         "testrun"
@@ -1842,8 +1842,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.807Z",
-      "updated_at": "2026-11-24T19:27:07.807Z",
+      "created_at": "2026-11-26T06:43:17.944Z",
+      "updated_at": "2026-11-26T06:45:17.442Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -1861,7 +1861,7 @@
       "number": 75,
       "title": "OpenCart-20260612_120001_lcte3d",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 9 &nbsp;|&nbsp; **Total:** 9\n\n### 📋 Test Cases\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #45 - **pending**\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #57 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_75",
       "labels": [
         "testrun"
@@ -1869,8 +1869,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.810Z",
-      "updated_at": "2026-11-24T19:27:07.810Z",
+      "created_at": "2026-11-26T06:43:17.948Z",
+      "updated_at": "2026-11-26T06:45:17.443Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -1888,7 +1888,7 @@
       "number": 76,
       "title": "OpenCart-20260612_120002_88b60u",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 19 &nbsp;|&nbsp; **Total:** 19\n\n### 📋 Test Cases\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n- [ ] tc-02: #10 - **pending**\n- [ ] tc-03: #11 - **pending**\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #45 - **pending**\n- [ ] tc-02: #46 - **pending**\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #57 - **pending**\n- [ ] tc-02: #6 - **pending**\n- [ ] tc-02: #15 - **pending**\n- [ ] tc-02: #58 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n- [ ] tc-02: #17 - **pending**\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**\n- [ ] tc-02: #2 - **pending**\n- [ ] tc-02: #13 - **pending**\n- [ ] tc-02: #55 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_76",
       "labels": [
         "testrun"
@@ -1896,8 +1896,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.812Z",
-      "updated_at": "2026-11-24T19:27:07.812Z",
+      "created_at": "2026-11-26T06:43:17.952Z",
+      "updated_at": "2026-11-26T06:45:17.445Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -1915,7 +1915,7 @@
       "number": 77,
       "title": "OrangeHRM-20260611_155558_06a56c",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 33 &nbsp;|&nbsp; **Total:** 33\n\n### 📋 Test Cases\n\n**Origin:** admin.case.feature\n- [ ] tc-01: #18 - **pending**\n- [ ] tc-02: #19 - **pending**\n- [ ] tc-03: #20 - **pending**\n- [ ] tc-04: #21 - **pending**\n\n**Origin:** buzz.case.feature\n- [ ] tc-01: #22 - **pending**\n- [ ] tc-02: #23 - **pending**\n\n**Origin:** dashboard.case.feature\n- [ ] tc-01: #24 - **pending**\n- [ ] tc-02: #25 - **pending**\n\n**Origin:** directory.case.feature\n- [ ] tc-01: #26 - **pending**\n- [ ] tc-02: #27 - **pending**\n\n**Origin:** leave.case.feature\n- [ ] tc-01: #28 - **pending**\n- [ ] tc-02: #29 - **pending**\n- [ ] tc-03: #30 - **pending**\n\n**Origin:** login.case.feature\n- [ ] tc-01: #31 - **pending**\n- [ ] tc-01: #60 - **pending**\n- [ ] tc-02: #32 - **pending**\n- [ ] tc-02: #61 - **pending**\n- [ ] tc-03: #33 - **pending**\n- [ ] tc-03: #62 - **pending**\n- [ ] tc-04: #34 - **pending**\n- [ ] tc-05: #35 - **pending**\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n- [ ] tc-02: #50 - **pending**\n- [ ] tc-03: #51 - **pending**\n\n**Origin:** my_info.case.feature\n- [ ] tc-01: #36 - **pending**\n- [ ] tc-02: #37 - **pending**\n\n**Origin:** pim.case.feature\n- [ ] tc-01: #38 - **pending**\n- [ ] tc-02: #39 - **pending**\n- [ ] tc-03: #40 - **pending**\n\n**Origin:** recruitment.case.feature\n- [ ] tc-01: #41 - **pending**\n- [ ] tc-02: #42 - **pending**\n\n**Origin:** time.case.feature\n- [ ] tc-01: #43 - **pending**\n- [ ] tc-02: #44 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_77",
       "labels": [
         "testrun"
@@ -1923,8 +1923,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.817Z",
-      "updated_at": "2026-11-24T19:27:07.817Z",
+      "created_at": "2026-11-26T06:43:17.958Z",
+      "updated_at": "2026-11-26T06:45:17.447Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -1942,7 +1942,7 @@
       "number": 78,
       "title": "OrangeHRM-20260612_120000_5wtb8a",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 33 &nbsp;|&nbsp; **Total:** 33\n\n### 📋 Test Cases\n\n**Origin:** dashboard.case.feature\n- [ ] tc-01: #24 - **pending**\n- [ ] tc-02: #25 - **pending**\n\n**Origin:** buzz.case.feature\n- [ ] tc-01: #22 - **pending**\n- [ ] tc-02: #23 - **pending**\n\n**Origin:** leave.case.feature\n- [ ] tc-01: #28 - **pending**\n- [ ] tc-02: #29 - **pending**\n- [ ] tc-03: #30 - **pending**\n\n**Origin:** my_info.case.feature\n- [ ] tc-01: #36 - **pending**\n- [ ] tc-02: #37 - **pending**\n\n**Origin:** directory.case.feature\n- [ ] tc-01: #26 - **pending**\n- [ ] tc-02: #27 - **pending**\n\n**Origin:** pim.case.feature\n- [ ] tc-01: #38 - **pending**\n- [ ] tc-02: #39 - **pending**\n- [ ] tc-03: #40 - **pending**\n\n**Origin:** time.case.feature\n- [ ] tc-01: #43 - **pending**\n- [ ] tc-02: #44 - **pending**\n\n**Origin:** login.case.feature\n- [ ] tc-01: #31 - **pending**\n- [ ] tc-01: #60 - **pending**\n- [ ] tc-02: #32 - **pending**\n- [ ] tc-02: #61 - **pending**\n- [ ] tc-03: #33 - **pending**\n- [ ] tc-03: #62 - **pending**\n- [ ] tc-04: #34 - **pending**\n- [ ] tc-05: #35 - **pending**\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n- [ ] tc-02: #50 - **pending**\n- [ ] tc-03: #51 - **pending**\n\n**Origin:** recruitment.case.feature\n- [ ] tc-01: #41 - **pending**\n- [ ] tc-02: #42 - **pending**\n\n**Origin:** admin.case.feature\n- [ ] tc-01: #18 - **pending**\n- [ ] tc-02: #19 - **pending**\n- [ ] tc-03: #20 - **pending**\n- [ ] tc-04: #21 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_78",
       "labels": [
         "testrun"
@@ -1950,8 +1950,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.823Z",
-      "updated_at": "2026-11-24T19:27:07.823Z",
+      "created_at": "2026-11-26T06:43:17.965Z",
+      "updated_at": "2026-11-26T06:45:17.448Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -1969,7 +1969,7 @@
       "number": 79,
       "title": "OrangeHRM-20260612_120001_85ddc4",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 12 &nbsp;|&nbsp; **Total:** 12\n\n### 📋 Test Cases\n\n**Origin:** dashboard.case.feature\n- [ ] tc-01: #24 - **pending**\n\n**Origin:** buzz.case.feature\n- [ ] tc-01: #22 - **pending**\n\n**Origin:** leave.case.feature\n- [ ] tc-01: #28 - **pending**\n\n**Origin:** my_info.case.feature\n- [ ] tc-01: #36 - **pending**\n\n**Origin:** directory.case.feature\n- [ ] tc-01: #26 - **pending**\n\n**Origin:** pim.case.feature\n- [ ] tc-01: #38 - **pending**\n\n**Origin:** time.case.feature\n- [ ] tc-01: #43 - **pending**\n\n**Origin:** login.case.feature\n- [ ] tc-01: #31 - **pending**\n- [ ] tc-01: #60 - **pending**\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n\n**Origin:** recruitment.case.feature\n- [ ] tc-01: #41 - **pending**\n\n**Origin:** admin.case.feature\n- [ ] tc-01: #18 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_79",
       "labels": [
         "testrun"
@@ -1977,8 +1977,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.826Z",
-      "updated_at": "2026-11-24T19:27:07.826Z",
+      "created_at": "2026-11-26T06:43:17.969Z",
+      "updated_at": "2026-11-26T06:45:17.450Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -1996,7 +1996,7 @@
       "number": 80,
       "title": "OrangeHRM-20260612_120002_4dusjo",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 33 &nbsp;|&nbsp; **Total:** 33\n\n### 📋 Test Cases\n\n**Origin:** dashboard.case.feature\n- [ ] tc-01: #24 - **pending**\n- [ ] tc-02: #25 - **pending**\n\n**Origin:** buzz.case.feature\n- [ ] tc-01: #22 - **pending**\n- [ ] tc-02: #23 - **pending**\n\n**Origin:** leave.case.feature\n- [ ] tc-01: #28 - **pending**\n- [ ] tc-02: #29 - **pending**\n- [ ] tc-03: #30 - **pending**\n\n**Origin:** my_info.case.feature\n- [ ] tc-01: #36 - **pending**\n- [ ] tc-02: #37 - **pending**\n\n**Origin:** directory.case.feature\n- [ ] tc-01: #26 - **pending**\n- [ ] tc-02: #27 - **pending**\n\n**Origin:** pim.case.feature\n- [ ] tc-01: #38 - **pending**\n- [ ] tc-02: #39 - **pending**\n- [ ] tc-03: #40 - **pending**\n\n**Origin:** time.case.feature\n- [ ] tc-01: #43 - **pending**\n- [ ] tc-02: #44 - **pending**\n\n**Origin:** login.case.feature\n- [ ] tc-01: #31 - **pending**\n- [ ] tc-01: #60 - **pending**\n- [ ] tc-02: #32 - **pending**\n- [ ] tc-02: #61 - **pending**\n- [ ] tc-03: #33 - **pending**\n- [ ] tc-03: #62 - **pending**\n- [ ] tc-04: #34 - **pending**\n- [ ] tc-05: #35 - **pending**\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n- [ ] tc-02: #50 - **pending**\n- [ ] tc-03: #51 - **pending**\n\n**Origin:** recruitment.case.feature\n- [ ] tc-01: #41 - **pending**\n- [ ] tc-02: #42 - **pending**\n\n**Origin:** admin.case.feature\n- [ ] tc-01: #18 - **pending**\n- [ ] tc-02: #19 - **pending**\n- [ ] tc-03: #20 - **pending**\n- [ ] tc-04: #21 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_80",
       "labels": [
         "testrun"
@@ -2004,8 +2004,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.831Z",
-      "updated_at": "2026-11-24T19:27:07.831Z",
+      "created_at": "2026-11-26T06:43:17.974Z",
+      "updated_at": "2026-11-26T06:45:17.452Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -2023,7 +2023,7 @@
       "number": 81,
       "title": "ParaBank-20260611_155609_da5690",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 9 &nbsp;|&nbsp; **Total:** 9\n\n### 📋 Test Cases\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #45 - **pending**\n- [ ] tc-02: #46 - **pending**\n\n**Origin:** loan.case.feature\n- [ ] tc-01: #47 - **pending**\n- [ ] tc-02: #48 - **pending**\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n- [ ] tc-02: #50 - **pending**\n- [ ] tc-03: #51 - **pending**\n\n**Origin:** transactions.case.feature\n- [ ] tc-01: #52 - **pending**\n- [ ] tc-02: #53 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_81",
       "labels": [
         "testrun"
@@ -2031,8 +2031,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.834Z",
-      "updated_at": "2026-11-24T19:27:07.834Z",
+      "created_at": "2026-11-26T06:43:17.980Z",
+      "updated_at": "2026-11-26T06:45:17.453Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -2050,7 +2050,7 @@
       "number": 82,
       "title": "ParaBank-20260612_120000_7l14q3",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 9 &nbsp;|&nbsp; **Total:** 9\n\n### 📋 Test Cases\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n- [ ] tc-02: #50 - **pending**\n- [ ] tc-03: #51 - **pending**\n\n**Origin:** transactions.case.feature\n- [ ] tc-01: #52 - **pending**\n- [ ] tc-02: #53 - **pending**\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #45 - **pending**\n- [ ] tc-02: #46 - **pending**\n\n**Origin:** loan.case.feature\n- [ ] tc-01: #47 - **pending**\n- [ ] tc-02: #48 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_82",
       "labels": [
         "testrun"
@@ -2058,8 +2058,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.838Z",
-      "updated_at": "2026-11-24T19:27:07.838Z",
+      "created_at": "2026-11-26T06:43:17.985Z",
+      "updated_at": "2026-11-26T06:45:17.455Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -2077,7 +2077,7 @@
       "number": 83,
       "title": "ParaBank-20260612_120001_vjb5b7",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 4 &nbsp;|&nbsp; **Total:** 4\n\n### 📋 Test Cases\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n\n**Origin:** transactions.case.feature\n- [ ] tc-01: #52 - **pending**\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #45 - **pending**\n\n**Origin:** loan.case.feature\n- [ ] tc-01: #47 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_83",
       "labels": [
         "testrun"
@@ -2085,8 +2085,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.841Z",
-      "updated_at": "2026-11-24T19:27:07.841Z",
+      "created_at": "2026-11-26T06:43:17.990Z",
+      "updated_at": "2026-11-26T06:45:17.456Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -2104,7 +2104,7 @@
       "number": 84,
       "title": "ParaBank-20260612_120002_jziiea",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 9 &nbsp;|&nbsp; **Total:** 9\n\n### 📋 Test Cases\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n- [ ] tc-02: #50 - **pending**\n- [ ] tc-03: #51 - **pending**\n\n**Origin:** transactions.case.feature\n- [ ] tc-01: #52 - **pending**\n- [ ] tc-02: #53 - **pending**\n\n**Origin:** account_services.case.feature\n- [ ] tc-01: #45 - **pending**\n- [ ] tc-02: #46 - **pending**\n\n**Origin:** loan.case.feature\n- [ ] tc-01: #47 - **pending**\n- [ ] tc-02: #48 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_84",
       "labels": [
         "testrun"
@@ -2112,8 +2112,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.844Z",
-      "updated_at": "2026-11-24T19:27:07.844Z",
+      "created_at": "2026-11-26T06:43:17.994Z",
+      "updated_at": "2026-11-26T06:45:17.458Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -2131,7 +2131,7 @@
       "number": 85,
       "title": "SauceDemo-20260611_155620_2598ef",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 31 &nbsp;|&nbsp; **Total:** 31\n\n### 📋 Test Cases\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**\n- [ ] tc-02: #2 - **pending**\n- [ ] tc-02: #13 - **pending**\n- [ ] tc-02: #55 - **pending**\n- [ ] tc-03: #56 - **pending**\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n- [ ] tc-02: #10 - **pending**\n- [ ] tc-03: #11 - **pending**\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #57 - **pending**\n- [ ] tc-02: #15 - **pending**\n- [ ] tc-02: #6 - **pending**\n- [ ] tc-02: #58 - **pending**\n- [ ] tc-03: #59 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n- [ ] tc-02: #17 - **pending**\n\n**Origin:** login.case.feature\n- [ ] tc-01: #31 - **pending**\n- [ ] tc-01: #60 - **pending**\n- [ ] tc-02: #32 - **pending**\n- [ ] tc-02: #61 - **pending**\n- [ ] tc-03: #33 - **pending**\n- [ ] tc-03: #62 - **pending**\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n- [ ] tc-02: #50 - **pending**\n- [ ] tc-03: #51 - **pending**\n\n**Origin:** products.case.feature\n- [ ] tc-01: #63 - **pending**\n- [ ] tc-02: #64 - **pending**\n- [ ] tc-03: #65 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_85",
       "labels": [
         "testrun"
@@ -2139,8 +2139,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.848Z",
-      "updated_at": "2026-11-24T19:27:07.848Z",
+      "created_at": "2026-11-26T06:43:18.000Z",
+      "updated_at": "2026-11-26T06:45:17.461Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -2158,7 +2158,7 @@
       "number": 86,
       "title": "SauceDemo-20260612_120000_qz3vjx",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 31 &nbsp;|&nbsp; **Total:** 31\n\n### 📋 Test Cases\n\n**Origin:** products.case.feature\n- [ ] tc-01: #63 - **pending**\n- [ ] tc-02: #64 - **pending**\n- [ ] tc-03: #65 - **pending**\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #57 - **pending**\n- [ ] tc-02: #6 - **pending**\n- [ ] tc-02: #15 - **pending**\n- [ ] tc-02: #58 - **pending**\n- [ ] tc-03: #59 - **pending**\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**\n- [ ] tc-02: #2 - **pending**\n- [ ] tc-02: #13 - **pending**\n- [ ] tc-02: #55 - **pending**\n- [ ] tc-03: #56 - **pending**\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n- [ ] tc-02: #10 - **pending**\n- [ ] tc-03: #11 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n- [ ] tc-02: #17 - **pending**\n\n**Origin:** login.case.feature\n- [ ] tc-01: #31 - **pending**\n- [ ] tc-01: #60 - **pending**\n- [ ] tc-02: #32 - **pending**\n- [ ] tc-02: #61 - **pending**\n- [ ] tc-03: #33 - **pending**\n- [ ] tc-03: #62 - **pending**\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**\n- [ ] tc-02: #50 - **pending**\n- [ ] tc-03: #51 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_86",
       "labels": [
         "testrun"
@@ -2166,8 +2166,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.853Z",
-      "updated_at": "2026-11-24T19:27:07.853Z",
+      "created_at": "2026-11-26T06:43:18.005Z",
+      "updated_at": "2026-11-26T06:45:17.466Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -2185,7 +2185,7 @@
       "number": 87,
       "title": "SauceDemo-20260612_120001_ah4sw0",
       "body": "### ⚠️ **AMBIGUOUS** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Skipped:** 0 &nbsp;|&nbsp; **Pending:** 12 &nbsp;|&nbsp; **Total:** 12\n\n### 📋 Test Cases\n\n**Origin:** products.case.feature\n- [ ] tc-01: #63 - **ambiguous**\n\n**Origin:** checkout.case.feature\n- [ ] tc-01: #5 - **pending**\n- [ ] tc-01: #14 - **pending**\n- [ ] tc-01: #57 - **pending**\n\n**Origin:** cart.case.feature\n- [ ] tc-01: #1 - **pending**\n- [ ] tc-01: #12 - **pending**\n- [ ] tc-01: #54 - **pending**\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n\n**Origin:** login.case.feature\n- [ ] tc-01: #31 - **pending**\n- [ ] tc-01: #60 - **pending**\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_87",
       "labels": [
         "testrun"
@@ -2193,8 +2193,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.857Z",
-      "updated_at": "2026-11-24T19:27:07.857Z",
+      "created_at": "2026-11-26T06:43:18.010Z",
+      "updated_at": "2026-11-26T06:45:17.468Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -2212,7 +2212,7 @@
       "number": 88,
       "title": "SauceDemo-20260612_120002_gp1yim",
       "body": "### 🔴 **FAILED** &nbsp;•&nbsp; **Execution Verdict**\n**Passed:** 10 &nbsp;|&nbsp; **Failed:** 4 &nbsp;|&nbsp; **Blocked:** 3 &nbsp;|&nbsp; **Skipped:** 8 &nbsp;|&nbsp; **Pending:** 6 &nbsp;|&nbsp; **Total:** 31\n\n### 📋 Test Cases\n\n**Origin:** products.case.feature\n- [ ] tc-01: #63 - **failed**\n- [ ] tc-02: #64 - **pending**\n- [ ] tc-03: #65 - **skipped**\n\n**Origin:** checkout.case.feature\n- [x] tc-01: #5 - **passed**\n- [x] tc-01: #14 - **passed**\n- [x] tc-01: #57 - **passed**\n- [ ] tc-02: #6 - **failed**\n- [ ] tc-02: #15 - **failed**\n- [ ] tc-02: #58 - **failed**\n- [x] tc-03: #59 - **passed**\n\n**Origin:** cart.case.feature\n- [x] tc-01: #1 - **passed**\n- [x] tc-01: #12 - **passed**\n- [x] tc-01: #54 - **passed**\n- [x] tc-02: #2 - **passed**\n- [x] tc-02: #13 - **passed**\n- [x] tc-02: #55 - **passed**\n- [ ] tc-03: #56 - **skipped**\n\n**Origin:** account.case.feature\n- [ ] tc-01: #9 - **pending**\n- [ ] tc-02: #10 - **pending**\n- [ ] tc-03: #11 - **pending**\n\n**Origin:** shopping.case.feature\n- [ ] tc-01: #16 - **pending**\n- [ ] tc-02: #17 - **pending**\n\n**Origin:** login.case.feature\n- [ ] tc-01: #31 - **skipped**\n- [ ] tc-01: #60 - **skipped**\n- [ ] tc-02: #32 - **blocked**\n- [ ] tc-02: #61 - **blocked**\n- [ ] tc-03: #33 - **skipped**\n- [ ] tc-03: #62 - **skipped**\n\n**Origin:** register_login.case.feature\n- [ ] tc-01: #49 - **skipped**\n- [ ] tc-02: #50 - **blocked**\n- [ ] tc-03: #51 - **skipped**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_88",
       "labels": [
         "testrun"
@@ -2220,8 +2220,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.861Z",
-      "updated_at": "2026-11-24T19:27:07.861Z",
+      "created_at": "2026-11-26T06:43:18.015Z",
+      "updated_at": "2026-11-26T06:45:17.469Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
@@ -2239,7 +2239,7 @@
       "number": 89,
       "title": "Plan de Pruebas Magento",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Plan Execution Verdict**\n**Total Runs:** 4 &nbsp;|&nbsp; **Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Pending:** 3\n\n### 🚀 Test Runs\n- [ ] #69 - **skipped**\n- [ ] #70 - **pending**\n- [ ] #71 - **pending**\n- [ ] #72 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_89",
       "labels": [
         "testplan"
@@ -2247,8 +2247,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.865Z",
-      "updated_at": "2026-11-24T19:27:07.865Z",
+      "created_at": "2026-11-26T06:43:18.020Z",
+      "updated_at": "2026-11-26T06:45:19.097Z",
       "comments": [],
       "custom_fields": {
         "project": "Magento",
@@ -2263,7 +2263,7 @@
       "number": 90,
       "title": "Plan de Pruebas OpenCart",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Plan Execution Verdict**\n**Total Runs:** 4 &nbsp;|&nbsp; **Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Pending:** 4\n\n### 🚀 Test Runs\n- [ ] #73 - **pending**\n- [ ] #74 - **pending**\n- [ ] #75 - **pending**\n- [ ] #76 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_90",
       "labels": [
         "testplan"
@@ -2271,8 +2271,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.869Z",
-      "updated_at": "2026-11-24T19:27:07.869Z",
+      "created_at": "2026-11-26T06:43:18.024Z",
+      "updated_at": "2026-11-26T06:45:19.102Z",
       "comments": [],
       "custom_fields": {
         "project": "OpenCart",
@@ -2287,7 +2287,7 @@
       "number": 91,
       "title": "Plan de Pruebas OrangeHRM",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Plan Execution Verdict**\n**Total Runs:** 4 &nbsp;|&nbsp; **Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Pending:** 4\n\n### 🚀 Test Runs\n- [ ] #77 - **pending**\n- [ ] #78 - **pending**\n- [ ] #79 - **pending**\n- [ ] #80 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_91",
       "labels": [
         "testplan"
@@ -2295,8 +2295,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.874Z",
-      "updated_at": "2026-11-24T19:27:07.874Z",
+      "created_at": "2026-11-26T06:43:18.032Z",
+      "updated_at": "2026-11-26T06:45:19.110Z",
       "comments": [],
       "custom_fields": {
         "project": "OrangeHRM",
@@ -2311,7 +2311,7 @@
       "number": 92,
       "title": "Plan de Pruebas ParaBank",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Plan Execution Verdict**\n**Total Runs:** 1 &nbsp;|&nbsp; **Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Pending:** 1\n\n### 🚀 Test Runs\n- [ ] #81 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_92",
       "labels": [
         "testplan"
@@ -2319,8 +2319,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.876Z",
-      "updated_at": "2026-11-24T19:27:07.876Z",
+      "created_at": "2026-11-26T06:43:18.036Z",
+      "updated_at": "2026-11-26T06:45:19.116Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -2335,7 +2335,7 @@
       "number": 93,
       "title": "Plan de Pruebas ParaBank",
       "body": "### ⏳ **PENDING** &nbsp;•&nbsp; **Plan Execution Verdict**\n**Total Runs:** 3 &nbsp;|&nbsp; **Passed:** 0 &nbsp;|&nbsp; **Failed:** 0 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Pending:** 3\n\n### 🚀 Test Runs\n- [ ] #82 - **pending**\n- [ ] #83 - **pending**\n- [ ] #84 - **pending**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_93",
       "labels": [
         "testplan"
@@ -2343,8 +2343,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.880Z",
-      "updated_at": "2026-11-24T19:27:07.880Z",
+      "created_at": "2026-11-26T06:43:18.041Z",
+      "updated_at": "2026-11-26T06:45:19.120Z",
       "comments": [],
       "custom_fields": {
         "project": "ParaBank",
@@ -2359,7 +2359,7 @@
       "number": 94,
       "title": "Plan de Pruebas SauceDemo",
       "body": "### 🔴 **FAILED** &nbsp;•&nbsp; **Plan Execution Verdict**\n**Total Runs:** 4 &nbsp;|&nbsp; **Passed:** 0 &nbsp;|&nbsp; **Failed:** 1 &nbsp;|&nbsp; **Blocked:** 0 &nbsp;|&nbsp; **Pending:** 3\n\n### 🚀 Test Runs\n- [ ] #85 - **pending**\n- [ ] #86 - **pending**\n- [ ] #87 - **ambiguous**\n- [ ] #88 - **failed**",
-      "state": "open",
+      "state": "closed",
       "node_id": "local_node_94",
       "labels": [
         "testplan"
@@ -2367,8 +2367,8 @@
       "assignees": [
         "fromeroc9"
       ],
-      "created_at": "2026-11-24T19:27:07.884Z",
-      "updated_at": "2026-11-24T19:27:07.884Z",
+      "created_at": "2026-11-26T06:43:18.046Z",
+      "updated_at": "2026-11-26T06:45:19.124Z",
       "comments": [],
       "custom_fields": {
         "project": "SauceDemo",
